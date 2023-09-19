@@ -2,8 +2,6 @@
 
 #
 
-# Santiago
-
-# Sofia
-
-# Nicolas Camargo - 202020782
+Santiago
+Sofia
+Nicolas Camargo - 202020782
