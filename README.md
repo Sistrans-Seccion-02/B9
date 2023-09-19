@@ -1,6 +1,6 @@
 # GRUPO B9
 
-#
+
 
 Santiago
 Sofia
