@@ -1,9 +1,9 @@
 # GRUPO B9
 
-#
 
-# Santiago
 
-# Sofia
+Santiago
 
-# Nicolas Camargo - 202020782
+Sofia
+
+Nicolas Camargo - 202020782
