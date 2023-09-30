@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Crear nueva reserva</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
+
+</head>
+<body>
+</br>
+<form th:action="@{/reservas/new/save}" method="post">
+    <div th:replace="~{fragments/reservaForm :: reservaForm(titulo='Crear nueva reserva')}">
+    </form>
+    </div>
+    
+</body>
+</html>

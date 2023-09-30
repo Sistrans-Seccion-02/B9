@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lista de Reservas</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
+    <script th:src="@{/css/jquery.min.js}"></script>
+    <script th:src="@{/css/bootstrap.min.js}"></script>
+</head>
+
+<body>
+    <div class="text-center">
+        <h1>Lista de Reservas</h1>
+
+
+        <br />
+        <form th:action="@{reservas}" method="get">
+            <div class="input-group input-group-sm mb-2 justify-content-center">
+                <input class='w-25' id="txtSearch" type="text" name="id">
+                <div class="input-group-append">
+                    <button type="submit" class="btn btn-secondary">Buscar por id</button>
+                </div>
+            </div>
+        </form>
+        <br />
+
+        <table class="table table-condensed table-hover table-bordered" style="border-collapse:collapse;">
+            <thead class="thead-dark">
+                <tr>
+                    <th>ID</th>
+                    <th>fecha</th>
+                    <th>FechaFinal</th>
+                    <th>personas</th>
+                </tr>
+            </thead>
+            <tbody>
+                <th:block th:each="reserva : ${reservas}">
+                    <tr>
+                        <td th:text="${reserva.id}"></td>
+                        <td th:text="${reserva.fecha}"></td>
+                        <td th:text="${reserva.fechafinal}"></td>
+                        <td th:text="${reserva.personas}"></td>
+                        <td>
+                            <a th:href="@{reservas/{id}/edit(id=${reserva.id})}">Editar</a>
+                            <a th:href="@{reservas/{id}/delete(id=${reserva.id})}"
+                                onclick="return confirm('¿Estás seguro de borrar esta reserva?')">Borrar</a>
+                        </td>
+                    </tr>
+
+                </th:block>
+            </tbody>
+        </table>
+        <div class="text-center">
+            <a th:href='@{reserva/new}' class="btn btn-primary">Añadir Reserva</a>
+            <a th:href="@{/}" class="btn btn-primary"> Volver Atrás</a>
+            </br>
+        </div>
+        <br />
+</body>
+
+</html>
