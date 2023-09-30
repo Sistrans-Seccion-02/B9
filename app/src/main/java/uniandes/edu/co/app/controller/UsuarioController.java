@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import uniandes.edu.co.app.modelo.Usuario;
 import uniandes.edu.co.app.repositorio.UsuarioRepo;
@@ -18,12 +19,26 @@ public class UsuarioController {
     private UsuarioRepo usuarioRepository;
 
     @GetMapping("/usuarios")
-    public String usuarios(Model model) {
-
-        
+    public String usuarios(@RequestParam(name = "id", required = false) Long id, Model model) {
+        if (id != null) {
+            // Realizar la búsqueda por ID aquí y asignar el resultado a "usuarios"
+            // usuarioRepository.darUsuario(id);
+            model.addAttribute("usuarios", usuarioRepository.darUsuario(id));
+            
+        } else {
+            // Obtener todos los usuarios
             model.addAttribute("usuarios", usuarioRepository.darUsuarios());
-        
+        }
+        return "usuarios";
+    }
 
+    @GetMapping("/usuarios/rol")
+    public String usuariosPorRol(@RequestParam(name = "rol", required = true) String rol, Model model) {
+        if (rol.isEmpty()) {
+            model.addAttribute("usuarios", usuarioRepository.darUsuarios());
+        } else{
+            model.addAttribute("usuarios", usuarioRepository.darUsuariosPorRol(rol));
+        }
         return "usuarios";
     }
 

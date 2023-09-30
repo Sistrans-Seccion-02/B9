@@ -12,6 +12,11 @@ import java.util.Collection;
 
 public interface UsuarioRepo extends JpaRepository<Usuario, Integer> {
 
+//do query to get user with a type of rol
+    @Query(value = "SELECT * FROM usuarios WHERE rol = :rol", nativeQuery = true)
+    Collection<Usuario> darUsuariosPorRol(@Param("rol") String rol);
+
+
     @Query(value = "SELECT * FROM usuarios", nativeQuery = true)
     Collection<Usuario> darUsuarios();
 
