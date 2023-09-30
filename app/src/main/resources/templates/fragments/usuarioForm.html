@@ -18,7 +18,8 @@
         <input class="form-control" type="text" id="nombre" name="nombre" required th:value="${usuario.nombre}" />
         <label class="col-form-label">Documento:</label>
         <input class="form-control" type="text" id="documento" name="documento" required th:value="${usuario.documento}" />
-        <label class="col-form-label">Tipo Documento:</label>
+        
+        <label class="col-form-label" for="tipodocumento">TipoDocumento:</label>
         <select class="form-control" id="tipodocumento" name="tipodocumento" required>
             <option value="Cedula" th:selected="${usuario.tipodocumento eq 'Cedula'}">CC</option>
             <option value="Tarjeta de Identidad" th:selected="${usuario.tipodocumento eq 'Tarjeta de Identidad'}">IT</option>
