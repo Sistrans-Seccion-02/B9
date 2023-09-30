@@ -23,7 +23,7 @@ public class FacturaController {
         model.addAttribute("facturas", facturaRepository.darFacturas());
         return "facturas";
     }
-
+    //commentary to check
     @GetMapping("/facturas/new")
     public String facturaForm(Model model) {
         model.addAttribute("factura", new Factura());
