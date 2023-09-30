@@ -18,13 +18,11 @@ public class UsuarioController {
     private UsuarioRepo usuarioRepository;
 
     @GetMapping("/usuarios")
-    public String usuarios(Model model, String nombre) {
+    public String usuarios(Model model) {
 
-        if (nombre != null && !nombre.equals("")) {
-            model.addAttribute("usuarios", usuarioRepository.darUsuariosPorNombre(nombre));
-        } else {
+        
             model.addAttribute("usuarios", usuarioRepository.darUsuarios());
-        }
+        
 
         return "usuarios";
     }
@@ -37,8 +35,8 @@ public class UsuarioController {
 
     @PostMapping("/usuarios/new/save")
     public String usuarioGuardar(@ModelAttribute Usuario usuario) {
-        usuarioRepository.insertarUsuario(usuario.getNombre(), usuario.getDocumento(), usuario.getTipoDocumento(),
-                usuario.getRol(), usuario.getoCorreo(), usuario.getContrasena());
+        usuarioRepository.insertarUsuario(usuario.getNombre(), usuario.getDocumento(), usuario.getTipodocumento(),
+                usuario.getRol(), usuario.getCorreo(), usuario.getContrasena());
         return "redirect:/usuarios";
     }
 
@@ -56,8 +54,8 @@ public class UsuarioController {
     @PostMapping("/usuarios/{id}/edit/save")
     public String usuarioEditarGuardar(@PathVariable("id") long id, @ModelAttribute Usuario usuario) {
         usuarioRepository.actualizarUsuario(((long) id), usuario.getNombre(), usuario.getDocumento(),
-                usuario.getTipoDocumento(),
-                usuario.getRol(), usuario.getoCorreo(), usuario.getContrasena());
+                usuario.getTipodocumento(),
+                usuario.getRol(), usuario.getCorreo(), usuario.getContrasena());
         return "redirect:/usuarios";
     }
 

@@ -15,24 +15,25 @@ public class Usuario {
 
     private String nombre;
     private String documento;
-    private String tipoDocumento;
+    private String tipodocumento;
     private String rol;
     private String correo;
     private String contrasena;
 
-    public Usuario() {
-        ;
-    }
-
-    public Usuario(String nombre, String documento, String tipoDocumento, String rol, String correo,
+    public Usuario(String nombre, String documento, String tipodocumento, String rol, String correo,
             String contrasena) {
         this.nombre = nombre;
         this.documento = documento;
-        this.tipoDocumento = tipoDocumento;
+        this.tipodocumento = tipodocumento;
         this.rol = rol;
         this.correo = correo;
         this.contrasena = contrasena;
     }
+    public Usuario() {
+        ;
+    }
+
+    
 
     public Integer getId() {
         return id;
@@ -46,15 +47,15 @@ public class Usuario {
         return documento;
     }
 
-    public String getTipoDocumento() {
-        return tipoDocumento;
+    public String getTipodocumento() {
+        return tipodocumento;
     }
 
     public String getRol() {
         return rol;
     }
 
-    public String getoCorreo() {
+    public String getCorreo() {
         return correo;
     }
 
@@ -74,8 +75,8 @@ public class Usuario {
         this.documento = documento;
     }
 
-    public void setTipoDocumento(String tipoDocumento) {
-        this.tipoDocumento = tipoDocumento;
+    public void setTipoDocumento(String tipodocumento) {
+        this.tipodocumento = tipodocumento;
     }
 
     public void setRol(String rol) {
