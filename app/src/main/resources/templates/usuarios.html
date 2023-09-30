@@ -12,16 +12,30 @@
     <div class="text-center">
         <h1>Lista de Usuarios</h1>
 
-
-        <br />
-        <form th:action="@{usuarios}" method="get">
-            <div class="input-group input-group-sm mb-2 justify-content-center">
-                <input class='w-25' id="txtSearch" type="text" name="id">
-                <div class="input-group-append">
-                    <button type="submit" class="btn btn-secondary">Buscar por id</button>
-                </div>
+        <div class="row justify-content-between">
+            <div class="col-6">
+                <form th:action="@{/usuarios}" method="get">
+                    <div class="input-group input-group-sm mb-2">
+                        <input class='form-control' id="txtSearch" type="text" name="id">
+                        <div class="input-group-append">
+                            <button type="submit" class="btn btn-secondary">Buscar por ID</button>
+                        </div>
+                    </div>
+                </form>
             </div>
-        </form>
+
+            <div class="col-6">
+                <form th:action="@{/usuarios/rol}" method="get">
+                    <div class="input-group input-group-sm mb-2">
+                        <input class='form-control' id="txtSearch" type="text" name="rol">
+                        <div class="input-group-append">
+                            <button type="submit" class="btn btn-secondary">Buscar por Rol</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
         <br />
 
         <table class="table table-condensed table-hover table-bordered" style="border-collapse:collapse;">
@@ -52,16 +66,15 @@
                                 onclick="return confirm('¿Estás seguro de borrar este usuario?')">Borrar</a>
                         </td>
                     </tr>
-
                 </th:block>
             </tbody>
         </table>
         <div class="text-center">
             <a th:href='@{usuarios/new}' class="btn btn-primary">Añadir Usuario</a>
             <a th:href="@{/}" class="btn btn-primary"> Volver Atrás</a>
-            </br>
         </div>
         <br />
+    </div>
 </body>
 
 </html>
