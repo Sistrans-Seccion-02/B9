@@ -9,7 +9,16 @@
             "projectName": "hotelandes",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-HotelAndesApplication<hotelandes>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "uniandes.edu.co.app.HotelAndesApplication",
+            "projectName": "hotelandes",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
-
     ]
 }
