@@ -18,7 +18,7 @@ public class ReservaController {
     private ReservaRepo reservaRepository;
 
     @GetMapping("/reservas")
-    public String reservas(Model model, String nombre) {
+    public String reservas(Model model) {
 
         model.addAttribute("reservas", reservaRepository.darReservas());
 
@@ -33,7 +33,7 @@ public class ReservaController {
 
     @PostMapping("/reservas/new/save")
     public String reservaGuardar(@ModelAttribute Reserva reserva) {
-        reservaRepository.insertarReserva(reserva.getFecha(), reserva.getFechaFinal(), reserva.getPersonas());
+        reservaRepository.insertarReserva(reserva.getFecha(), reserva.getFechafinal(), reserva.getPersonas());
         return "redirect:/reservas";
     }
 
@@ -50,7 +50,7 @@ public class ReservaController {
 
     @PostMapping("/reservas/{id}/edit/save")
     public String reservaEditarGuardar(@PathVariable("id") long id, @ModelAttribute Reserva reserva) {
-        reservaRepository.actualizarReserva(((long) id), reserva.getFecha(), reserva.getFechaFinal(),
+        reservaRepository.actualizarReserva(((long) id), reserva.getFecha(), reserva.getFechafinal(),
                 reserva.getPersonas());
         return "redirect:/reservas";
     }

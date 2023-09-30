@@ -17,7 +17,7 @@ public class Reserva {
 
     private Date fecha;
 
-    private Date fechaFinal;
+    private Date fechafinal;
 
     private Integer personas;
 
@@ -25,11 +25,13 @@ public class Reserva {
         ;
     }
 
-    public Reserva(Date fecha, Date fechaFinal, Integer personas) {
+    public Reserva(Date fecha, Date fechafinal, Integer personas) {
         this.fecha = fecha;
-        this.fechaFinal = fechaFinal;
+        this.fechafinal = fechafinal;
         this.personas = personas;
     }
+
+
 
     public Integer getId() {
         return id;
@@ -39,8 +41,8 @@ public class Reserva {
         return fecha;
     }
 
-    public Date getFechaFinal() {
-        return fechaFinal;
+    public Date getFechafinal() {
+        return fechafinal;
     }
 
     public Integer getPersonas() {
@@ -55,8 +57,8 @@ public class Reserva {
         this.fecha = fecha;
     }
 
-    public void setFechaFinal(Date fechaFinal) {
-        this.fechaFinal = fechaFinal;
+    public void setFechafinal(Date fechaFinal) {
+        this.fechafinal = fechaFinal;
     }
 
     public void setPersonas(Integer personas) {
