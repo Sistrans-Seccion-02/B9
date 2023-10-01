@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lista de Habitaciones</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
+    <script th:src="@{/css/jquery.min.js}"></script>
+    <script th:src="@{/css/bootstrap.min.js}"></script>
+</head>
+
+<body>
+    <div class="text-center">
+        <h1>Lista de Habitaciones</h1>
+
+        <div class="row justify-content-between">
+            <div class="col-6">
+                <form th:action="@{/habitaciones}" method="get">
+                    <div class="input-group input-group-sm mb-2">
+                        <input class='form-control' id="txtSearch" type="text" name="id">
+                        <div class="input-group-append">
+                            <button type="submit" class="btn btn-secondary">Buscar por ID</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="col-6">
+                <form th:action="@{/habitaciones/rol}" method="get">
+                    <div class="input-group input-group-sm mb-2">
+                        <input class='form-control' id="txtSearch" type="text" name="tipo">
+                        <div class="input-group-append">
+                            <button type="submit" class="btn btn-secondary">Buscar por Tipo</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <br />
+
+        <table class="table table-condensed table-hover table-bordered" style="border-collapse:collapse;">
+            <thead class="thead-dark">
+                <tr>
+                    <th>ID</th>
+                    <th>Capacidad</th>
+                    <th>Tipo</th>
+                    <th>Dotacion</th>
+                    <th>PrecioNoche</th>
+                    <th>ConsumoExtra</th>
+                
+                </tr>
+            </thead>
+            <tbody>
+                <th:block th:each="habitaciones : ${habitacion}">
+                    <tr>
+                        <td th:text="${habitacion.id}"></td>
+                        <td th:text="${habitacion.capacidad}"></td>
+                        <td th:text="${habitacion.tipo}"></td>
+                        <td th:text="${habitacion.dotacion}"></td>
+                        <td th:text="${habitacion.precionoche}"></td>
+                        <td th:text="${habitacion.consumoextra}"></td>
+                    
+                        <td>
+                            <a th:href="@{habitacion/{id}/edit(id=${habitacion.id})}">Editar</a>
+                            <a th:href="@{habitacion/{id}/delete(id=${habitacion.id})}"
+                                onclick="return confirm('¿Estás seguro de borrar esta habitacion?')">Borrar</a>
+                        </td>
+                    </tr>
+                </th:block>
+            </tbody>
+        </table>
+        <div class="text-center">
+            <a th:href='@{habitaciones/new}' class="btn btn-primary">Añadir Habitacion</a>
+            <a th:href="@{/}" class="btn btn-primary"> Volver Atrás</a>
+        </div>
+        <br />
+    </div>
+</body>
+
+</html>

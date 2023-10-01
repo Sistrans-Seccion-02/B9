@@ -7,10 +7,14 @@ import org.springframework.data.repository.query.Param;
 import org.springframework.transaction.annotation.Transactional;
 
 import uniandes.edu.co.app.modelo.Habitacion;
+import uniandes.edu.co.app.modelo.Usuario;
 
 import java.util.Collection;
 
 public interface HabitacionRepo extends JpaRepository<Habitacion, Integer> {
+
+         @Query(value = "SELECT * FROM habitaciones WHERE tipo = :tipo", nativeQuery = true)
+        Collection<Usuario> darHabitacionesPorTipo(@Param("tipo") String tipo);
 
         @Query(value = "SELECT * FROM habitaciones", nativeQuery = true)
         Collection<Habitacion> darHabitaciones();
