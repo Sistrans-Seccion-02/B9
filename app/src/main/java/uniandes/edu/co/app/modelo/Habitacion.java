@@ -16,14 +16,14 @@ public class Habitacion {
     private Integer capacidad;
     private String tipo;
     private String dotacion;
-    private Double precionoche;
-    private Double consumoextra;
+    private Integer precionoche;
+    private Integer consumoextra;
 
     public Habitacion() {
         ;
     }
 
-    public Habitacion(Integer capacidad, String tipo, String dotacion, Double precionoche, Double consumoextra) {
+    public Habitacion(Integer capacidad, String tipo, String dotacion, Integer precionoche, Integer consumoextra) {
         this.capacidad = capacidad;
         this.tipo = tipo;
         this.dotacion = dotacion;
@@ -47,11 +47,11 @@ public class Habitacion {
         return dotacion;
     }
 
-    public Double getPrecionoche() {
+    public Integer getPrecionoche() {
         return precionoche;
     }
 
-    public Double getConsumoextra() {
+    public Integer getConsumoextra() {
         return consumoextra;
     }
 
@@ -71,11 +71,11 @@ public class Habitacion {
         this.dotacion = dotacion;
     }
 
-    public void setPrecionoche(Double precionoche) {
+    public void setPrecionoche(Integer precionoche) {
         this.precionoche = precionoche;
     }
 
-    public void setConsumoextra(Double consumoextra) {
+    public void setConsumoextra(Integer consumoextra) {
         this.consumoextra = consumoextra;
     }
 
