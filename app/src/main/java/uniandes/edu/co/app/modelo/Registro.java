@@ -1,7 +1,4 @@
-
 package uniandes.edu.co.app.modelo;
-
-import java.sql.Date;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -16,8 +13,8 @@ public class Registro {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;
 
-    private Date llegada;
-    private Date salida;
+    private String llegada;
+    private String salida;
     private Integer idreserva;
     private Integer idusuario;
 
@@ -25,7 +22,7 @@ public class Registro {
         ;
     }
 
-    public Registro(Date llegada, Date salida, Integer idreserva, Integer idusuario) {
+    public Registro(String llegada, String salida, Integer idreserva, Integer idusuario) {
         this.llegada = llegada;
         this.salida = salida;
         this.idreserva = idreserva;
@@ -36,11 +33,11 @@ public class Registro {
         return id;
     }
 
-    public Date getLlegada() {
+    public String getLlegada() {
         return llegada;
     }
 
-    public Date getSalida() {
+    public String getSalida() {
         return salida;
     }
 
@@ -57,11 +54,11 @@ public class Registro {
         this.id = id;
     }
 
-    public void setLlegada(Date llegada) {
+    public void setLlegada(String llegada) {
         this.llegada = llegada;
     }
 
-    public void setSalida(Date salida) {
+    public void setSalida(String salida) {
         this.salida = salida;
     }
 

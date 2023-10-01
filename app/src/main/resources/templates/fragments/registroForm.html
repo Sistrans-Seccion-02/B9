@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Fragmento</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
+
+</head>
+
+<body>
+
+    </br>
+    <div th:fragment="registroForm(titulo)" class="container border border-2 w-25">
+        <h1 class="text-center" th:text="${titulo}"></h1>
+    
+    <form>
+        <label class="col-form-label">ID:</label>
+        <input class="form-control" type="text" id="id" name="id" required th:value="${registro.id}" />
+        <label class="col-form-label">Llegada:</label>
+        <input class="form-control" type="text" id="llegada" name="llegada" required th:value="${registro.llegada}" />
+        <label class="col-form-label">Salida:</label>
+        <input class="form-control" type="text" id="salida" name="salida" required th:value="${registro.salida}" />
+
+        <label class="col-form-label">idReserva:</label>
+        <input class="form-control" type="text" id="idreserva" name="idreserva" required th:value="${registro.idreserva}" />
+        <label class="col-form-label">idUsuario:</label>
+        <input class="form-control" type="text" id="idusuario" name="idusuario" required th:value="${registro.idusuario}" />
+
+
+        </select>
+        <div class="text-center">
+            <input type="submit" value="Guardar" class="btn btn-primary">
+            <a th:href="@{/registros}" class="btn btn-primary">Cancelar</a>
+        </div>
+    </form>
+
+    </br>
+</div>
+
+</body>
+
+</html>

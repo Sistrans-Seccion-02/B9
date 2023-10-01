@@ -42,9 +42,8 @@ public class ServicioReservasController {
 
     @PostMapping("/servicioreservas/new/save")
     public String reservaGuardar(@ModelAttribute ServicioReservas res) {
-        System.out.println("null");
     try {
-        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd"); // Assuming the date format from HTML is yyyy-MM-dd
+        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd"); 
         Date fechaInicial = dateFormat.parse(res.getFechainicial());
         Date fechaFinal = dateFormat.parse(res.getFechafinal());
 
@@ -81,7 +80,7 @@ public class ServicioReservasController {
     @PostMapping("/servicioreservas/{id}/edit/save")
     public String reservaEditarGuardar(@PathVariable("id") long id, @ModelAttribute ServicioReservas res) {
     try {
-        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd"); // Assuming the date format from HTML is yyyy-MM-dd
+        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd"); 
         Date fechaInicial = dateFormat.parse(res.getFechainicial());
         Date fechaFinal = dateFormat.parse(res.getFechafinal());
 
