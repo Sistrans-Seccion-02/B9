@@ -1,41 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Planes De Consumo</title>
-    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}"/>
+    <title>Lista de PLANES</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
+    <script th:src="@{/css/jquery.min.js}"></script>
+    <script th:src="@{/css/bootstrap.min.js}"></script>
 </head>
+
 <body>
-    <div>
-        <h1>Lista de Planes De Consumo</h1>
-        <table class="table table-hover table-bordered">
+    <div class="text-center">
+        <h1>Lista de Planes</h1>
+
+        <div class="row justify-content-between">
+            <div class="col-6">
+                <form th:action="@{/planes}" method="get">
+                    <div class="input-group input-group-sm mb-2">
+                        <input class='form-control' id="txtSearch" type="text" name="id">
+                        <div class="input-group-append">
+                            <button type="submit" class="btn btn-secondary">Buscar por ID</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="col-6">
+                <form th:action="@{/planes/tipo}" method="get">
+                    <div class="input-group input-group-sm mb-2">
+                        <input class='form-control' id="txtSearch" type="text" name="rol">
+                        <div class="input-group-append">
+                            <button type="submit" class="btn btn-secondary">Buscar por Tipo</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <br />
+
+        <table class="table table-condensed table-hover table-bordered" style="border-collapse:collapse;">
             <thead class="thead-dark">
                 <tr>
+                    <th>ID</th>
                     <th>Tipo</th>
                     <th>Descripcion</th>
                 </tr>
-                <th:block th:each="plan:${planes}">
+            </thead>
+            <tbody>
+                <th:block th:each="plan : ${planes}">
                     <tr>
+                        <td th:text="${plan.id}"></td>
                         <td th:text="${plan.tipo}"></td>
                         <td th:text="${plan.descripcion}"></td>
                         <td>
-                            <a th:href="@{planes/{tipo}/edit(tipo=${plan.tipo})}">
-                                Editar
-                            </a>
-                            <a th:href="@{planes/{tipo}/delete(nombre=${plan.nombre})}"
-                            onclick="return confirm('¿seguro?')">
-                                Borrar
-                            </a>
+                            <a th:href="@{planes/{id}/edit(id=${plan.id})}">Editar</a>
+                            <a th:href="@{planes/{id}/delete(id=${plan.id})}"
+                                onclick="return confirm('¿Estás seguro de borrar este plan?')">Borrar</a>
                         </td>
                     </tr>
                 </th:block>
-            </thead>
+            </tbody>
         </table>
-        <div>
-            <a th:href="@{/}" class="btn btn-primary">Volver atrás</a>
-            <a th:href="@{planes/new}" class="btn btn-primary">Añadir Planes De Consumo</a>
+        <div class="text-center">
+            <a th:href='@{planes/new}' class="btn btn-primary">Añadir Plan</a>
+            <a th:href="@{/}" class="btn btn-primary"> Volver Atrás</a>
         </div>
+        <br />
     </div>
 </body>
+
 </html>
