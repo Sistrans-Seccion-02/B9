@@ -13,8 +13,8 @@ import java.util.Collection;
 
 public interface HabitacionRepo extends JpaRepository<Habitacion, Integer> {
 
-         @Query(value = "SELECT * FROM habitaciones WHERE tipo = :tipo", nativeQuery = true)
-        Collection<Usuario> darHabitacionesPorTipo(@Param("tipo") String tipo);
+        @Query(value = "SELECT * FROM habitaciones WHERE tipo = :tipo", nativeQuery = true)
+        Collection<Habitacion> darHabitacionesPorTipo(@Param("tipo") String tipo);
 
         @Query(value = "SELECT * FROM habitaciones", nativeQuery = true)
         Collection<Habitacion> darHabitaciones();
@@ -35,6 +35,8 @@ public interface HabitacionRepo extends JpaRepository<Habitacion, Integer> {
                         @Param("dotacion") String dotacion, @Param("precioNoche") Integer precioNoche,
                         @Param("consumoExtra") Integer consumoExtra);
 
+
+        
         @Modifying
         @Transactional
         @Query(value = "INSERT INTO habitaciones (id, capacidad, tipo, dotacion, precioNoche, consumoExtra) VALUES ( hotelandes_sequence.nextval , :capacidad, :tipo, :dotacion, :precioNoche, :consumoExtra)", nativeQuery = true)
