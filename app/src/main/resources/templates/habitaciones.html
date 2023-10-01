@@ -25,7 +25,7 @@
             </div>
 
             <div class="col-6">
-                <form th:action="@{/habitaciones/rol}" method="get">
+                <form th:action="@{/habitaciones/tipo}" method="get">
                     <div class="input-group input-group-sm mb-2">
                         <input class='form-control' id="txtSearch" type="text" name="tipo">
                         <div class="input-group-append">
@@ -47,11 +47,10 @@
                     <th>Dotacion</th>
                     <th>PrecioNoche</th>
                     <th>ConsumoExtra</th>
-                
                 </tr>
             </thead>
             <tbody>
-                <th:block th:each="habitaciones : ${habitacion}">
+                <th:block th:each="habitacion : ${habitaciones}">
                     <tr>
                         <td th:text="${habitacion.id}"></td>
                         <td th:text="${habitacion.capacidad}"></td>
@@ -61,8 +60,8 @@
                         <td th:text="${habitacion.consumoextra}"></td>
                     
                         <td>
-                            <a th:href="@{habitacion/{id}/edit(id=${habitacion.id})}">Editar</a>
-                            <a th:href="@{habitacion/{id}/delete(id=${habitacion.id})}"
+                            <a th:href="@{habitaciones/{id}/edit(id=${habitacion.id})}">Editar</a>
+                            <a th:href="@{habitaciones/{id}/delete(id=${habitacion.id})}"
                                 onclick="return confirm('¿Estás seguro de borrar esta habitacion?')">Borrar</a>
                         </td>
                     </tr>
