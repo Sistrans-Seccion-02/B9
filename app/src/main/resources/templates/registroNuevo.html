@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Crear nuevo registro: ingreso o salida</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
+
+</head>
+<body>
+</br>
+<form th:action="@{/registros/new/save}" method="post">
+    <div th:replace="~{fragments/registroForm :: registroForm(titulo='Crear nuevo registro')}">
+    </form>
+    </div>
+    
+</body>
+</html>

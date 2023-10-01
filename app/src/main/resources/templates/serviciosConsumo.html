@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lista de Consumos de Servicios</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
+    <script th:src="@{/css/jquery.min.js}"></script>
+    <script th:src="@{/css/bootstrap.min.js}"></script>
+</head>
+
+<body>
+    <div class="text-center">
+        <h1>Lista de Consumos</h1>
+
+        <div class="row justify-content-between">
+            <div class="col-6">
+                <form th:action="@{/serviciosconsumo}" method="get">
+                    <div class="input-group input-group-sm mb-2">
+                        <input class='form-control' id="txtSearch" type="text" name="id">
+                        <div class="input-group-append">
+                            <button type="submit" class="btn btn-secondary">Buscar por id</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+
+        <br />
+
+        <table class="table table-condensed table-hover table-bordered" style="border-collapse:collapse;">
+            <thead class="thead-dark">
+                <tr>
+                    <th>IdConsumo</th>
+                    <th>Descripcion</th>
+                    <th>Costo</th>
+                    <th>Fecha</th>
+                    <th>IdHabitacion</th>
+                    <th>IdProducto</th>
+                </tr>
+            </thead>
+            <tbody>
+                <th:block th:each="consumo : ${serviciosconsumo}">
+                    <tr>
+                        <td th:text="${consumo.id}"></td>
+                        <td th:text="${consumo.descripcion}"></td>
+                        <td th:text="${consumo.costo}"></td>
+                        <td th:text="${consumo.fecha}"></td>
+                        <td th:text="${consumo.idhabitacion}"></td>
+                        <td th:text="${consumo.idproducto}"></td>
+                        <td>
+                            <a th:href="@{serviciosconsumo/{id}/edit(id=${consumo.id})}">Editar</a>
+                            <a th:href="@{serviciosconsumo/{id}/delete(id=${consumo.id})}"
+                                onclick="return confirm('¿Estás seguro de borrar este consumo?')">Borrar</a>
+                        </td>
+                    </tr>
+                </th:block>
+            </tbody>
+        </table>
+        <div class="text-center">
+            <a th:href='@{serviciosconsumo/new}' class="btn btn-primary">Registrar un consumo</a>
+            <a th:href="@{/}" class="btn btn-primary"> Volver Atrás</a>
+        </div>
+        <br />
+    </div>
+</body>
+
+</html>
