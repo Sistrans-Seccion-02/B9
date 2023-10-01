@@ -18,17 +18,19 @@ public interface PlanRepo extends JpaRepository<Plan, Integer> {
         @Query(value = "SELECT * FROM planes WHERE id = :id", nativeQuery = true)
         Plan darPlan(@Param("id") long id);
 
-
-        @Query(value = "SELECT * FROM planes b WHERE b.tipo LIKE '%' || :tipo || '%'", nativeQuery = true)
+        //Do queary to get planes with a type of tipo
+        @Query(value = "SELECT * FROM planes WHERE tipo = :tipo", nativeQuery = true)
         Collection<Plan> darPlanesPorTipo(@Param("tipo") String tipo);
 
 
+
+        //Do a method that insert a new plan
         @Modifying
         @Transactional
         @Query(value = "INSERT INTO planes (id, tipo, descripcion) VALUES ( hotelandes_sequence.nextval , :tipo, :descripcion)", nativeQuery = true)
         void insertarPlan(@Param("tipo") String tipo, @Param("descripcion") String descripcion);
+       
   
-
         @Modifying
         @Transactional
         @Query(value = "DELETE FROM planes WHERE id = :id", nativeQuery = true)
@@ -36,13 +38,13 @@ public interface PlanRepo extends JpaRepository<Plan, Integer> {
 
         @Modifying
         @Transactional
-        @Query(value = "UPDATE planes SET tipo=:tipo, descripcion=:descripcion WHERE id=:id", nativeQuery = true)
+        @Query(value = "UPDATE planes SET tipo = :tipo, descripcion = :descripcion WHERE id = :id", nativeQuery = true)
         void actualizarPlan(@Param("id") long id,@Param("tipo") String tipo, @Param("descripcion") String descripcion);
 
 
         @Modifying
         @Transactional
-        @Query(value = "DELETE FROM planes WHERE tipo=:tipo", nativeQuery = true)
-        void eliminarPlan(@Param("tipo") String nombre);
+        @Query(value = "DELETE FROM planes WHERE id = :id", nativeQuery = true)
+        void eliminarPlan(@Param("id") Long id);
 
 }
