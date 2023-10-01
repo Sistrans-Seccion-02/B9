@@ -21,16 +21,52 @@ public class Reserva {
 
     private Integer personas;
 
+    private Integer habtacionid;
+
+    private Integer planesid;
+
+    private Integer usuarioid;
+
+
     public Reserva() {
         ;
     }
 
-    public Reserva(Date fecha, Date fechafinal, Integer personas) {
+    public Reserva(Date fecha, Date fechafinal, Integer personas, Integer habtacionid, Integer planesid, Integer usuarioid) {
         this.fecha = fecha;
         this.fechafinal = fechafinal;
         this.personas = personas;
+        this.habtacionid = habtacionid;
+        this.planesid = planesid;
+        this.usuarioid = usuarioid;
+
     }
 
+
+    public Integer getHabtacionid() {
+        return habtacionid;
+    }
+
+    public Integer getPlanesid() {
+        return planesid;
+    }
+
+    public Integer getUsuarioid() {
+        return usuarioid;
+    }
+
+    public void setHabtacionid(Integer habtacionid) {
+        this.habtacionid = habtacionid;
+    }
+
+    public void setPlanesid(Integer planesid) {
+        this.planesid = planesid;
+    }
+
+
+    public void setUsuarioid(Integer usuarioid) {
+        this.usuarioid = usuarioid;
+    }
 
 
     public Integer getId() {
