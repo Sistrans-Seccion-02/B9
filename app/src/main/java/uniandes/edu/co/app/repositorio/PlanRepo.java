@@ -22,10 +22,12 @@ public interface PlanRepo extends JpaRepository<Plan, Integer> {
         @Query(value = "SELECT * FROM planes b WHERE b.tipo LIKE '%' || :tipo || '%'", nativeQuery = true)
         Collection<Plan> darPlanesPorTipo(@Param("tipo") String tipo);
 
+
         @Modifying
         @Transactional
-        @Query(value = "INSERT INTO planesconsumo (nombre, descripcion) VALUES ( :nombre, :descripcion)", nativeQuery = true)
+        @Query(value = "INSERT INTO planes (id, tipo, descripcion) VALUES ( hotelandes_sequence.nextval , :tipo, :descripcion)", nativeQuery = true)
         void insertarPlan(@Param("tipo") String tipo, @Param("descripcion") String descripcion);
+  
 
         @Modifying
         @Transactional
@@ -34,8 +36,9 @@ public interface PlanRepo extends JpaRepository<Plan, Integer> {
 
         @Modifying
         @Transactional
-        @Query(value = "UPDATE planes SET descripcion=:descripcion WHERE tipo=:tipo", nativeQuery = true)
-        void actualizarPlan(@Param("id") long id, @Param("tipo") String tipo, @Param("descripcion") String descripcion);
+        @Query(value = "UPDATE planes SET tipo=:tipo, descripcion=:descripcion WHERE id=:id", nativeQuery = true)
+        void actualizarPlan(@Param("id") long id,@Param("tipo") String tipo, @Param("descripcion") String descripcion);
+
 
         @Modifying
         @Transactional

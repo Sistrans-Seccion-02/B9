@@ -49,7 +49,7 @@ public class PlanController {
     }
 
     @PostMapping("/planes/{id}/edit/save")
-    public String planEditarGuardar(@PathVariable("id") long id, @ModelAttribute Plan plan) {
+    public String planEditar(@PathVariable("id") long id, @ModelAttribute Plan plan) {
         planRepository.actualizarPlan(((long) id), plan.getTipo(), plan.getDescripcion());
         return "redirect:/planes";
     }
