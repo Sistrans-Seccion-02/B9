@@ -12,16 +12,20 @@
     <div class="text-center">
         <h1>Lista de Reservas</h1>
 
-
-        <br />
-        <form th:action="@{/reservas}" method="get">
-            <div class="input-group input-group-sm mb-2 justify-content-center">
-                <input class='w-25' id="txtSearch" type="text" name="id">
-                <div class="input-group-append">
-                    <button type="submit" class="btn btn-secondary">Buscar por id</button>
-                </div>
+        <div class="row justify-content-between">
+            <div class="col-6">
+                <form th:action="@{/reservas}" method="get">
+                    <div class="input-group input-group-sm mb-2">
+                        <input class='form-control' id="txtSearch" type="text" name="id">
+                        <div class="input-group-append">
+                            <button type="submit" class="btn btn-secondary">Buscar por ID</button>
+                        </div>
+                    </div>
+                </form>
             </div>
-        </form>
+
+        </div>
+
         <br />
 
         <table class="table table-condensed table-hover table-bordered" style="border-collapse:collapse;">
@@ -31,6 +35,10 @@
                     <th>fecha</th>
                     <th>FechaFinal</th>
                     <th>personas</th>
+                    <th>Habtacionid</th>
+                    <th>Planesid</th>
+                    <th>Usuarioid</th>
+
                 </tr>
             </thead>
             <tbody>
@@ -40,6 +48,10 @@
                         <td th:text="${reserva.fecha}"></td>
                         <td th:text="${reserva.fechafinal}"></td>
                         <td th:text="${reserva.personas}"></td>
+                        <td th:text="${reserva.habtacionid}"></td>
+                        <td th:text="${reserva.planesid}"></td>
+                        <td th:text="${reserva.usuarioid}"></td>
+
                         <td>
                             <a th:href="@{reservas/{id}/edit(id=${reserva.id})}">Editar</a>
                             <a th:href="@{reservas/{id}/delete(id=${reserva.id})}"
@@ -51,11 +63,12 @@
             </tbody>
         </table>
         <div class="text-center">
-            <a th:href='@{reserva/new}' class="btn btn-primary">Añadir Reserva</a>
+            <a th:href='@{reservas/new}' class="btn btn-primary">Añadir Reserva</a>
             <a th:href="@{/}" class="btn btn-primary"> Volver Atrás</a>
             </br>
         </div>
         <br />
+    </div>
 </body>
 
 </html>
