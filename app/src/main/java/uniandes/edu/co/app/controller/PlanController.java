@@ -18,13 +18,9 @@ public class PlanController {
     private PlanRepo planRepository;
 
     @GetMapping("/planes")
-    public String planes(Model model, String tipo) {
+    public String planes(Model model) {
 
-        if (tipo != null && !tipo.equals("")) {
-            model.addAttribute("planes", planRepository.darPlanesPorTipo(tipo));
-        } else {
-            model.addAttribute("planes", planRepository.darPlanes());
-        }
+        model.addAttribute("planesconsumo", planRepository.darPlanes());
 
         return "planes";
     }
@@ -37,7 +33,7 @@ public class PlanController {
 
     @PostMapping("/planes/new/save")
     public String planGuardar(@ModelAttribute Plan plan) {
-        planRepository.insertarPlan(plan.getTipo(), plan.getInicio(), plan.getFinal());
+        planRepository.insertarPlan(plan.getTipo(), plan.getDescripcion());
         return "redirect:/planes";
     }
 
@@ -54,8 +50,7 @@ public class PlanController {
 
     @PostMapping("/planes/{id}/edit/save")
     public String planEditarGuardar(@PathVariable("id") long id, @ModelAttribute Plan plan) {
-        planRepository.actualizarPlan(((long) id), plan.getTipo(), plan.getInicio(),
-                plan.getFinal());
+        planRepository.actualizarPlan(((long) id), plan.getTipo(), plan.getDescripcion());
         return "redirect:/planes";
     }
 

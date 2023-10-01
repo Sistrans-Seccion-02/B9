@@ -15,18 +15,16 @@ public class Plan {
 
     private String tipo;
 
-    private String inicio;
-
-    private String finalD;
+    private String descripcion;
 
     public Plan() {
         ;
     }
 
-    public Plan(String tipo, String inicio, String finalD) {
+    public Plan(String tipo, String descripcion) {
         this.tipo = tipo;
-        this.inicio = inicio;
-        this.finalD = finalD;
+        this.descripcion = descripcion;
+
     }
 
     public Integer getId() {
@@ -37,12 +35,8 @@ public class Plan {
         return tipo;
     }
 
-    public String getInicio() {
-        return inicio;
-    }
-
-    public String getFinal() {
-        return finalD;
+    public String getDescripcion() {
+        return descripcion;
     }
 
     public void setId(Integer id) {
@@ -51,14 +45,6 @@ public class Plan {
 
     public void setTipo(String tipo) {
         this.tipo = tipo;
-    }
-
-    public void setInicio(String inicio) {
-        this.inicio = inicio;
-    }
-
-    public void setFinal(String finalD) {
-        this.finalD = finalD;
     }
 
 }
