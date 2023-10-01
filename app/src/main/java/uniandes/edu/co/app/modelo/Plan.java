@@ -31,6 +31,7 @@ public class Plan {
         return id;
     }
 
+    
     public String getTipo() {
         return tipo;
     }
@@ -45,6 +46,10 @@ public class Plan {
 
     public void setTipo(String tipo) {
         this.tipo = tipo;
+    }
+
+    public String setDescripcion(String descripcion) {
+        return this.descripcion = descripcion;
     }
 
 }
