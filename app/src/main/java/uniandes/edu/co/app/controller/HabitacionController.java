@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import uniandes.edu.co.app.modelo.Habitacion;
 import uniandes.edu.co.app.repositorio.HabitacionRepo;
@@ -17,11 +18,27 @@ public class HabitacionController {
     @Autowired
     private HabitacionRepo habitacionRepository;
 
+   
     @GetMapping("/habitaciones")
-    public String habitaciones(Model model, String nombre) {
+    public String habitaciones(@RequestParam(name = "id", required = false) Long id, Model model) {
+        if (id != null) {
+           
+            model.addAttribute("habitaciones", habitacionRepository.darHabitacion(id));
+            
+        } else {
+            
+            model.addAttribute("habitaciones", habitacionRepository.darHabitaciones());
+        }
+        return "habitaciones";
+    }
 
-        model.addAttribute("habitaciones", habitacionRepository.darHabitaciones());
-
+    @GetMapping("/habitaciones/tipo")
+    public String habitacionesPorTipo(@RequestParam(name = "tipo", required = true) String tipo, Model model) {
+        if (tipo.isEmpty()) {
+            model.addAttribute("habitaciones", habitacionRepository.darHabitaciones());
+        } else{
+            model.addAttribute("habitaciones", habitacionRepository.darHabitacionesPorTipo(tipo));
+        }
         return "habitaciones";
     }
 
@@ -34,7 +51,7 @@ public class HabitacionController {
     @PostMapping("/habitaciones/new/save")
     public String habitacionGuardar(@ModelAttribute Habitacion habitacion) {
         habitacionRepository.insertarHabitacion(habitacion.getCapacidad(), habitacion.getTipo(),
-                habitacion.getDotacion(), habitacion.getPrecioNoche(), habitacion.getConsumoExtra());
+                habitacion.getDotacion(), habitacion.getPrecionoche(), habitacion.getConsumoextra());
         return "redirect:/habitaciones";
     }
 
@@ -52,7 +69,7 @@ public class HabitacionController {
     @PostMapping("/habitaciones/{id}/edit/save")
     public String habitacionEditarGuardar(@PathVariable("id") long id, @ModelAttribute Habitacion habitacion) {
         habitacionRepository.actualizarHabitacion(((long) id), habitacion.getCapacidad(), habitacion.getTipo(),
-                habitacion.getDotacion(), habitacion.getPrecioNoche(), habitacion.getConsumoExtra());
+                habitacion.getDotacion(), habitacion.getPrecionoche(), habitacion.getConsumoextra());
         return "redirect:/habitaciones";
     }
 

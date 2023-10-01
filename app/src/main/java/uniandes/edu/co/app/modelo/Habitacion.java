@@ -16,19 +16,19 @@ public class Habitacion {
     private Integer capacidad;
     private String tipo;
     private String dotacion;
-    private Double precioNoche;
-    private Double consumoExtra;
+    private Double precionoche;
+    private Double consumoextra;
 
     public Habitacion() {
         ;
     }
 
-    public Habitacion(Integer capacidad, String tipo, String dotacion, Double precioNoche, Double consumoExtra) {
+    public Habitacion(Integer capacidad, String tipo, String dotacion, Double precionoche, Double consumoextra) {
         this.capacidad = capacidad;
         this.tipo = tipo;
         this.dotacion = dotacion;
-        this.precioNoche = precioNoche;
-        this.consumoExtra = consumoExtra;
+        this.precionoche = precionoche;
+        this.consumoextra = consumoextra;
     }
 
     public Integer getId() {
@@ -47,12 +47,12 @@ public class Habitacion {
         return dotacion;
     }
 
-    public Double getPrecioNoche() {
-        return precioNoche;
+    public Double getPrecionoche() {
+        return precionoche;
     }
 
-    public Double getConsumoExtra() {
-        return consumoExtra;
+    public Double getConsumoextra() {
+        return consumoextra;
     }
 
     public void setId(Integer id) {
@@ -71,12 +71,12 @@ public class Habitacion {
         this.dotacion = dotacion;
     }
 
-    public void setPrecioNoche(Double precioNoche) {
-        this.precioNoche = precioNoche;
+    public void setPrecionoche(Double precionoche) {
+        this.precionoche = precionoche;
     }
 
-    public void setConsumoExtra(Double consumoExtra) {
-        this.consumoExtra = consumoExtra;
+    public void setConsumoextra(Double consumoextra) {
+        this.consumoextra = consumoextra;
     }
 
 }
