@@ -33,7 +33,7 @@ public interface ProductoRepo extends JpaRepository<Producto, Integer> {
 
     @Modifying
     @Transactional
-    @Query(value = "INSERT INTO producto (id, nombre) VALUES ( hotelandes_sequence.nextval , :nombre)", nativeQuery = true)
-    void insertarProducto(@Param("nombre") String nombre);
+    @Query(value = "INSERT INTO producto (id, costo, nombre) VALUES ( hotelandes_sequence.nextval , :costo, :nombre)", nativeQuery = true)
+    void insertarProducto(@Param("nombre") String nombre, @Param("costo") Float costo);
 
 }

@@ -37,8 +37,8 @@ public class ServicioConsumoController {
 
     @PostMapping("/serviciosconsumo/new/save")
     public String servicioConsumoGuardar(@ModelAttribute ServicioConsumo servicio) {
-        servicioConsumoRepository.insertarServicioConsumo(servicio.getNombre(), servicio.getCapacidad(),
-                servicio.getConsumo(), servicio.getRegistroConsumo());
+        servicioConsumoRepository.insertarServicioConsumo(servicio.getDescripcion(), servicio.getCosto(),
+                servicio.getFecha(), servicio.getIdhabitacion(), servicio.getProducto());
         return "redirect:/serviciosconsumo";
     }
 
@@ -55,8 +55,8 @@ public class ServicioConsumoController {
 
     @PostMapping("/serviciosconsumo/{id}/edit/save")
     public String servicioConsumoEditarGuardar(@PathVariable("id") long id, @ModelAttribute ServicioConsumo servicio) {
-        servicioConsumoRepository.actualizarServicioConsumo(((long) id), servicio.getNombre(), servicio.getCapacidad(),
-                servicio.getConsumo(), servicio.getRegistroConsumo());
+        servicioConsumoRepository.actualizarServicioConsumo(((long) id), servicio.getDescripcion(), servicio.getCosto(),
+                servicio.getFecha(), servicio.getIdhabitacion(), servicio.getProducto());
         return "redirect:/serviciosconsumo";
     }
 

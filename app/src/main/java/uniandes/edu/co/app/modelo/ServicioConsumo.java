@@ -1,6 +1,8 @@
 
 package uniandes.edu.co.app.modelo;
 
+import java.sql.Date;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -14,63 +16,73 @@ public class ServicioConsumo {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;
 
-    private String nombre;
+    private String descripcion;
 
-    private Integer capacidad;
+    private Integer costo;
 
-    private String consumo;
+    private Date fecha;
 
-    private Integer registroConsumo;
+    private Integer idhabitacion;
+    private Integer idproducto;
 
     public ServicioConsumo() {
         ;
     }
 
-    public ServicioConsumo(String nombre, Integer capacidad, String consumo, Integer registroConsumo) {
-        this.nombre = nombre;
-        this.capacidad = capacidad;
-        this.consumo = consumo;
-        this.registroConsumo = registroConsumo;
+    public ServicioConsumo(String descripcion, Integer costo, Date fecha, Integer idhabitacion, Integer idproducto) {
+        this.descripcion = descripcion;
+        this.costo = costo;
+        this.fecha = fecha;
+        this.idhabitacion = idhabitacion;
+        this.idproducto = idproducto;
     }
 
     public Integer getId() {
         return id;
     }
 
-    public String getNombre() {
-        return nombre;
+    public String getDescripcion() {
+        return descripcion;
     }
 
-    public Integer getCapacidad() {
-        return capacidad;
+    public Integer getCosto() {
+        return costo;
     }
 
-    public String getConsumo() {
-        return consumo;
+    public Date getFecha() {
+        return fecha;
     }
 
-    public Integer getRegistroConsumo() {
-        return registroConsumo;
+    public Integer getIdhabitacion() {
+        return idhabitacion;
+    }
+
+    public Integer getProducto() {
+        return idproducto;
     }
 
     public void setId(Integer id) {
         this.id = id;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
     }
 
-    public void setCapacidad(Integer capacidad) {
-        this.capacidad = capacidad;
+    public void setCapacidad(Integer costo) {
+        this.costo = costo;
     }
 
-    public void setConsumo(String consumo) {
-        this.consumo = consumo;
+    public void setConsumo(Date fecha) {
+        this.fecha = fecha;
     }
 
-    public void setRegistroConsumo(Integer registroConsumo) {
-        this.registroConsumo = registroConsumo;
+    public void setIdhabitacion(Integer idhabitacion) {
+        this.idhabitacion = idhabitacion;
+    }
+
+    public void setIdproducto(Integer idproducto) {
+        this.idproducto = idproducto;
     }
 
 }

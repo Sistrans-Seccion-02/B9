@@ -8,6 +8,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import uniandes.edu.co.app.modelo.ServicioConsumo;
 
+import java.sql.Date;
 import java.util.Collection;
 
 public interface ServicioConsumoRepo extends JpaRepository<ServicioConsumo, Integer> {
@@ -28,15 +29,16 @@ public interface ServicioConsumoRepo extends JpaRepository<ServicioConsumo, Inte
 
         @Modifying
         @Transactional
-        @Query(value = "UPDATE servicioconsumo SET nombre = :nombre, capacidad = :capacidad, consumo = :consumo, registroConsumo = :registroConsumo WHERE id = :id", nativeQuery = true)
-        void actualizarServicioConsumo(@Param("id") long id, @Param("nombre") String nombre,
-                        @Param("capacidad") Integer capacidad,
-                        @Param("consumo") String consumo, @Param("registroConsumo") Integer registroConsumo);
+        @Query(value = "UPDATE servicioconsumo SET descripcion = :descripcion, costo = :costo, fecha = :fecha, idhabitacion = :idhabitacion, idproducto = :idproducto WHERE id = :id", nativeQuery = true)
+        void actualizarServicioConsumo(@Param("id") long id, @Param("descripcion") String descripcion,
+                        @Param("costo") Integer costo,
+                        @Param("fecha") Date fecha, @Param("idhabitacion") Integer idhabitacion, @Param("idproducto") Integer idproducto) ;
 
         @Modifying
         @Transactional
-        @Query(value = "INSERT INTO servicioconsumo (id, nombre, capacidad, consumo, registroConsumo) VALUES ( hotelandes_sequence.nextval , :nombre, :capacidad, :consumo, :registroConsumo)", nativeQuery = true)
-        void insertarServicioConsumo(@Param("nombre") String nombre, @Param("capacidad") Integer capacidad,
-                        @Param("consumo") String consumo, @Param("registroConsumo") Integer registroConsumo);
+        @Query(value = "INSERT INTO servicioconsumo (id, descripcion, costo, fecha, idhabitacion, idproducto) VALUES ( hotelandes_sequence.nextval , :descripcion, :costo, :fecha, :idhabitacion, :idproducto)", nativeQuery = true)
+        void insertarServicioConsumo(@Param("descripcion") String descripcion,
+                        @Param("costo") Integer costo,
+                        @Param("fecha") Date fecha, @Param("idhabitacion") Integer idhabitacion, @Param("idproducto") Integer idproducto) ;
 
 }
