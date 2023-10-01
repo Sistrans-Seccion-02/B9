@@ -17,10 +17,10 @@
             
         <label class="col-form-label" for="tipo">Tipo:</label>
         <select class="form-control" id="tipo" name="tipo" required>
-            <option value="Larga Estadía" th:selected="${usuario.tipo eq 'Larga Estadia'}">LA</option>
-            <option value="Tiempo Compartido" th:selected="${usuario.tipo eq 'Tiempo Compartido'}">TC</option>
-            <option value="Todo Incluido" th:selected="${usuario.tipo eq 'Todo Incluido'}">TI</option>
-            <option value="Promociones Particulares" th:selected="${usuario.tipo eq 'Promociones Particulares'}">PP</option>
+            <option value="Larga Estadía" th:selected="${plan.tipo eq 'Larga Estadia'}">Larga estadia</option>
+            <option value="Tiempo Compartido" th:selected="${plan.tipo eq 'Tiempo Compartido'}">Tiempo compartidoC</option>
+            <option value="Todo Incluido" th:selected="${plan.tipo eq 'Todo Incluido'}">Todo Incluido</option>
+            <option value="Promociones Particulares" th:selected="${plan.tipo eq 'Promociones Particulares'}">Promociones Particulares</option>
         </select>
 
         <label class="col-form-label">Descripcion:</label>
@@ -29,7 +29,7 @@
         </select>
         <div class="text-center">
             <input type="submit" value="Guardar" class="btn btn-primary">
-            <a th:href="@{/reservas}" class="btn btn-primary">Cancelar</a>
+            <a th:href="@{/planes}" class="btn btn-primary">Cancelar</a>
         </div>
     </form>
 
