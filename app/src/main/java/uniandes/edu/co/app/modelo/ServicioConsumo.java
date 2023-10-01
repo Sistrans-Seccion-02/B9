@@ -1,8 +1,6 @@
 
 package uniandes.edu.co.app.modelo;
 
-import java.sql.Date;
-
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -20,7 +18,7 @@ public class ServicioConsumo {
 
     private Integer costo;
 
-    private Date fecha;
+    private String fecha;
 
     private Integer idhabitacion;
     private Integer idproducto;
@@ -29,7 +27,7 @@ public class ServicioConsumo {
         ;
     }
 
-    public ServicioConsumo(String descripcion, Integer costo, Date fecha, Integer idhabitacion, Integer idproducto) {
+    public ServicioConsumo(String descripcion, Integer costo, String fecha, Integer idhabitacion, Integer idproducto) {
         this.descripcion = descripcion;
         this.costo = costo;
         this.fecha = fecha;
@@ -49,7 +47,7 @@ public class ServicioConsumo {
         return costo;
     }
 
-    public Date getFecha() {
+    public String getFecha() {
         return fecha;
     }
 
@@ -57,7 +55,7 @@ public class ServicioConsumo {
         return idhabitacion;
     }
 
-    public Integer getProducto() {
+    public Integer getIdproducto() {
         return idproducto;
     }
 
@@ -69,11 +67,11 @@ public class ServicioConsumo {
         this.descripcion = descripcion;
     }
 
-    public void setCapacidad(Integer costo) {
+    public void setCosto(Integer costo) {
         this.costo = costo;
     }
 
-    public void setConsumo(Date fecha) {
+    public void setFecha(String fecha) {
         this.fecha = fecha;
     }
 

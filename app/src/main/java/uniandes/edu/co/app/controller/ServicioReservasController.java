@@ -36,7 +36,7 @@ public class ServicioReservasController {
 
     @GetMapping("/servicioreservas/new")
     public String reservaForm(Model model) {
-        model.addAttribute("servicioreservas", new ServicioReservas());
+        model.addAttribute("reserva", new ServicioReservas());
         return "servicioreservasNuevo";
     }
 

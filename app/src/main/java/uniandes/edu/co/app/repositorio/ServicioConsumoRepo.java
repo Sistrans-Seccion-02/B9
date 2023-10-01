@@ -13,30 +13,30 @@ import java.util.Collection;
 
 public interface ServicioConsumoRepo extends JpaRepository<ServicioConsumo, Integer> {
 
-        @Query(value = "SELECT * FROM servicioconsumo", nativeQuery = true)
+        @Query(value = "SELECT * FROM serviciosconsumo", nativeQuery = true)
         Collection<ServicioConsumo> darServiciosConsumo();
 
-        @Query(value = "SELECT * FROM servicioconsumo WHERE id = :id", nativeQuery = true)
+        @Query(value = "SELECT * FROM serviciosconsumo WHERE id = :id", nativeQuery = true)
         ServicioConsumo darServicioConsumo(@Param("id") long id);
 
-        @Query(value = "SELECT * FROM servicioconsumo b WHERE b.nombre LIKE '%' || :nombre || '%'", nativeQuery = true)
-        Collection<ServicioConsumo> darServicioConsumoPorNombre(@Param("nombre") String nombre);
+         @Query(value = "SELECT * FROM serviciosconsumo WHERE idhabitacion = :idhabitacion", nativeQuery = true)
+        Collection<ServicioConsumo> darServicioConsumoPorIdHabitacion(@Param("id") long id);
 
         @Modifying
         @Transactional
-        @Query(value = "DELETE FROM servicioconsumo WHERE id = :id", nativeQuery = true)
+        @Query(value = "DELETE FROM serviciosconsumo WHERE id = :id", nativeQuery = true)
         void eliminarServicioConsumo(@Param("id") long id);
 
         @Modifying
         @Transactional
-        @Query(value = "UPDATE servicioconsumo SET descripcion = :descripcion, costo = :costo, fecha = :fecha, idhabitacion = :idhabitacion, idproducto = :idproducto WHERE id = :id", nativeQuery = true)
+        @Query(value = "UPDATE serviciosconsumo SET descripcion = :descripcion, costo = :costo, fecha = :fecha, idhabitacion = :idhabitacion, idproducto = :idproducto WHERE id = :id", nativeQuery = true)
         void actualizarServicioConsumo(@Param("id") long id, @Param("descripcion") String descripcion,
                         @Param("costo") Integer costo,
                         @Param("fecha") Date fecha, @Param("idhabitacion") Integer idhabitacion, @Param("idproducto") Integer idproducto) ;
 
         @Modifying
         @Transactional
-        @Query(value = "INSERT INTO servicioconsumo (id, descripcion, costo, fecha, idhabitacion, idproducto) VALUES ( hotelandes_sequence.nextval , :descripcion, :costo, :fecha, :idhabitacion, :idproducto)", nativeQuery = true)
+        @Query(value = "INSERT INTO serviciosconsumo (id, descripcion, costo, fecha, idhabitacion, idproducto) VALUES ( hotelandes_sequence.nextval , :descripcion, :costo, :fecha, :idhabitacion, :idproducto)", nativeQuery = true)
         void insertarServicioConsumo(@Param("descripcion") String descripcion,
                         @Param("costo") Integer costo,
                         @Param("fecha") Date fecha, @Param("idhabitacion") Integer idhabitacion, @Param("idproducto") Integer idproducto) ;

@@ -1,5 +1,9 @@
 package uniandes.edu.co.app.controller;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -18,10 +22,10 @@ public class ServicioConsumoController {
     private ServicioConsumoRepo servicioConsumoRepository;
 
     @GetMapping("/serviciosconsumo")
-    public String serviciosConsumo(Model model, String nombre) {
+    public String serviciosConsumo(Model model, Integer id) {
 
-        if (nombre != null && !nombre.equals("")) {
-            model.addAttribute("serviciosconsumo", servicioConsumoRepository.darServicioConsumoPorNombre(nombre));
+        if (id != null && !id.equals("")) {
+            model.addAttribute("serviciosconsumo", servicioConsumoRepository.darServicioConsumo(id));
         } else {
             model.addAttribute("serviciosconsumo", servicioConsumoRepository.darServiciosConsumo());
         }
@@ -29,35 +33,62 @@ public class ServicioConsumoController {
         return "serviciosconsumo";
     }
 
+
     @GetMapping("/serviciosconsumo/new")
     public String servicioConsumoForm(Model model) {
-        model.addAttribute("servicioConsumo", new ServicioConsumo());
-        return "servicioConsumoNuevo";
+        model.addAttribute("consumo", new ServicioConsumo());
+        return "serviciosconsumoNuevo";
     }
 
     @PostMapping("/serviciosconsumo/new/save")
     public String servicioConsumoGuardar(@ModelAttribute ServicioConsumo servicio) {
-        servicioConsumoRepository.insertarServicioConsumo(servicio.getDescripcion(), servicio.getCosto(),
-                servicio.getFecha(), servicio.getIdhabitacion(), servicio.getProducto());
+    try {
+        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd"); 
+        Date fechaDada = dateFormat.parse(servicio.getFecha());
+        java.sql.Date sqlfecha = new java.sql.Date(fechaDada.getTime());
+        
+        servicioConsumoRepository.insertarServicioConsumo(
+            servicio.getDescripcion(),
+            servicio.getCosto(),
+            sqlfecha,
+            servicio.getIdhabitacion(),
+            servicio.getIdproducto());
+
         return "redirect:/serviciosconsumo";
+    } catch (ParseException e) {
+        e.printStackTrace();
+        return null;}
     }
 
     @GetMapping("/serviciosconsumo/{id}/edit")
     public String servicioConsumoEditarForm(@PathVariable("id") long id, Model model) {
         ServicioConsumo servicio = servicioConsumoRepository.darServicioConsumo(id);
         if (servicio != null) {
-            model.addAttribute("servicioConsumo", servicio);
-            return "servicioConsumoEditar";
+            model.addAttribute("consumo", servicio);
+            return "serviciosconsumoEditar";
         } else {
             return "redirect:/serviciosconsumo";
         }
     }
 
+
     @PostMapping("/serviciosconsumo/{id}/edit/save")
-    public String servicioConsumoEditarGuardar(@PathVariable("id") long id, @ModelAttribute ServicioConsumo servicio) {
-        servicioConsumoRepository.actualizarServicioConsumo(((long) id), servicio.getDescripcion(), servicio.getCosto(),
-                servicio.getFecha(), servicio.getIdhabitacion(), servicio.getProducto());
+    public String serviciosConsumoEditarGuardar(@PathVariable("id") long id, @ModelAttribute ServicioConsumo servicio) {
+    try {
+        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd"); 
+        Date fecha = dateFormat.parse(servicio.getFecha());
+
+        java.sql.Date sqlFecha = new java.sql.Date(fecha.getTime());
+
+        servicioConsumoRepository.actualizarServicioConsumo(id, servicio.getDescripcion(),
+        servicio.getCosto(), sqlFecha, servicio.getIdhabitacion(), 
+        servicio.getIdproducto());
+
         return "redirect:/serviciosconsumo";
+    } catch (ParseException e) {
+        e.printStackTrace();
+        return null;
+    }
     }
 
     @GetMapping("/serviciosconsumo/{id}/delete")
