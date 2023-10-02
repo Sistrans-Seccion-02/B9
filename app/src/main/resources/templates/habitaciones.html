@@ -47,6 +47,10 @@
                     <th>Dotacion</th>
                     <th>PrecioNoche</th>
                     <th>ConsumoExtra</th>
+                    <th>Hotelid</th>
+                    <th>Reservaid</th>
+                    <th>Usuarioid</th>
+                    <th>Servicioconsumoid</th>
                 </tr>
             </thead>
             <tbody>
@@ -58,6 +62,10 @@
                         <td th:text="${habitacion.dotacion}"></td>
                         <td th:text="${habitacion.precionoche}"></td>
                         <td th:text="${habitacion.consumoextra}"></td>
+                        <td th:text="${habitacion.hotelid}"></td>
+                        <td th:text="${habitacion.reservaid}"></td>
+                        <td th:text="${habitacion.usuarioid}"></td>
+                        <td th:text="${habitacion.servicioconsumoid}"></td>
                     
                         <td>
                             <a th:href="@{habitaciones/{id}/edit(id=${habitacion.id})}">Editar</a>

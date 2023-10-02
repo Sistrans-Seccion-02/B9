@@ -24,7 +24,7 @@ public class RegistroController {
 
     @GetMapping("/registros")
     public String registros(Model model, Integer id) {
-        if (id != null && !id.equals("")) {
+        if (id != null) {
             model.addAttribute("registros", repo.darRegistro(id));
         } else {
             model.addAttribute("registros", repo.darRegistros());

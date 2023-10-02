@@ -18,15 +18,14 @@ public class HabitacionController {
     @Autowired
     private HabitacionRepo habitacionRepository;
 
-   
     @GetMapping("/habitaciones")
     public String habitaciones(@RequestParam(name = "id", required = false) Long id, Model model) {
         if (id != null) {
-           
+
             model.addAttribute("habitaciones", habitacionRepository.darHabitacion(id));
-            
+
         } else {
-            
+
             model.addAttribute("habitaciones", habitacionRepository.darHabitaciones());
         }
         return "habitaciones";
@@ -36,7 +35,7 @@ public class HabitacionController {
     public String habitacionesPorTipo(@RequestParam(name = "tipo", required = true) String tipo, Model model) {
         if (tipo.isEmpty()) {
             model.addAttribute("habitaciones", habitacionRepository.darHabitaciones());
-        } else{
+        } else {
             model.addAttribute("habitaciones", habitacionRepository.darHabitacionesPorTipo(tipo));
         }
         return "habitaciones";
@@ -51,7 +50,9 @@ public class HabitacionController {
     @PostMapping("/habitaciones/new/save")
     public String habitacionGuardar(@ModelAttribute Habitacion habitacion) {
         habitacionRepository.insertarHabitacion(habitacion.getCapacidad(), habitacion.getTipo(),
-                habitacion.getDotacion(), habitacion.getPrecionoche(), habitacion.getConsumoextra());
+                habitacion.getDotacion(), habitacion.getPrecionoche(), habitacion.getConsumoextra(),
+                habitacion.getHotelid(), habitacion.getReservaid(), habitacion.getUsuarioid(),
+                habitacion.getServicioconsumoid());
         return "redirect:/habitaciones";
     }
 
@@ -69,7 +70,9 @@ public class HabitacionController {
     @PostMapping("/habitaciones/{id}/edit/save")
     public String habitacionEditarGuardar(@PathVariable("id") long id, @ModelAttribute Habitacion habitacion) {
         habitacionRepository.actualizarHabitacion(((long) id), habitacion.getCapacidad(), habitacion.getTipo(),
-                habitacion.getDotacion(), habitacion.getPrecionoche(), habitacion.getConsumoextra());
+                habitacion.getDotacion(), habitacion.getPrecionoche(), habitacion.getConsumoextra(),
+                habitacion.getHotelid(), habitacion.getReservaid(), habitacion.getUsuarioid(),
+                habitacion.getServicioconsumoid());
         return "redirect:/habitaciones";
     }
 

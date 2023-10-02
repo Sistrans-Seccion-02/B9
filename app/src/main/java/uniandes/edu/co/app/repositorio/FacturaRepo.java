@@ -25,12 +25,12 @@ public interface FacturaRepo extends JpaRepository<Factura, Integer> {
 
     @Modifying
     @Transactional
-    @Query(value = "UPDATE facturas SET precioTotal = :precioTotal WHERE id = :id", nativeQuery = true)
-    void actualizarFactura(@Param("id") long id, @Param("precioTotal") Long precioTotal);
+    @Query(value = "UPDATE facturas SET preciototal = :preciototal WHERE id = :id", nativeQuery = true)
+    void actualizarFactura(@Param("id") long id, @Param("preciototal") Long preciototal);
 
     @Modifying
     @Transactional
-    @Query(value = "INSERT INTO facturas (id, precioTotal) VALUES ( hotelandes_sequence.nextval , :precioTotal)", nativeQuery = true)
-    void insertarFactura(@Param("precioTotal") Long precioTotal);
+    @Query(value = "INSERT INTO facturas (id, preciototal) VALUES ( hotelandes_sequence.nextval , :preciototal)", nativeQuery = true)
+    void insertarFactura(@Param("preciototal") Long preciototal);
 
 }

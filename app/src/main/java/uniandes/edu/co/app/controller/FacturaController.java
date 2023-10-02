@@ -23,7 +23,8 @@ public class FacturaController {
         model.addAttribute("facturas", facturaRepository.darFacturas());
         return "facturas";
     }
-    //commentary to check
+
+    // commentary to check
     @GetMapping("/facturas/new")
     public String facturaForm(Model model) {
         model.addAttribute("factura", new Factura());
@@ -32,7 +33,7 @@ public class FacturaController {
 
     @PostMapping("/facturas/new/save")
     public String facturaGuardar(@ModelAttribute Factura factura) {
-        facturaRepository.insertarFactura(factura.getPrecioTotal());
+        facturaRepository.insertarFactura(factura.getPreciototal());
         return "redirect:/facturas";
     }
 
@@ -49,7 +50,7 @@ public class FacturaController {
 
     @PostMapping("/facturas/{id}/edit/save")
     public String facturaEditarGuardar(@PathVariable("id") long id, @ModelAttribute Factura factura) {
-        facturaRepository.actualizarFactura(((long) id), factura.getPrecioTotal());
+        facturaRepository.actualizarFactura(((long) id), factura.getPreciototal());
         return "redirect:/facturas";
     }
 

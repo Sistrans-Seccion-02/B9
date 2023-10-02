@@ -35,6 +35,16 @@
         <label class="col-form-label">Consumo Extra:</label>
         <input class="form-control" type="number" id="consumoextra" name="consumoextra" required th:value="${habitacion.consumoextra}" />
 
+        <label class="col-form-label">Id del hotel:</label>
+        <input class="form-control" type="number" id="hotelid" name="hotelid" required th:value="${habitacion.hotelid}" />
+        <label class="col-form-label">Id de la reserva:</label>
+        <input class="form-control" type="number" id="reservaid" name="reservaid" required th:value="${habitacion.reservaid}" />
+        <label class="col-form-label">Id del usuario:</label>
+        <input class="form-control" type="number" id="usuarioid" name="usuarioid" required th:value="${habitacion.usuarioid}" />
+        <label class="col-form-label">Id de cuenta consumo servicios:</label>
+        <input class="form-control" type="number" id="servicioconsumoid" name="servicioconsumoid" required th:value="${habitacion.servicioconsumoid}" />
+
+
         </select>
         <div class="text-center">
             <input type="submit" value="Guardar" class="btn btn-primary">

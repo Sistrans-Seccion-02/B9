@@ -18,13 +18,15 @@ public class ReservaController {
     private ReservaRepo reservaRepository;
 
     @GetMapping("/reservas")
-    public String reservas(Model model) {
+    public String reservas(Model model, Integer id) {
+        if (id != null) {
+            model.addAttribute("reservas", reservaRepository.darReserva(id));
 
-        model.addAttribute("reservas", reservaRepository.darReservas());
-
+        } else {
+            model.addAttribute("reservas", reservaRepository.darReservas());
+        }
         return "reservas";
     }
-
 
     @GetMapping("/reservas/new")
     public String reservaForm(Model model) {
@@ -34,7 +36,8 @@ public class ReservaController {
 
     @PostMapping("/reservas/new/save")
     public String reservaGuardar(@ModelAttribute Reserva reserva) {
-        reservaRepository.insertarReserva(reserva.getFecha(), reserva.getFechafinal(), reserva.getPersonas(), reserva.getHabtacionid(), reserva.getPlanesid(), reserva.getUsuarioid());
+        reservaRepository.insertarReserva(reserva.getFecha(), reserva.getFechafinal(), reserva.getPersonas(),
+                reserva.getHabtacionid(), reserva.getPlanesid(), reserva.getUsuarioid());
         return "redirect:/reservas";
     }
 

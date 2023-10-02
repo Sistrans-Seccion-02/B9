@@ -19,16 +19,26 @@ public class Habitacion {
     private Integer precionoche;
     private Integer consumoextra;
 
+    private Integer hotelid;
+    private Integer reservaid;
+    private Integer usuarioid;
+    private Integer servicioconsumoid;
+
     public Habitacion() {
         ;
     }
 
-    public Habitacion(Integer capacidad, String tipo, String dotacion, Integer precionoche, Integer consumoextra) {
+    public Habitacion(Integer capacidad, String tipo, String dotacion, Integer precionoche, Integer consumoextra,
+            Integer hotelid, Integer reservaid, Integer usuarioid, Integer servicioconsumoid) {
         this.capacidad = capacidad;
         this.tipo = tipo;
         this.dotacion = dotacion;
         this.precionoche = precionoche;
         this.consumoextra = consumoextra;
+        this.hotelid = hotelid;
+        this.reservaid = reservaid;
+        this.usuarioid = usuarioid;
+        this.servicioconsumoid = servicioconsumoid;
     }
 
     public Integer getId() {
@@ -55,6 +65,22 @@ public class Habitacion {
         return consumoextra;
     }
 
+    public Integer getHotelid() {
+        return hotelid;
+    }
+
+    public Integer getReservaid() {
+        return reservaid;
+    }
+
+    public Integer getUsuarioid() {
+        return usuarioid;
+    }
+
+    public Integer getServicioconsumoid() {
+        return servicioconsumoid;
+    }
+
     public void setId(Integer id) {
         this.id = id;
     }
@@ -77,6 +103,22 @@ public class Habitacion {
 
     public void setConsumoextra(Integer consumoextra) {
         this.consumoextra = consumoextra;
+    }
+
+    public void setHotelid(Integer hotelid) {
+        this.hotelid = hotelid;
+    }
+
+    public void setReservaid(Integer reservaid) {
+        this.reservaid = reservaid;
+    }
+
+    public void setUsuarioid(Integer usuarioid) {
+        this.usuarioid = usuarioid;
+    }
+
+    public void setServicioconsumoid(Integer servicioconsumoid) {
+        this.servicioconsumoid = servicioconsumoid;
     }
 
 }

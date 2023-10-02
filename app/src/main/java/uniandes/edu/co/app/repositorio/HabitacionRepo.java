@@ -7,7 +7,6 @@ import org.springframework.data.repository.query.Param;
 import org.springframework.transaction.annotation.Transactional;
 
 import uniandes.edu.co.app.modelo.Habitacion;
-import uniandes.edu.co.app.modelo.Usuario;
 
 import java.util.Collection;
 
@@ -29,19 +28,24 @@ public interface HabitacionRepo extends JpaRepository<Habitacion, Integer> {
 
         @Modifying
         @Transactional
-        @Query(value = "UPDATE habitaciones SET capacidad = :capacidad, tipo = :tipo, dotacion = :dotacion, precioNoche = :precioNoche, consumoExtra = :consumoExtra WHERE id = :id", nativeQuery = true)
+        @Query(value = "UPDATE habitaciones SET capacidad = :capacidad, tipo = :tipo, dotacion = :dotacion, precioNoche = :precioNoche, consumoExtra = :consumoExtra, hotelid = :hotelid, reservaid = :reservaid, usuarioid = :usuarioid, servicioconsumoid = :servicioconsumoid WHERE id = :id", nativeQuery = true)
         void actualizarHabitacion(@Param("id") long id, @Param("capacidad") Integer capacidad,
                         @Param("tipo") String tipo,
                         @Param("dotacion") String dotacion, @Param("precioNoche") Integer precioNoche,
-                        @Param("consumoExtra") Integer consumoExtra);
+                        @Param("consumoExtra") Integer consumoExtra,
+                        @Param("hotelid") Integer hotelid,
+                        @Param("reservaid") Integer reservaid,
+                        @Param("usuarioid") Integer usuarioid,
+                        @Param("servicioconsumoid") Integer servicioconsumoid);
 
-
-        
         @Modifying
         @Transactional
-        @Query(value = "INSERT INTO habitaciones (id, capacidad, tipo, dotacion, precioNoche, consumoExtra) VALUES ( hotelandes_sequence.nextval , :capacidad, :tipo, :dotacion, :precioNoche, :consumoExtra)", nativeQuery = true)
+        @Query(value = "INSERT INTO habitaciones (id, capacidad, tipo, dotacion, precioNoche, consumoExtra, hotelid, reservaid, usuarioid, servicioconsumoid) VALUES ( hotelandes_sequence.nextval , :capacidad, :tipo, :dotacion, :precioNoche, :consumoExtra, :hotelid, :reservaid, :usuarioid, :servicioconsumoid)", nativeQuery = true)
         void insertarHabitacion(@Param("capacidad") Integer capacidad, @Param("tipo") String tipo,
                         @Param("dotacion") String dotacion, @Param("precioNoche") Integer precioNoche,
-                        @Param("consumoExtra") Integer consumoExtra);
+                        @Param("consumoExtra") Integer consumoExtra, @Param("hotelid") Integer hotelid,
+                        @Param("reservaid") Integer reservaid,
+                        @Param("usuarioid") Integer usuarioid,
+                        @Param("servicioconsumoid") Integer servicioconsumoid);
 
 }
