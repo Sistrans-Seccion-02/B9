@@ -16,4 +16,8 @@ HOTELES UNIANDES
 3. Ejecutar la aplicación desde el main.
 4. Ingresar a local host.
 5. Hacerle clic al botón necesario.
-6. Probar. 
+6. Probar.
+
+
+DOCUMENTACION
+En la carpeta docs se encuentran los diagramas, documento de soporte y los insert para los escenarios de prueba.
