@@ -15,20 +15,24 @@
     
 
     <form>
-        <label class="col-form-label">id:</label>
-        <input class="form-control" type="text" id="id" name="id" required th:value="${reserva.id}" />
+
         <label class="col-form-label">Fecha:</label>
-        <input class="form-control" type="text" id="fecha" name="fecha" required th:value="${reserva.fecha}" />
+        <input class="form-control" type="date" id="fecha" name="fecha" required th:value="${reserva.fecha}" />
         <label class="col-form-label">fechaFinal:</label>
-        <input class="form-control" type="text" id="fechaFinal" name="fechaFinal" required th:value="${reserva.fechaFinal}" />
+        <input class="form-control" type="date" id="fechafinal" name="fechafinal" required th:value="${reserva.fechafinal}" />
         <label class="col-form-label">Personas:</label>
-        <input class="form-control" type="text" id="personas" name="personas" required th:value="${reserva.personas}" />
-        
+        <input class="form-control" type="number" id="personas" name="personas" required th:value="${reserva.personas}" />
+        <label class="col-form-label">Habtacionid:</label>
+        <input class="form-control" type="number" id="habtacionid" name="habtacionid" required th:value="${reserva.habtacionid}" />
+        <label class="col-form-label">Planesid:</label>
+        <input class="form-control" type="number" id="planesid" name="planesid" required th:value="${reserva.planesid}" />
+        <label class="col-form-label">Usuarioid:</label>
+        <input class="form-control" type="number" id="usuarioid" name="usuarioid" required th:value="${reserva.usuarioid}" />
 
         </select>
         <div class="text-center">
             <input type="submit" value="Guardar" class="btn btn-primary">
-            <a th:href="@{/usuarios}" class="btn btn-primary">Cancelar</a>
+            <a th:href="@{/reservas}" class="btn btn-primary">Cancelar</a>
         </div>
     </form>
 

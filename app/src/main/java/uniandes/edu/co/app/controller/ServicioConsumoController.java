@@ -24,7 +24,7 @@ public class ServicioConsumoController {
     @GetMapping("/serviciosconsumo")
     public String serviciosConsumo(Model model, Integer id) {
 
-        if (id != null && !id.equals("")) {
+        if (id != null) {
             model.addAttribute("serviciosconsumo", servicioConsumoRepository.darServicioConsumo(id));
         } else {
             model.addAttribute("serviciosconsumo", servicioConsumoRepository.darServiciosConsumo());
@@ -32,7 +32,6 @@ public class ServicioConsumoController {
 
         return "serviciosconsumo";
     }
-
 
     @GetMapping("/serviciosconsumo/new")
     public String servicioConsumoForm(Model model) {
@@ -42,22 +41,23 @@ public class ServicioConsumoController {
 
     @PostMapping("/serviciosconsumo/new/save")
     public String servicioConsumoGuardar(@ModelAttribute ServicioConsumo servicio) {
-    try {
-        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd"); 
-        Date fechaDada = dateFormat.parse(servicio.getFecha());
-        java.sql.Date sqlfecha = new java.sql.Date(fechaDada.getTime());
-        
-        servicioConsumoRepository.insertarServicioConsumo(
-            servicio.getDescripcion(),
-            servicio.getCosto(),
-            sqlfecha,
-            servicio.getIdhabitacion(),
-            servicio.getIdproducto());
+        try {
+            SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
+            Date fechaDada = dateFormat.parse(servicio.getFecha());
+            java.sql.Date sqlfecha = new java.sql.Date(fechaDada.getTime());
 
-        return "redirect:/serviciosconsumo";
-    } catch (ParseException e) {
-        e.printStackTrace();
-        return null;}
+            servicioConsumoRepository.insertarServicioConsumo(
+                    servicio.getDescripcion(),
+                    servicio.getCosto(),
+                    sqlfecha,
+                    servicio.getIdhabitacion(),
+                    servicio.getIdproducto());
+
+            return "redirect:/serviciosconsumo";
+        } catch (ParseException e) {
+            e.printStackTrace();
+            return null;
+        }
     }
 
     @GetMapping("/serviciosconsumo/{id}/edit")
@@ -71,24 +71,23 @@ public class ServicioConsumoController {
         }
     }
 
-
     @PostMapping("/serviciosconsumo/{id}/edit/save")
     public String serviciosConsumoEditarGuardar(@PathVariable("id") long id, @ModelAttribute ServicioConsumo servicio) {
-    try {
-        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd"); 
-        Date fecha = dateFormat.parse(servicio.getFecha());
+        try {
+            SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
+            Date fecha = dateFormat.parse(servicio.getFecha());
 
-        java.sql.Date sqlFecha = new java.sql.Date(fecha.getTime());
+            java.sql.Date sqlFecha = new java.sql.Date(fecha.getTime());
 
-        servicioConsumoRepository.actualizarServicioConsumo(id, servicio.getDescripcion(),
-        servicio.getCosto(), sqlFecha, servicio.getIdhabitacion(), 
-        servicio.getIdproducto());
+            servicioConsumoRepository.actualizarServicioConsumo(id, servicio.getDescripcion(),
+                    servicio.getCosto(), sqlFecha, servicio.getIdhabitacion(),
+                    servicio.getIdproducto());
 
-        return "redirect:/serviciosconsumo";
-    } catch (ParseException e) {
-        e.printStackTrace();
-        return null;
-    }
+            return "redirect:/serviciosconsumo";
+        } catch (ParseException e) {
+            e.printStackTrace();
+            return null;
+        }
     }
 
     @GetMapping("/serviciosconsumo/{id}/delete")

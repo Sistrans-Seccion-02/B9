@@ -29,11 +29,10 @@ public class Usuario {
         this.correo = correo;
         this.contrasena = contrasena;
     }
+
     public Usuario() {
         ;
     }
-
-    
 
     public Integer getId() {
         return id;
@@ -75,7 +74,7 @@ public class Usuario {
         this.documento = documento;
     }
 
-    public void setTipoDocumento(String tipodocumento) {
+    public void setTipodocumento(String tipodocumento) {
         this.tipodocumento = tipodocumento;
     }
 

@@ -3,11 +3,11 @@
 <head>
     <title>Editar una habitacion</title>
     <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
-    //JA
+    
 </head>
 <body>
 </br>
-<form th:action="@{'/habitacion/' + ${id} + '/edit/save'}" th:object="${habitacion}" method="post">
+<form th:action="@{'/habitaciones/' + ${id} + '/edit/save'}" th:object="${habitaciones}" method="post">
     <div th:replace="~{fragments/habitacionForm :: habitacionForm(titulo='Editar una habitacion', habitacion=${habitacion})}">
     </div>
 </form>

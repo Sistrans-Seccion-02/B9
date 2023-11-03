@@ -13,30 +13,30 @@ public class Factura {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;
 
-    private Long precioTotal;
+    private Long preciototal;
 
     public Factura() {
         ;
     }
 
-    public Factura(Long precioTotal) {
-        this.precioTotal = precioTotal;
+    public Factura(Long preciototal) {
+        this.preciototal = preciototal;
     }
 
     public Integer getId() {
         return id;
     }
 
-    public Long getPrecioTotal() {
-        return precioTotal;
+    public Long getPreciototal() {
+        return preciototal;
     }
 
     public void setId(Integer id) {
         this.id = id;
     }
 
-    public void setPrecioTotal(Long precioTotal) {
-        this.precioTotal = precioTotal;
+    public void setPreciototal(Long preciototal) {
+        this.preciototal = preciototal;
     }
 
 }

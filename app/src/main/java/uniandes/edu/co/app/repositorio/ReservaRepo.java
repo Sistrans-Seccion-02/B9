@@ -26,14 +26,15 @@ public interface ReservaRepo extends JpaRepository<Reserva, Integer> {
 
     @Modifying
     @Transactional
-    @Query(value = "UPDATE reservas SET fecha = :fecha, fechaFinal = :fechaFinal, personas = :personas WHERE id = :id", nativeQuery = true)
+    @Query(value = "UPDATE reservas SET fecha = :fecha, fechaFinal = :fechaFinal, personas = :personas, habtacionid = :habtacionid, planesid = :planesid, usuarioid = :usuarioid WHERE id = :id", nativeQuery = true)
     void actualizarReserva(@Param("id") long id, @Param("fecha") Date fecha, @Param("fechaFinal") Date fechaFinal,
-            @Param("personas") Integer personas);
+            @Param("personas") Integer personas, @Param("habtacionid") Integer habitacionid, @Param("planesid") Integer planesid,
+            @Param("usuarioid") Integer usuarioid);
 
     @Modifying
     @Transactional
-    @Query(value = "INSERT INTO reservas (id, fecha, fechaFinal, personas) VALUES ( hotelandes_sequence.nextval , :fecha, :fechaFinal, :personas)", nativeQuery = true)
+    @Query(value = "INSERT INTO reservas (id, fecha, fechaFinal, personas, habtacionid, planesid, usuarioid) VALUES ( hotelandes_sequence.nextval , :fecha, :fechaFinal, :personas, :habtacionid, :planesid, :usuarioid)", nativeQuery = true)
     void insertarReserva(@Param("fecha") Date fecha, @Param("fechaFinal") Date fechaFinal,
-            @Param("personas") Integer personas);
+            @Param("personas") Integer personas, @Param("habtacionid") Integer habitacionid, @Param("planesid") Integer planesid, @Param("usuarioid") Integer usuarioid);
 
 }
