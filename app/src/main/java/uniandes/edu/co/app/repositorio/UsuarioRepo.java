@@ -22,6 +22,9 @@ public interface UsuarioRepo extends JpaRepository<Usuario, Integer> {
         @Query(value = "SELECT * FROM usuarios WHERE id = :id", nativeQuery = true)
         Usuario darUsuario(@Param("id") long id);
 
+        @Query(value = "SELECT u FROM Usuario u WHERE u.correo = :correo AND u.contrasena = :contrasena")
+        Collection<Usuario> loginUsuario(@Param("correo") String correo, @Param("contrasena") String contrasena);
+
         @Query(value = "SELECT * FROM usuarios u WHERE b.nombre LIKE '%' || :nombre || '%'", nativeQuery = true)
         Collection<Usuario> darUsuariosPorNombre(@Param("nombre") String nombre);
 
