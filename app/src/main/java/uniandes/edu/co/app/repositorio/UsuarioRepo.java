@@ -22,6 +22,36 @@ public interface UsuarioRepo extends JpaRepository<Usuario, Integer> {
         @Query(value = "SELECT * FROM usuarios WHERE id = :id", nativeQuery = true)
         Usuario darUsuario(@Param("id") long id);
 
+        public interface RespuestaEncontrarBuenosClientes{
+                String getNOMBRE_CLIENTE();
+                String getUSUARIOID();
+                String getTOTAL_DIAS();
+        }
+        @Query(value = "SELECT U.NOMBRE as NOMBRE_CLIENTE, " +
+                "R.USUARIOID, SUM(R.FECHAFINAL - R.FECHA) as TOTAL_DIAS " +
+                "FROM RESERVAS R " +
+                "JOIN USUARIOS U ON R.USUARIOID = U.ID " +
+                "GROUP BY U.NOMBRE, R.USUARIOID " +
+                "HAVING SUM(R.FECHAFINAL - R.FECHA) >= 14", nativeQuery = true)
+
+        Collection<RespuestaEncontrarBuenosClientes> encontrarBuenosClientes();
+
+        public interface RespuestaEncontrarMayorConsumo{
+                String getNOMBRE_CLIENTE();
+                String getUSUARIOID();
+                String getTOTAL_CONSUMO();
+        }
+
+        @Query(value = "SELECT U.NOMBRE as NOMBRE_CLIENTE, "+//
+                        "R.USUARIOID, SUM(SC.COSTO) as TOTAL_CONSUMO " +//
+                        "FROM SERVICIOSCONSUMO SC "+//
+                        "JOIN RESERVAS R ON SC.IDHABITACION = R.HABTACIONID "+//
+                        "JOIN USUARIOS U ON R.USUARIOID = U.ID "+//
+                        "WHERE SC.FECHA >= SYSDATE - 365 "+//
+                        "GROUP BY U.NOMBRE, R.USUARIOID "+//
+                        "HAVING SUM(SC.COSTO) >= 15000000", nativeQuery = true)
+        Collection<RespuestaEncontrarMayorConsumo> encontrarMayorConsumo();
+
         @Query(value = "SELECT u FROM Usuario u WHERE u.correo = :correo AND u.contrasena = :contrasena")
         Collection<Usuario> loginUsuario(@Param("correo") String correo, @Param("contrasena") String contrasena);
 

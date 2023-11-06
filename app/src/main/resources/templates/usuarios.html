@@ -36,6 +36,41 @@
             </div>
         </div>
 
+        <div class="d-flex justify-content-center">
+            <form id="searchByEstadiaForm" th:action="@{/usuarios/buenosClientesEstadia}" method="get">
+                <div class="input-group input-group-sm mb-2">
+                    <div class="input-group-append">
+                        <button type="button" id="searchByEstadiaButton" class="btn btn-secondary">Buscar mejores clientes estadía</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        
+        
+        <script>
+                document.getElementById('searchByEstadiaButton').addEventListener('click', function() {
+                document.getElementById('searchByEstadiaForm').submit();
+            });
+        </script>
+
+    <div class="d-flex justify-content-center">
+        <form id="searchByMayorConsumoForm" th:action="@{/usuarios/mayorConsumo}" method="get">
+            <div class="input-group input-group-sm mb-2">
+                <div class="input-group-append">
+                    <button type="button" id="searchByMayorConsumoButton" class="btn btn-secondary">Buscar mejores clientes consumos</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+
+    <script>
+            document.getElementById('searchByMayorConsumoButton').addEventListener('click', function() {
+            document.getElementById('searchByMayorConsumoForm').submit();
+        });
+    </script>
+
+
         <br />
 
         <table class="table table-condensed table-hover table-bordered" style="border-collapse:collapse;">

@@ -1,5 +1,5 @@
 package uniandes.edu.co.app.controller;
-
+import java.util.Collection;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import uniandes.edu.co.app.modelo.Usuario;
 import uniandes.edu.co.app.repositorio.UsuarioRepo;
+import uniandes.edu.co.app.repositorio.UsuarioRepo.RespuestaEncontrarBuenosClientes;
 
 @Controller
 public class UsuarioController {
@@ -40,6 +41,20 @@ public class UsuarioController {
             model.addAttribute("usuarios", usuarioRepository.darUsuariosPorRol(rol));
         }
         return "usuarios";
+    }
+
+    @GetMapping("/usuarios/buenosClientesEstadia")
+    public String buenosClientesEstadia(Model model){
+        Collection<RespuestaEncontrarBuenosClientes> buenosClientesEstadia = usuarioRepository.encontrarBuenosClientes();
+        model.addAttribute("usuarios", buenosClientesEstadia);
+        return "buenosClientesEstadia";
+    }
+
+    @GetMapping("/usuarios/mayorConsumo")
+    public String mayorConsumo(Model model){
+        Collection<UsuarioRepo.RespuestaEncontrarMayorConsumo> mayorConsumo = usuarioRepository.encontrarMayorConsumo();
+        model.addAttribute("usuarios", mayorConsumo);
+        return "mayorConsumo";
     }
 
     @GetMapping("/usuarios/new")

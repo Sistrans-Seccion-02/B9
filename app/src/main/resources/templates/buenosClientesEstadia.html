@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Resultados de la búsqueda de clientes con mayor hospedaje</title>
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+</head>
+
+<body>
+    <h1>Resultados de la búsqueda de clientes con mayor hospedaje</h1>
+    <table class="table table-condensed table-hover">
+        <thead class="thead-dark">
+            <tr>
+                <th>Nombre de Usuario</th>
+                <th>ID del usuario</th>
+                <th>Total dias</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr th:each="row : ${usuarios}">
+                <td th:text="${row.NOMBRE_CLIENTE}"></td>
+                <td th:text="${row.USUARIOID}"></td>
+                <td th:text="${row.TOTAL_DIAS}"></td>
+                
+
+            </tr>
+        </tbody>
+    </table>
+    <a th:href="@{/usuarios}">Volver atrás</a>
+</body>
+</html>
