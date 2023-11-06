@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Resultados de la búsqueda de Servicios de Consumo</title>
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+</head>
+
+<body>
+    <h1>Resultados de la búsqueda de Servicios de Consumo</h1>
+    <table class="table table-condensed table-hover">
+        <thead class="thead-dark">
+            <tr>
+                <th>Nombre de Usuario</th>
+                <th>Nombre del Producto</th>
+                <th>Costo del Consumo</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr th:each="row : ${serviciosconsumo}">
+                <td th:text="${row.NOMBRE_USUARIO}"></td>
+                <td th:text="${row.NOMBRE_PRODUCTO}"></td>
+                <td th:text="${row.COSTO_CONSUMO}"></td>
+                
+
+            </tr>
+        </tbody>
+    </table>
+    <a th:href="@{/serviciosconsumo}">Volver atrás</a>
+</body>
+</html>
+

@@ -41,4 +41,23 @@ public interface ServicioConsumoRepo extends JpaRepository<ServicioConsumo, Inte
                         @Param("costo") Integer costo,
                         @Param("fecha") Date fecha, @Param("idhabitacion") Integer idhabitacion, @Param("idproducto") Integer idproducto) ;
 
+          public interface RespuestaServicioConsumoPorCliente {
+               String getNOMBRE_USUARIO();
+               String getNOMBRE_PRODUCTO();
+               int getCOSTO_CONSUMO();
+               //Date getfecha();
+          }
+
+          @Query(value= "SELECT u.nombre as nombre_usuario, p.nombre as nombre_producto, "+//
+                         "sc.costo as costo_consumo "+// 
+                         "FROM serviciosconsumo sc "+//
+                         "JOIN productos p ON sc.idproducto = p.id "+//
+                         "JOIN reservas r ON sc.idhabitacion = r.habtacionid "+//
+                         "JOIN usuarios u ON r.usuarioid = u.id "+//
+                         "WHERE u.id = :idusuario "+//
+                         "AND sc.fecha BETWEEN :fechainicio AND :fechafin", nativeQuery = true)
+                         
+          Collection<RespuestaServicioConsumoPorCliente> darServicioConsumoPorCliente(@Param("idusuario") long idusuario, @Param("fechainicio") Date fechainicio, @Param("fechafin") Date fechafin);
+
+
 }
