@@ -17,28 +17,26 @@ public class ServicioReservas {
     private String fechainicial;
     private String fechafinal;
     private Integer idhabitacion;
-    private Integer idspa;
-    private Integer idsalon;
-    private Integer idlavanderia;
+    private String tipo;
 
     public ServicioReservas() {
         ;
     }
 
-    public ServicioReservas(String fechainicial, String fechafinal, Integer idhabitacion, Integer idspa, Integer idsalon, Integer idlavanderia) {
+    public ServicioReservas(String fechainicial, String fechafinal, Integer idhabitacion, String tipo) {
 
             this.fechainicial = fechainicial;
             this.fechafinal = fechafinal;
-
-        
-        this.idhabitacion = idhabitacion;
-        this.idspa = idspa;
-        this.idsalon = idsalon;
-        this.idlavanderia = idlavanderia;
+            this.idhabitacion = idhabitacion;
+            this.tipo = tipo;
     }
 
     public Integer getId() {
         return id;
+    }
+
+    public String getTipo() {
+        return tipo;
     }
 
     public String getFechainicial() {
@@ -52,21 +50,6 @@ public class ServicioReservas {
     public Integer getIdhabitacion() {
         return idhabitacion;
     }
-
-    public Integer getIdspa() {
-        return idspa;
-    }
-
-    public Integer getIdsalon() {
-        return idsalon;
-    }
-
-    public Integer getIdlavanderia() {
-        return idlavanderia;
-    }
-
-
-
 
     public void setId(Integer id) {
         this.id = id;
@@ -84,18 +67,8 @@ public class ServicioReservas {
         this.idhabitacion = idhabitacion;
     }
 
-    public void setIdspa(Integer idspa) {
-        this.idspa = idspa;
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
     }
-
-    public void setIdsalon(Integer idsalon) {
-        this.idsalon = idsalon;
-    }
-
-    public void setIdlavanderia(Integer idlavanderia) {
-        this.idlavanderia = idlavanderia;
-    }
-
-
 
 }

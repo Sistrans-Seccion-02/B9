@@ -55,9 +55,7 @@ public class ServicioReservasController {
             sqlFechaInicial,
             sqlFechaFinal,
             res.getIdhabitacion(),
-            res.getIdspa(),
-            res.getIdsalon(),
-            res.getIdlavanderia());
+            res.getTipo());
 
         return "redirect:/servicioreservas";
     } catch (ParseException e) {

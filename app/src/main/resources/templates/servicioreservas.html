@@ -31,9 +31,7 @@
                     <th>fechaInicial</th>
                     <th>FechaFinal</th>
                     <th>idHabitacion</th>
-                    <th>idSpa</th>
-                    <th>idSalon</th>
-                    <th>idLavanderia</th>
+                    <th>tipo</th>
                 </tr>
             </thead>
             <tbody>
@@ -43,9 +41,7 @@
                         <td th:text="${reserva.fechainicial}"></td>
                         <td th:text="${reserva.fechafinal}"></td>
                         <td th:text="${reserva.idhabitacion}"></td>
-                        <td th:text="${reserva.idspa}"></td>
-                        <td th:text="${reserva.idsalon}"></td>
-                        <td th:text="${reserva.idlavanderia}"></td>
+                        <td th:text="${reserva.tipo}"></td>
                         <td>
                             <a th:href="@{servicioreservas/{id}/edit(id=${reserva.id})}">Editar</a>
                             <a th:href="@{servicioreservas/{id}/delete(id=${reserva.id})}"
