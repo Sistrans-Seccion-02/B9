@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 
 import uniandes.edu.co.app.modelo.ServicioReservas;
 import uniandes.edu.co.app.repositorio.ServicioReservasRepo;
+import uniandes.edu.co.app.repositorio.ServicioReservasRepo.RespuestaDineroRecolectadoPorServicio;
 import uniandes.edu.co.app.repositorio.ServicioReservasRepo.respuestaFrecuenciaServicios;
 
 @Controller
@@ -42,6 +43,16 @@ public class ServicioReservasController {
         return "servicioreservasFrecuencia";
     }
 
+     @GetMapping("/dineroRecolectadoPorServicios")
+    public String mostrarDineroRecolectadoPorServicios(Model model) {
+        Collection<RespuestaDineroRecolectadoPorServicio> resultados = repo.obtenerDineroRecolectadoPorDiferentesServicios();
+        System.out.println(resultados);
+        // Agrega los resultados al modelo para mostrar en la vista
+        model.addAttribute("dineroRecolectadoPorServicios", resultados);
+
+        return "dineroRecolectadoPorServicios"; // Debes crear una vista para mostrar los resultados
+    }
+
     @GetMapping("/servicioreservas/new")
     public String reservaForm(Model model) {
         model.addAttribute("reserva", new ServicioReservas());
@@ -59,7 +70,7 @@ public class ServicioReservasController {
         java.sql.Date sqlFechaInicial = new java.sql.Date(fechaInicial.getTime());
         java.sql.Date sqlFechaFinal = new java.sql.Date(fechaFinal.getTime());
 
-        Double precio = res.getPrecio()
+        Double precio = res.getPrecio();
         repo.insertarReservas(
             sqlFechaInicial,
             sqlFechaFinal,

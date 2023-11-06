@@ -58,4 +58,23 @@ public interface ServicioReservasRepo extends JpaRepository<ServicioReservas, In
                 @Param("precio") Double precio
     );
 
+    public interface RespuestaDineroRecolectadoPorServicio {
+        Long getIdHabitacion();
+        Integer getNumeroHabitacion();
+        Double getDineroRecolectado();
+    }
+
+    @Query(value =
+               "SELECT " +
+                    "h.id AS id_habitacion, " +
+                    "SUM(CASE " +
+                         "WHEN sr.precio IS NOT NULL THEN sr.precio " +
+                         "ELSE 0 " +
+                    "END) AS dinero_recolectado " +
+               "FROM HABITACIONES h " +
+               "LEFT JOIN SERVICIORESERVAS sr ON h.id = sr.idhabitacion " +
+               "WHERE sr.fechainicial BETWEEN ADD_MONTHS(SYSDATE, -12) AND SYSDATE " +
+               "GROUP BY h.id", nativeQuery = true)
+               Collection<RespuestaDineroRecolectadoPorServicio> obtenerDineroRecolectadoPorDiferentesServicios();
+                
 }

@@ -10,6 +10,8 @@ import uniandes.edu.co.app.modelo.ServicioConsumo;
 
 import java.sql.Date;
 import java.util.Collection;
+import java.util.List;
+import java.util.Map;
 
 public interface ServicioConsumoRepo extends JpaRepository<ServicioConsumo, Integer> {
 
@@ -58,6 +60,5 @@ public interface ServicioConsumoRepo extends JpaRepository<ServicioConsumo, Inte
                          "AND sc.fecha BETWEEN :fechainicio AND :fechafin", nativeQuery = true)
                          
           Collection<RespuestaServicioConsumoPorCliente> darServicioConsumoPorCliente(@Param("idusuario") long idusuario, @Param("fechainicio") Date fechainicio, @Param("fechafin") Date fechafin);
-
-
+        
 }
