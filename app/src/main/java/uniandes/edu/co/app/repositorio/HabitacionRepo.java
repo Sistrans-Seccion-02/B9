@@ -18,6 +18,33 @@ public interface HabitacionRepo extends JpaRepository<Habitacion, Integer> {
         @Query(value = "SELECT * FROM habitaciones", nativeQuery = true)
         Collection<Habitacion> darHabitaciones();
 
+        public interface RespuestaOcupacionHabitacion {
+                String getFECHA();
+                Integer getHABITACIONES_OCUPADAS();   
+        }
+        @Query(value = "SELECT FECHA, COUNT(*) AS HABITACIONES_OCUPADAS "+//
+                       "FROM RESERVAS "+//
+                       "GROUP BY FECHA ORDER BY HABITACIONES_OCUPADAS DESC", nativeQuery = true)
+        Collection<RespuestaOcupacionHabitacion> darHabitacionesOcupadas();
+
+        public interface RespuestaFechasMayoresIngresos {
+                String getFECHA();
+                Integer getINGRESOS();   
+        }
+        @Query(value = "SELECT SC.FECHA, SUM(SC.COSTO) AS INGRESOS "+//
+                       "FROM SERVICIOSCONSUMO SC "+//
+                       "GROUP BY SC.FECHA ORDER BY INGRESOS DESC", nativeQuery = true)
+        Collection<RespuestaFechasMayoresIngresos> darFechasMayoresIngresos();
+
+        public interface RespuestaMenorDemanda{
+                String getFECHA();
+                Integer getHABITACIONES_OCUPADAS();
+        }
+        @Query(value = "SELECT FECHA, COUNT(*) AS HABITACIONES_OCUPADAS "+//
+                       "FROM RESERVAS "+//
+                       "GROUP BY FECHA ORDER BY HABITACIONES_OCUPADAS ASC", nativeQuery = true)
+        Collection<RespuestaMenorDemanda> darMenorDemanda();
+
         @Query(value = "SELECT * FROM habitaciones WHERE id = :id", nativeQuery = true)
         Habitacion darHabitacion(@Param("id") long id);
 

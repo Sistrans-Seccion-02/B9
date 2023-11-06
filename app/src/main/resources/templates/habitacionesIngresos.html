@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <title>Resultados búsqueda por ingresos</title>
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+</html>
+<body>
+    <h1>Fechas de mayores ingresos</h1>
+    <table class="table table-condensed table-hover">
+        <tr>
+            <th>Fecha</th>
+            <th>Ganancias</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr th:each="row : ${habitaciones}">
+            <td th:text="${row.FECHA}"></td>
+            <td th:text="${row.INGRESOS}"></td>
+        </tr>
+    </tbody>
+    </table>
+    <a th:href="@{/habitaciones}">Volver atrás</a>
+
+</body>
+</html>

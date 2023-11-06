@@ -36,6 +36,59 @@
             </div>
         </div>
 
+        <div class="d-flex justify-content-center">
+            <form id="searchByOccupationForm" th:action="@{/habitaciones/ocupacion}" method="get">
+                <div class="input-group input-group-sm mb-2">
+                    <div class="input-group-append">
+                        <button type="button" id="searchByOccupationButton" class="btn btn-secondary">Buscar por Ocupacion</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        
+        
+        <script>
+                document.getElementById('searchByOccupationButton').addEventListener('click', function() {
+                document.getElementById('searchByOccupationForm').submit();
+            });
+        </script>
+        
+
+        <div class="d-flex justify-content-center">
+            <form id="searchByIngresosForm" th:action="@{/habitaciones/ingresos}" method="get">
+                <div class="input-group input-group-sm mb-2">
+                    <div class="input-group-append">
+                        <button type="button" id="searchByIngresosButton" class="btn btn-secondary">Buscar por Ingresos</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        
+        <script>
+                document.getElementById('searchByIngresosButton').addEventListener('click', function() {
+                document.getElementById('searchByIngresosForm').submit();
+            });
+        </script>
+
+    <div class="d-flex justify-content-center">
+        <form id="searchByMenorOcForm" th:action="@{/habitaciones/menorDemanda}" method="get">
+            <div class="input-group input-group-sm mb-2">
+                <div class="input-group-append">
+                    <button type="button" id="searchByMenorOcButton" class="btn btn-secondary">Buscar por menor ocupación</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <script>
+            document.getElementById('searchByMenorOcButton').addEventListener('click', function() {
+            document.getElementById('searchByMenorOcForm').submit();
+        });
+    </script>
+
+        
+
+
         <br />
 
         <table class="table table-condensed table-hover table-bordered" style="border-collapse:collapse;">

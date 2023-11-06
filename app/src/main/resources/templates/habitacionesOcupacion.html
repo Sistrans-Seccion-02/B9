@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <title>Resultados búsqueda por ocupacion</title>
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+</html>
+<body>
+    <h1>Fechas de mayor ocupacion</h1>
+    <table class="table table-condensed table-hover">
+        <tr>
+            <th>Fecha</th>
+            <th>Ocupacion</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr th:each="row : ${habitaciones}">
+            <td th:text="${row.FECHA}"></td>
+            <td th:text="${row.HABITACIONES_OCUPADAS}"></td>
+        </tr>
+    </tbody>
+    </table>
+    <a th:href="@{/habitaciones}">Volver atrás</a>
+
+</body>
+</html>
+```

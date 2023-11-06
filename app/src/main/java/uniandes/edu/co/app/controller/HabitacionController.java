@@ -1,5 +1,5 @@
 package uniandes.edu.co.app.controller;
-
+import java.util.Collection;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import uniandes.edu.co.app.modelo.Habitacion;
 import uniandes.edu.co.app.repositorio.HabitacionRepo;
+import uniandes.edu.co.app.repositorio.HabitacionRepo.RespuestaOcupacionHabitacion;
 
 @Controller
 public class HabitacionController {
@@ -40,6 +41,31 @@ public class HabitacionController {
         }
         return "habitaciones";
     }
+
+    @GetMapping("/habitaciones/ocupacion")
+    public String habitacionesOcupadas(Model model) {
+
+        Collection<RespuestaOcupacionHabitacion> resultados = habitacionRepository.darHabitacionesOcupadas();
+        model.addAttribute("habitaciones", resultados);
+        return "habitacionesOcupacion";
+    }
+
+    @GetMapping("/habitaciones/ingresos")
+    public String habitacionesIngresos(Model model) {
+
+        Collection<HabitacionRepo.RespuestaFechasMayoresIngresos> resultados = habitacionRepository.darFechasMayoresIngresos();
+        model.addAttribute("habitaciones", resultados);
+        return "habitacionesIngresos";
+    }
+
+    @GetMapping("/habitaciones/menorDemanda")
+    public String habitacionesMenorDemanda(Model model) {
+
+        Collection<HabitacionRepo.RespuestaMenorDemanda> resultados = habitacionRepository.darMenorDemanda();
+        model.addAttribute("habitaciones", resultados);
+        return "habitacionesMenorDemanda";
+    }
+    
 
     @GetMapping("/habitaciones/new")
     public String habitacionForm(Model model) {
