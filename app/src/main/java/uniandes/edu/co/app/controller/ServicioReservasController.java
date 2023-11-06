@@ -58,14 +58,12 @@ public class ServicioReservasController {
 
         java.sql.Date sqlFechaInicial = new java.sql.Date(fechaInicial.getTime());
         java.sql.Date sqlFechaFinal = new java.sql.Date(fechaFinal.getTime());
-
-        Double precio = res.getPrecio()
         repo.insertarReservas(
             sqlFechaInicial,
             sqlFechaFinal,
             res.getIdhabitacion(),
             res.getTipo(),
-            precio);
+            res.getPrecio());
 
         return "redirect:/servicioreservas";
     } catch (ParseException e) {
