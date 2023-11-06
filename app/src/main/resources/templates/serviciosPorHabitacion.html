@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dinero Recolectado por Servicios</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
+    <script th:src="@{/css/jquery.min.js}"></script>
+    <script th:src="@{/css/bootstrap.min.js}"></script>
+</head>
+<body>
+    <div class="text-center">
+        <h1>Dinero Recolectado por Servicios</h1>
+        
+        <!-- Agrega filtros de búsqueda si es necesario -->
+        
+        <table class="table table-condensed table-hover table-bordered" style="border-collapse:collapse;">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Servicio</th>
+                    <th>Dinero Recolectado</th>
+                    <th>Detalles</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Itera sobre los resultados y muestra cada uno -->
+                <th:block th:each="resultado : ${resultados}">
+                    <tr>
+                        <td th:text="${resultado.servicio}"></td>
+                        <td th:text="${resultado.dineroRecolectado}"></td>
+                        <td>
+                            <!-- Agrega un enlace para ver detalles del resultado -->
+                            <a th:href="@{/detalleResultado/{id}(id=${resultado.id})}">Ver Detalles</a>
+                        </td>
+                    </tr>
+                </th:block>
+            </tbody>
+        </table>
+        
+        <div class="text-center">
+            <a th:href='@{otroRequerimiento}' class="btn btn-primary">Otro Requerimiento</a>
+            <a th:href="@{/}" class="btn btn-primary"> Volver Atrás</a>
+        </div>
+    </div>
+</body>
+</html>

@@ -18,17 +18,19 @@ public class ServicioReservas {
     private String fechafinal;
     private Integer idhabitacion;
     private String tipo;
+    private Double precio;
 
     public ServicioReservas() {
         ;
     }
 
-    public ServicioReservas(String fechainicial, String fechafinal, Integer idhabitacion, String tipo) {
+    public ServicioReservas(String fechainicial, String fechafinal, Integer idhabitacion, String tipo, Double precio) {
 
             this.fechainicial = fechainicial;
             this.fechafinal = fechafinal;
             this.idhabitacion = idhabitacion;
             this.tipo = tipo;
+            this.precio = precio;
     }
 
     public Integer getId() {
@@ -37,6 +39,9 @@ public class ServicioReservas {
 
     public String getTipo() {
         return tipo;
+    }
+    public Double getPrecio() {
+        return precio;
     }
 
     public String getFechainicial() {
@@ -69,6 +74,10 @@ public class ServicioReservas {
 
     public void setTipo(String tipo) {
         this.tipo = tipo;
+    }
+
+    public void setPrecio(Double precio){
+        this.precio = precio;
     }
 
 }

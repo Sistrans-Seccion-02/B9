@@ -49,6 +49,7 @@
                     <th>FechaFinal</th>
                     <th>idHabitacion</th>
                     <th>tipo</th>
+                    <th>precio</th>
                 </tr>
             </thead>
             <tbody>
@@ -59,6 +60,7 @@
                         <td th:text="${reserva.fechafinal}"></td>
                         <td th:text="${reserva.idhabitacion}"></td>
                         <td th:text="${reserva.tipo}"></td>
+                        <td th:text="${reserva.precio}"></td>
                         <td>
                             <a th:href="@{servicioreservas/{id}/edit(id=${reserva.id})}">Editar</a>
                             <a th:href="@{servicioreservas/{id}/delete(id=${reserva.id})}"

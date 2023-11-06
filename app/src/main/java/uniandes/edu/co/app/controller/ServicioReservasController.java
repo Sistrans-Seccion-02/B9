@@ -59,11 +59,13 @@ public class ServicioReservasController {
         java.sql.Date sqlFechaInicial = new java.sql.Date(fechaInicial.getTime());
         java.sql.Date sqlFechaFinal = new java.sql.Date(fechaFinal.getTime());
 
+        Double precio = res.getPrecio()
         repo.insertarReservas(
             sqlFechaInicial,
             sqlFechaFinal,
             res.getIdhabitacion(),
-            res.getTipo());
+            res.getTipo(),
+            precio);
 
         return "redirect:/servicioreservas";
     } catch (ParseException e) {
@@ -93,7 +95,7 @@ public class ServicioReservasController {
         java.sql.Date sqlFechaInicial = new java.sql.Date(fechaInicial.getTime());
         java.sql.Date sqlFechaFinal = new java.sql.Date(fechaFinal.getTime());
 
-        repo.actualizarReservas(id, sqlFechaInicial, sqlFechaFinal, res.getIdhabitacion(), res.getTipo());
+        repo.actualizarReservas(id, sqlFechaInicial, sqlFechaFinal, res.getIdhabitacion(), res.getTipo(), res.getPrecio());
 
         return "redirect:/servicioreservas";
     } catch (ParseException e) {

@@ -39,21 +39,23 @@ public interface ServicioReservasRepo extends JpaRepository<ServicioReservas, In
 
     @Modifying
     @Transactional
-    @Query(value = "UPDATE servicioreservas SET fechainicial = :fechainicial, fechafinal = :fechafinal, idhabitacion = :idhabitacion, tipo = :tipo WHERE id = :id", nativeQuery = true)
+    @Query(value = "UPDATE servicioreservas SET fechainicial = :fechainicial, fechafinal = :fechafinal, idhabitacion = :idhabitacion, tipo = :tipo, precio = :precio WHERE id = :id", nativeQuery = true)
     void actualizarReservas(@Param("id") long id, 
     @Param("fechainicial") Date fechainicial, 
     @Param("fechafinal") Date fechafinal,
     @Param("idhabitacion") Integer idhabitacion,
-    @Param("tipo") String tipo
+    @Param("tipo") String tipo,
+    @Param("precio") Double precio
     );
 
     @Modifying
     @Transactional
-    @Query(value = "INSERT INTO servicioreservas (id, fechainicial, fechafinal, idhabitacion, tipo) VALUES ( hotelandes_sequence.nextval , :fechainicial, :fechafinal, :idhabitacion, :tipo)", nativeQuery = true)
+    @Query(value = "INSERT INTO servicioreservas (id, fechainicial, fechafinal, idhabitacion, tipo) VALUES ( hotelandes_sequence.nextval , :fechainicial, :fechafinal, :idhabitacion, :tipo, :precio)", nativeQuery = true)
     void insertarReservas(@Param("fechainicial") Date fechainicial, 
                 @Param("fechafinal") Date fechafinal,
                 @Param("idhabitacion") Integer idhabitacion,
-                @Param("tipo") String tipo
+                @Param("tipo") String tipo,
+                @Param("precio") Double precio
     );
 
 }
