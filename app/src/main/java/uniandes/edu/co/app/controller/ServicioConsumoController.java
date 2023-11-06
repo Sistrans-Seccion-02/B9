@@ -3,17 +3,20 @@ package uniandes.edu.co.app.controller;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-
+import java.util.Collection;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import uniandes.edu.co.app.modelo.ServicioConsumo;
 import uniandes.edu.co.app.repositorio.ServicioConsumoRepo;
+import uniandes.edu.co.app.repositorio.ServicioConsumoRepo.RespuestaServicioConsumoPorCliente;
 
 @Controller
 public class ServicioConsumoController {
@@ -32,6 +35,27 @@ public class ServicioConsumoController {
 
         return "serviciosconsumo";
     }
+
+    @GetMapping("/serviciosconsumo/buscar")
+    public String servicioConsumoPorClienteFecha(Model model,
+        @RequestParam(name = "idusuario") long idusuario,
+        @RequestParam(name = "fechainicio") @DateTimeFormat(pattern = "yyyy-MM-dd") Date fechainicio,
+        @RequestParam(name = "fechafin") @DateTimeFormat(pattern = "yyyy-MM-dd") Date fechafin) {
+    
+        // Convierte los objetos java.util.Date a java.sql.Date
+        java.sql.Date sqlfechaI = new java.sql.Date(fechainicio.getTime());
+        java.sql.Date sqlfechaF = new java.sql.Date(fechafin.getTime());
+    
+        // Realiza la consulta y obtiene los resultados
+        Collection<RespuestaServicioConsumoPorCliente> resultados = servicioConsumoRepository.darServicioConsumoPorCliente(idusuario, sqlfechaI, sqlfechaF);
+    
+        // Agrega los resultados al modelo
+        model.addAttribute("serviciosconsumo", resultados);
+    
+        return "serviciosconsumoBuscar";
+    }
+    
+    
 
     @GetMapping("/serviciosconsumo/new")
     public String servicioConsumoForm(Model model) {

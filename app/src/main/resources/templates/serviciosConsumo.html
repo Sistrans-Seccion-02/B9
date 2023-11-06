@@ -24,6 +24,18 @@
                 </form>
             </div>
 
+            <div class="col-6">
+                <form th:action="@{/serviciosconsumo/buscar}" method="get">
+                    <div class="input-group input-group-sm mb-2">
+                        <input class='form-control' id="idusuario" type="text" name="idusuario">
+                        <input class='form-control' id="fechainicio" type="date" name="fechainicio">
+                        <input class='form-control' id="fechafin" type="date" name="fechafin">
+                        <div class="input-group-append">
+                            <button type="submit" class="btn btn-secondary">Buscar por Cliente y Fecha</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
         </div>
 
         <br />
