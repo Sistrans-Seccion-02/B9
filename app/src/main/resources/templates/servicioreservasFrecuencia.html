@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Resultados de servicios menos solicitados</title>
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+</head>
+
+<body>
+    <h1>Resultados de la búsqueda de servicios menos solicitados</h1>
+    <table class="table table-condensed table-hover">
+        <thead class="thead-dark">
+            <tr>
+                <th>Servicio</th>
+                <th>Frecuencia total</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr th:each="row : ${servicioreservas}">
+                <td th:text="${row.SERVICIO}"></td>
+                <td th:text="${row.FRECUENCIA_TOTAL}"></td>
+                
+
+            </tr>
+        </tbody>
+    </table>
+    <a th:href="@{/serviciosreserva}">Volver atrás</a>
+</body>
+</html>

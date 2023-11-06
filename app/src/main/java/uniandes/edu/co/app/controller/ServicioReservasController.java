@@ -3,7 +3,7 @@ package uniandes.edu.co.app.controller;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-
+import java.util.Collection;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 
 import uniandes.edu.co.app.modelo.ServicioReservas;
 import uniandes.edu.co.app.repositorio.ServicioReservasRepo;
+import uniandes.edu.co.app.repositorio.ServicioReservasRepo.respuestaFrecuenciaServicios;
 
 @Controller
 public class ServicioReservasController {
@@ -32,6 +33,13 @@ public class ServicioReservasController {
             model.addAttribute("servicioreservas", repo.darReservas());
         }
         return "servicioreservas";
+    }
+
+    @GetMapping("/servicioreservas/frecuencia")
+    public String serviciosFrecuencia(Model model) {
+        Collection<respuestaFrecuenciaServicios> frecuenciaServicios = repo.frecuenciaServicios();
+        model.addAttribute("servicioreservas", frecuenciaServicios);
+        return "servicioreservasFrecuencia";
     }
 
     @GetMapping("/servicioreservas/new")
@@ -85,7 +93,7 @@ public class ServicioReservasController {
         java.sql.Date sqlFechaInicial = new java.sql.Date(fechaInicial.getTime());
         java.sql.Date sqlFechaFinal = new java.sql.Date(fechaFinal.getTime());
 
-        repo.actualizarReservas(id, sqlFechaInicial, sqlFechaFinal, res.getIdhabitacion(), res.getIdspa(), res.getIdsalon(), res.getIdlavanderia());
+        repo.actualizarReservas(id, sqlFechaInicial, sqlFechaFinal, res.getIdhabitacion(), res.getTipo());
 
         return "redirect:/servicioreservas";
     } catch (ParseException e) {

@@ -19,6 +19,19 @@ public interface ServicioReservasRepo extends JpaRepository<ServicioReservas, In
     @Query(value = "SELECT * FROM servicioreservas WHERE id = :id", nativeQuery = true)
     ServicioReservas darReserva(@Param("id") long id);
 
+    public interface respuestaFrecuenciaServicios{
+        String getSERVICIO();
+        Integer getFRECUENCIA_TOTAL();
+    }
+    @Query(value = "SELECT S.TIPO AS SERVICIO, "+//
+                   "COUNT(*) AS FRECUENCIA_TOTAL "+//
+                   "FROM SERVICIORESERVAS S "+//
+                   "WHERE FECHAINICIAL >= ADD_MONTHS(SYSDATE, -12) "+//
+                   "GROUP BY S.TIPO "+//
+                   "HAVING COUNT(*) < 3", nativeQuery = true)
+    Collection<respuestaFrecuenciaServicios> frecuenciaServicios();
+
+
     @Modifying
     @Transactional
     @Query(value = "DELETE FROM servicioreservas WHERE id = :id", nativeQuery = true)
