@@ -5,12 +5,14 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Collection;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import uniandes.edu.co.app.modelo.ServicioReservas;
 import uniandes.edu.co.app.repositorio.ServicioReservasRepo;
@@ -51,6 +53,24 @@ public class ServicioReservasController {
 
         return "dineroRecolectadoPorServicios"; // Debes crear una vista para mostrar los resultados
     }
+
+    @GetMapping("/servicioreservas/populares")
+    public String mostrarServiciosPopulares(Model model,
+        @RequestParam(name = "fechainicio", required = false) @DateTimeFormat(pattern = "yyyy-MM-dd") Date fechainicio,
+        @RequestParam(name = "fechafin", required = false) @DateTimeFormat(pattern = "yyyy-MM-dd") Date fechafin) {
+    
+        // Verifica si los parámetros se proporcionaron en la solicitud
+        if (fechainicio != null && fechafin != null) {
+            java.sql.Date sqlfechaI = new java.sql.Date(fechainicio.getTime());
+            java.sql.Date sqlfechaF = new java.sql.Date(fechafin.getTime());
+    
+            Collection<ServicioReservasRepo.RespuestaServiciosPopulares> serviciosPopulares = repo.serviciosPopulares(sqlfechaI, sqlfechaF);
+            model.addAttribute("serviciosPopulares", serviciosPopulares);
+        }
+    
+        return "serviciosPopulares"; // Debes crear una vista para mostrar los resultados
+    }
+    
 
     @GetMapping("/servicioreservas/new")
     public String reservaForm(Model model) {

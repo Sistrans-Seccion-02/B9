@@ -76,4 +76,20 @@ public interface ServicioReservasRepo extends JpaRepository<ServicioReservas, In
                "GROUP BY h.id", nativeQuery = true)
                Collection<RespuestaDineroRecolectadoPorServicio> obtenerDineroRecolectadoPorDiferentesServicios();
                 
+               public interface RespuestaServiciosPopulares {
+                String getSERVICIO();
+                Long getFRECUENCIA_TOTAL();
+            }
+        
+            @Query(value =
+                "SELECT UPPER(S.TIPO) AS SERVICIO, " +
+                "COUNT(*) AS FRECUENCIA_TOTAL " +
+                "FROM SERVICIORESERVAS S " +
+                "WHERE S.FECHAINICIAL BETWEEN :fechaInicio AND :fechaFin " +
+                "GROUP BY UPPER(S.TIPO) " +
+                "ORDER BY FRECUENCIA_TOTAL DESC " +
+                "FETCH FIRST 20 ROWS ONLY",
+                nativeQuery = true)
+            Collection<RespuestaServiciosPopulares> serviciosPopulares(@Param("fechaInicio") Date fechaInicio, @Param("fechaFin") Date fechaFin);
+
 }
