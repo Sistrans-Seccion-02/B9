@@ -59,9 +59,8 @@ public interface ServicioReservasRepo extends JpaRepository<ServicioReservas, In
     );
 
     public interface RespuestaDineroRecolectadoPorServicio {
-        Long getIdHabitacion();
-        Integer getNumeroHabitacion();
-        Double getDineroRecolectado();
+        Long getid_habitacion();
+        Double getdinero_recolectado();
     }
 
     @Query(value =

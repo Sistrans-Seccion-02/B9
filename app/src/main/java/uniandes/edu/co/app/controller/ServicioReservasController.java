@@ -46,7 +46,6 @@ public class ServicioReservasController {
      @GetMapping("/dineroRecolectadoPorServicios")
     public String mostrarDineroRecolectadoPorServicios(Model model) {
         Collection<RespuestaDineroRecolectadoPorServicio> resultados = repo.obtenerDineroRecolectadoPorDiferentesServicios();
-        System.out.println(resultados);
         // Agrega los resultados al modelo para mostrar en la vista
         model.addAttribute("dineroRecolectadoPorServicios", resultados);
 
