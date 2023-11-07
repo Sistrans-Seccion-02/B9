@@ -9,6 +9,7 @@ import org.springframework.transaction.annotation.Transactional;
 import uniandes.edu.co.app.modelo.ServicioReservas;
 
 import java.sql.Date;
+import java.sql.Timestamp;
 import java.util.Collection;
 
 public interface ServicioReservasRepo extends JpaRepository<ServicioReservas, Integer> {
@@ -94,8 +95,8 @@ public interface ServicioReservasRepo extends JpaRepository<ServicioReservas, In
 
             public interface RespuestaServiciosConCaracteristicas {
                 Long getservicio_id();
-                Date getfecha_inicial();
-                Date getfecha_final();
+                Timestamp getfecha_inicial();
+                Timestamp getfecha_final();
                 Long getid_habitacion();
                 String gettipo_servicio();
                 Double getprecio_servicio();

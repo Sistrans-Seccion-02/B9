@@ -41,15 +41,15 @@
                 </tr>
             </thead>
             <tbody>
-                <th:block th:each="resultado: ${serviciosPopulares}">
+                <th:block th:each="resultado: ${serviciosConCaracteristicas}">
                     <tr>
-                    <td th:text="${resultado.getservicio_id}"></td>
-                    <td th:text="${resultado.getfecha_inicial}"></td>
-                    <td th:text="${resultado.getfecha_final}"></td>
-                    <td th:text="${resultado.getid_habitacion}"></td>
-                    <td th:text="${resultado.gettipo_servicio}"></td>
-                    <td th:text="${resultado.getprecio_servicio}"></td>
-                </tr>
+                        <td th:text="${resultado.getservicio_id}"></td>
+                        <td th:text="${resultado.getfecha_inicial}"></td>
+                        <td th:text="${resultado.getfecha_final}"></td>
+                        <td th:text="${resultado.getid_habitacion}"></td>
+                        <td th:text="${resultado.gettipo_servicio}"></td>
+                        <td th:text="${resultado.getprecio_servicio}"></td>
+                    </tr>
                 </th:block>
             </tbody>
             
