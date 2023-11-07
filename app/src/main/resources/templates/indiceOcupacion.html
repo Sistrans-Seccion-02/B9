@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Índice de Ocupación por Habitación</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
+    <script th:src="@{/css/jquery.min.js}"></script>
+    <script th:src="@{/css/bootstrap.min.js}"></script>
+</head>
+<body>
+    <div class="text-center">
+        <h1>Índice de Ocupación por Habitación (Último Año)</h1>
+        <table class="table table-condensed table-hover table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Habitación</th>
+                    <th>Índice de Ocupación (%)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Itera sobre los resultados y muestra cada uno -->
+                <th:block th:each="resultado : ${indiceOcupacion}">
+                    <tr>
+                        <td th:text="${resultado.getnumeroHabitacion}"></td>
+                        <td th:text="${resultado.getporcentajeOcupacion}"></td>
+                    </tr>
+                </th:block>
+            </tbody>
+        </table>
+        <div>
+            <a th:href="@{/}" class="btn btn-primary"> Volver Atrás</a>
+        </div>
+    </div>
+</body>
+</html>

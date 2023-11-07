@@ -37,4 +37,20 @@ public interface ReservaRepo extends JpaRepository<Reserva, Integer> {
     void insertarReserva(@Param("fecha") Date fecha, @Param("fechaFinal") Date fechaFinal,
             @Param("personas") Integer personas, @Param("habtacionid") Integer habitacionid, @Param("planesid") Integer planesid, @Param("usuarioid") Integer usuarioid);
 
+        
+        public interface IndiceOcupacionPorHabitacion {
+        Long getnumeroHabitacion();
+        Double getporcentajeOcupacion();
+        }   
+        @Query(value =
+        "SELECT r.habtacionid AS numeroHabitacion, " +
+        "ROUND(SUM(MONTHS_BETWEEN(r.fechafinal, r.fecha) / 12.0) * 100, 2) AS porcentajeOcupacion " +
+        "FROM reservas r " +
+        "WHERE r.fecha BETWEEN ADD_MONTHS(SYSDATE, -12) AND SYSDATE " +
+        "GROUP BY r.habtacionid",
+        nativeQuery = true)
+    Collection<IndiceOcupacionPorHabitacion> calcularIndiceOcupacionPorHabitacion();
+    
+        
+
 }
