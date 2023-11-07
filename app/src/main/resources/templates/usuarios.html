@@ -70,6 +70,67 @@
         });
     </script>
 
+    <div class="d-flex justify-content-center">
+        <form id="searchByConsumoForm" th:action="@{/usuarios/consultaConsumo}" method="get">
+            <div class="input-group input-group-sm mb-2">
+                <div class="input-group-append">
+                    <input class='form-control' id="fechainicio" type="text" name="fechainicio">
+                    <input class='form-control' id="fechafin" type="text" name="fechafin">
+                    <div class="input-group-append">
+                        <button type="submit" class="btn btn-secondary">Consultar consumo hotelandes (RFC9)</button>
+                    </div>
+                </div>
+            </div> 
+        </form>
+    </div>
+
+
+    <script>
+            document.getElementById('searchByConsumoButton').addEventListener('click', function() {
+            document.getElementById('searchByConsumoForm').submit();
+        });
+    </script>
+
+
+    <div class="d-flex justify-content-center">
+        <form id="searchByConsumoFormV2" th:action="@{/usuarios/consultaConsumoV2}" method="get">
+            <div class="input-group input-group-sm mb-2">
+                <div class="input-group-append">
+                    <input class='form-control' id="fechainicio" type="text" name="fechainicio">
+                    <input class='form-control' id="fechafin" type="text" name="fechafin">
+                    <div class="input-group-append">
+                        <button type="submit" class="btn btn-secondary">Consultar NO-consumo hotelandes (RFC10)</button>
+                    </div>
+                </div>
+            </div> 
+        </form>
+    </div>
+
+
+    <script>
+            document.getElementById('searchByConsumoButtonV2').addEventListener('click', function() {
+            document.getElementById('searchByConsumoFormV2').submit();
+        });
+    </script>
+
+
+    <div class="d-flex justify-content-center">
+        <form id="searchByClientesForm" th:action="@{/usuarios/clientesExcelentes}" method="get">
+            <div class="input-group input-group-sm mb-2">
+                <div class="input-group-append">
+                    <button type="submit" class="btn btn-secondary">Consultar clientes excelentes (RFC12)</button>
+                </div>
+            </div> 
+        </form>
+    </div>
+
+
+    <script>
+            document.getElementById('searchByClientesButton').addEventListener('click', function() {
+            document.getElementById('searchByClientesForm').submit();
+        });
+    </script>
+
 
         <br />
 

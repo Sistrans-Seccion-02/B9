@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Resultados de la búsqueda de consulta funcionamiento</title>
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+</head>
+
+<body>
+    <h1>Consulta funcionamiento</h1>
+    <table class="table table-condensed table-hover">
+        <thead class="thead-dark">
+            <tr>
+                <th>Inicio Semana</th>
+                <th>Fin semana</th>
+                <th>Servicio mas consumido</th>
+                <th>Servicio menos consumido</th>
+                <th>Habitacion mas solicitada</th>
+                <th>Habitacion menos solicitada</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <th:block th:each="row : ${serviciosconsumo}">
+                <td th:text="${row.INICIO}"></td>
+                <td th:text="${row.FIN}"></td>
+                <td th:text="${row.SERVICIOMASCONSUMIDO}"></td>
+                <td th:text="${row.SERVICIOMENOSCONSUMIDO}"></td>
+                <td th:text="${row.HABITACIONMASSOLICITADA}"></td>
+                <td th:text="${row.HABITACIONMENOSSOLICITADA}"></td>
+            
+            </tr>
+        </tbody>
+    </table>
+    <a th:href="@{/serviciosconsumo}">Volver atrás</a>
+</body>
+</html>

@@ -38,6 +38,24 @@
             </div>
         </div>
 
+        <div class="d-flex justify-content-center">
+            <form id="searchByFuncionamientoForm" th:action="@{/serviciosconsumo/consultaFuncionamiento}" method="get">
+                <div class="input-group input-group-sm mb-2">
+                    <div class="input-group-append">
+                        <button type="submit" class="btn btn-secondary">Consultar funcionamiento (RFC11)</button>
+                    </div>
+                </div> 
+            </form>
+        </div>
+    
+    
+        <script>
+                document.getElementById('searchByFuncionamientoButton').addEventListener('click', function() {
+                document.getElementById('searchByFuncionamientoForm').submit();
+            });
+        </script>
+
+        
         <br />
 
         <table class="table table-condensed table-hover table-bordered" style="border-collapse:collapse;">
