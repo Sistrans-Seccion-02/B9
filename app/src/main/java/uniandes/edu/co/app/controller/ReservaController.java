@@ -1,5 +1,7 @@
 package uniandes.edu.co.app.controller;
 
+import java.util.Collection;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -10,6 +12,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 
 import uniandes.edu.co.app.modelo.Reserva;
 import uniandes.edu.co.app.repositorio.ReservaRepo;
+import uniandes.edu.co.app.repositorio.ReservaRepo.IndiceOcupacionPorHabitacion;
 
 @Controller
 public class ReservaController {
@@ -63,6 +66,17 @@ public class ReservaController {
     public String reservaBorrar(@PathVariable("id") long id) {
         reservaRepository.eliminarReserva(id);
         return "redirect:/reservas";
+    }
+
+   @GetMapping("/reservas/indiceocupacion")
+    public String mostrarIndiceOcupacion(Model model) {
+        // Obtén los datos del índice de ocupación para el último año
+        Collection<IndiceOcupacionPorHabitacion> resultados = reservaRepository.calcularIndiceOcupacionPorHabitacion();
+
+        // Agrega los resultados al modelo para mostrar en la vista
+        model.addAttribute("indiceOcupacion", resultados);
+
+        return "indiceOcupacion"; // Debes crear una vista para mostrar los resultados
     }
 
 }

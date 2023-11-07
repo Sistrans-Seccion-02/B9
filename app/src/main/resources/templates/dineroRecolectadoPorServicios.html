@@ -15,28 +15,22 @@
         <table class="table table-condensed table-hover table-bordered" style="border-collapse:collapse;">
             <thead class="thead-dark">
                 <tr>
-                    <th>Servicio</th>
+                    <th>id_Habitacion</th>
                     <th>Dinero Recolectado</th>
-                    <th>Detalles</th>
                 </tr>
             </thead>
             <tbody>
                 <!-- Itera sobre los resultados y muestra cada uno -->
-                <th:block th:each="resultado : ${resultados}">
-                    <tr>
-                        <td th:text="${resultado.servicio}"></td>
-                        <td th:text="${resultado.dineroRecolectado}"></td>
-                        <td>
-                            <!-- Agrega un enlace para ver detalles del resultado -->
-                            <a th:href="@{/detalleResultado/{id}(id=${resultado.id})}">Ver Detalles</a>
-                        </td>
-                    </tr>
-                </th:block>
+                <th:block th:each="resultado : ${dineroRecolectadoPorServicios}">
+    <tr>
+        <td th:text="${resultado.getid_habitacion}"></td>
+        <td th:text="${resultado.getdinero_recolectado}"></td>
+    </tr>
+</th:block>
             </tbody>
         </table>
         
         <div class="text-center">
-            <a th:href='@{otroRequerimiento}' class="btn btn-primary">Otro Requerimiento</a>
             <a th:href="@{/}" class="btn btn-primary"> Volver Atrás</a>
         </div>
     </div>
