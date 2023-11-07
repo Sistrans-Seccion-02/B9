@@ -92,4 +92,36 @@ public interface ServicioReservasRepo extends JpaRepository<ServicioReservas, In
                 nativeQuery = true)
             Collection<RespuestaServiciosPopulares> serviciosPopulares(@Param("fechaInicio") Date fechaInicio, @Param("fechaFin") Date fechaFin);
 
+            public interface RespuestaServiciosConCaracteristicas {
+                Long getservicio_id();
+                Date getfecha_inicial();
+                Date getfecha_final();
+                Long getid_habitacion();
+                String gettipo_servicio();
+                Double getprecio_servicio();
+
+            }
+            
+            @Query(value = 
+            "SELECT S.id as servicio_id, " +
+            "S.fechainicial as fecha_inicial, " +
+            "S.fechafinal as fecha_final, " +
+            "S.idhabitacion as id_habitacion, " +
+            "S.tipo as tipo_servicio, " +
+            "S.precio as precio_servicio " +
+            "FROM SERVICIORESERVAS S " +
+            "WHERE (:fechaInicio IS NULL OR S.FECHAINICIAL BETWEEN :fechaInicio AND :fechaFin) " +
+            "AND (:rangoPrecioMin IS NULL OR S.PRECIO >= :rangoPrecioMin) " +
+            "AND (:rangoPrecioMax IS NULL OR S.PRECIO <= :rangoPrecioMax) " +
+            "AND (:tipoServicio IS NULL OR UPPER(S.TIPO) = UPPER(:tipoServicio))",
+            nativeQuery = true)
+        Collection<RespuestaServiciosConCaracteristicas> serviciosConCaracteristicas(
+            @Param("fechaInicio") Date fechaInicio, 
+            @Param("fechaFin") Date fechaFin,
+            @Param("rangoPrecioMin") Double rangoPrecioMin, 
+            @Param("rangoPrecioMax") Double rangoPrecioMax,
+            @Param("tipoServicio") String tipoServicio
+        );
+        
+            
 }

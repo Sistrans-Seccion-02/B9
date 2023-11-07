@@ -3,6 +3,7 @@ package uniandes.edu.co.app.controller;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Optional;
 import java.util.Collection;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.format.annotation.DateTimeFormat;
@@ -13,11 +14,17 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.thymeleaf.util.DateUtils;
 
 import uniandes.edu.co.app.modelo.ServicioReservas;
 import uniandes.edu.co.app.repositorio.ServicioReservasRepo;
 import uniandes.edu.co.app.repositorio.ServicioReservasRepo.RespuestaDineroRecolectadoPorServicio;
+import uniandes.edu.co.app.repositorio.ServicioReservasRepo.RespuestaServiciosConCaracteristicas;
 import uniandes.edu.co.app.repositorio.ServicioReservasRepo.respuestaFrecuenciaServicios;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Optional;
 
 @Controller
 public class ServicioReservasController {
@@ -70,7 +77,35 @@ public class ServicioReservasController {
     
         return "serviciosPopulares"; // Debes crear una vista para mostrar los resultados
     }
+
+
+    @GetMapping("/servicioreservas/serviciosConCaracteristicas")
+    public String obtenerServiciosConCaracteristicas(Model model,
+        @RequestParam(name = "fechaInicio", required = false) @DateTimeFormat(pattern = "yyyy-MM-dd") Date fechainicio,
+        @RequestParam(name = "fechaFin", required = false) @DateTimeFormat(pattern = "yyyy-MM-dd") Date fechafin,
+        @RequestParam(name = "rangoPrecioMin", required = false) Double rangoPrecioMin,
+        @RequestParam(name = "rangoPrecioMax", required = false) Double rangoPrecioMax,
+        @RequestParam(name = "tipoServicio", required = false) String tipoServicio) {
     
+        if (fechainicio != null && fechafin != null) {
+            java.sql.Date sqlfechaI = new java.sql.Date(fechainicio.getTime());
+            java.sql.Date sqlfechaF = new java.sql.Date(fechafin.getTime());
+    
+        // Realiza la consulta
+        Collection<RespuestaServiciosConCaracteristicas> serviciosConCaracteristicas = repo.serviciosConCaracteristicas(
+            sqlfechaI,
+            sqlfechaF,
+            rangoPrecioMin,
+            rangoPrecioMax,
+            tipoServicio
+        );
+    
+        // Agrega los resultados al modelo
+        model.addAttribute("serviciosConCaracteristicas", serviciosConCaracteristicas);
+        }
+        return "serviciosConCaracteristicas"; // Debes crear una vista para mostrar los resultados
+    }
+     
 
     @GetMapping("/servicioreservas/new")
     public String reservaForm(Model model) {

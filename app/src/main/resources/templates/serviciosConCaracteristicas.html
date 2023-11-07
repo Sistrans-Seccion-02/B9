@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Consulta de Servicios con Características</title>
+        <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
+        <script th:src="@{/css/jquery.min.js}"></script>
+        <script th:src="@{/css/bootstrap.min.js}"></script>
+    </head>
+    <body>
+        <div class="text-center">
+        <h1>Consulta de Servicios con Características</h1>
+
+        <form action="/servicioreservas/serviciosConCaracteristicas" method="get">
+            <label for="fechaInicio">Fecha de Inicio:</label>
+            <input type="date" id="fechaInicio" name="fechaInicio">
+
+            <label for="fechaFin">Fecha Final:</label>
+            <input type="date" id="fechaFin" name="fechaFin">
+
+            <label for="rangoPrecioMin">Rango de Precio Mínimo:</label>
+            <input type="number" id="rangoPrecioMin" name="rangoPrecioMin">
+
+            <label for="rangoPrecioMax">Rango de Precio Máximo:</label>
+            <input type="number" id="rangoPrecioMax" name="rangoPrecioMax">
+
+            <label for="tipoServicio">Tipo de Servicio:</label>
+            <input type="text" id="tipoServicio" name="tipoServicio">
+
+            <button type="submit" class="btn btn-primary">Consultar</button>
+        </form>
+
+        <table class="table table-condensed table-hover table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th>servicio Id</th>
+                    <th>Fecha Inicial</th>
+                    <th>Fecha Final</th>
+                    <th>Id de Habitación</th>
+                    <th>Tipo de servicio</th>
+                    <th>Precio de Servicio</th>
+                </tr>
+            </thead>
+            <tbody>
+                <th:block th:each="resultado: ${serviciosPopulares}">
+                    <tr>
+                    <td th:text="${resultado.getservicio_id}"></td>
+                    <td th:text="${resultado.getfecha_inicial}"></td>
+                    <td th:text="${resultado.getfecha_final}"></td>
+                    <td th:text="${resultado.getid_habitacion}"></td>
+                    <td th:text="${resultado.gettipo_servicio}"></td>
+                    <td th:text="${resultado.getprecio_servicio}"></td>
+                </tr>
+                </th:block>
+            </tbody>
+            
+        </table>
+        <div>
+            <a th:href="@{/}" class="btn btn-primary"> Volver Atrás</a>
+        </div>
+    </div>
+    </body>
+</html>
