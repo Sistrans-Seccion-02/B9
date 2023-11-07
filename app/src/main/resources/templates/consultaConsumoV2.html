@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Resultados de la búsqueda de NO-consumo en hotelandes</title>
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+</head>
+
+<body>
+    <h1>NO-Consumo en hotelandes</h1>
+    <table class="table table-condensed table-hover">
+        <thead class="thead-dark">
+            <tr>
+                <th>ID usuario</th>
+                <th>Nombre</th>
+                <th>Documento</th>
+                <th>Tipo documento</th>
+                <th>Correo</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <th:block th:each="row : ${usuarios}">
+                <td th:text="${row.ID}"></td>
+                <td th:text="${row.NOMBRE}"></td>
+                <td th:text="${row.DOCUMENTO}"></td>
+                <td th:text="${row.TIPODOCUMENTO}"></td>
+                <td th:text="${row.CORREO}"></td>
+            
+            </tr>
+        </tbody>
+    </table>
+    <a th:href="@{/usuarios}">Volver atrás</a>
+</body>
+</html>

@@ -20,6 +20,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import uniandes.edu.co.app.modelo.ServicioConsumo;
 import uniandes.edu.co.app.repositorio.ServicioConsumoRepo;
 import uniandes.edu.co.app.repositorio.ServicioConsumoRepo.RespuestaServicioConsumoPorCliente;
+import uniandes.edu.co.app.repositorio.ServicioConsumoRepo.consultaFuncionamientoAtts;
 
 @Controller
 public class ServicioConsumoController {
@@ -41,23 +42,24 @@ public class ServicioConsumoController {
 
     @GetMapping("/serviciosconsumo/buscar")
     public String servicioConsumoPorClienteFecha(Model model,
-        @RequestParam(name = "idusuario") long idusuario,
-        @RequestParam(name = "fechainicio") @DateTimeFormat(pattern = "yyyy-MM-dd") Date fechainicio,
-        @RequestParam(name = "fechafin") @DateTimeFormat(pattern = "yyyy-MM-dd") Date fechafin) {
-    
+            @RequestParam(name = "idusuario") long idusuario,
+            @RequestParam(name = "fechainicio") @DateTimeFormat(pattern = "yyyy-MM-dd") Date fechainicio,
+            @RequestParam(name = "fechafin") @DateTimeFormat(pattern = "yyyy-MM-dd") Date fechafin) {
+
         // Convierte los objetos java.util.Date a java.sql.Date
         java.sql.Date sqlfechaI = new java.sql.Date(fechainicio.getTime());
         java.sql.Date sqlfechaF = new java.sql.Date(fechafin.getTime());
-    
+
         // Realiza la consulta y obtiene los resultados
-        Collection<RespuestaServicioConsumoPorCliente> resultados = servicioConsumoRepository.darServicioConsumoPorCliente(idusuario, sqlfechaI, sqlfechaF);
-    
+        Collection<RespuestaServicioConsumoPorCliente> resultados = servicioConsumoRepository
+                .darServicioConsumoPorCliente(idusuario, sqlfechaI, sqlfechaF);
+
         // Agrega los resultados al modelo
         model.addAttribute("serviciosconsumo", resultados);
-    
+
         return "serviciosconsumoBuscar";
     }
- 
+
 
     @GetMapping("/serviciosconsumo/new")
     public String servicioConsumoForm(Model model) {
@@ -120,6 +122,15 @@ public class ServicioConsumoController {
     public String servicioConsumoBorrar(@PathVariable("id") long id) {
         servicioConsumoRepository.eliminarServicioConsumo(id);
         return "redirect:/serviciosconsumo";
+    }
+
+    // RFC11 avanzado
+    @GetMapping("/serviciosconsumo/consultaFuncionamiento")
+    public String consultaFuncionamiento(Model model) {
+        Collection<consultaFuncionamientoAtts> consultaFuncionamiento = servicioConsumoRepository
+                .consultaFuncionamiento();
+        model.addAttribute("serviciosconsumo", consultaFuncionamiento);
+        return "consultaFuncionamiento";
     }
 
 }

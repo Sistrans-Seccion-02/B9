@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Resultados de la búsqueda de clientes excelentes</title>
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+</head>
+
+<body>
+    <h1>Clientes excelentes</h1>
+    <table class="table table-condensed table-hover">
+        <thead class="thead-dark">
+            <tr>
+                <th>ID usuario</th>
+                <th>Nombre</th>
+                <th>Correo</th>
+                <th>Documento</th>
+                <th>Tipo de cliente</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <th:block th:each="row : ${usuarios}">
+                <td th:text="${row.ID}"></td>
+                <td th:text="${row.NOMBRE}"></td>
+                <td th:text="${row.CORREO}"></td>
+                <td th:text="${row.DOCUMENTO}"></td>
+                <td th:text="${row.TIPOCLIENTEEXCELENTE}"></td>
+            
+            </tr>
+        </tbody>
+    </table>
+    <a th:href="@{/usuarios}">Volver atrás</a>
+</body>
+</html>

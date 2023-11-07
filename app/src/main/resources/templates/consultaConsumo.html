@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Resultados de la búsqueda de consumo en hotelandes</title>
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+</head>
+
+<body>
+    <h1>Consumo en hotelandes</h1>
+    <table class="table table-condensed table-hover">
+        <thead class="thead-dark">
+            <tr>
+                <th>ID usuario</th>
+                <th>Nombre</th>
+                <th>Documento</th>
+                <th>Tipo documento</th>
+                <th>Correo</th>
+                <th>Descripcion</th>
+                <th>Costo</th>
+                <th>Fecha</th>
+                <th>idHabitacion</th>
+                <th>idProducto</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <th:block th:each="row : ${usuarios}">
+                <td th:text="${row.ID}"></td>
+                <td th:text="${row.NOMBRE}"></td>
+                <td th:text="${row.DOCUMENTO}"></td>
+                <td th:text="${row.TIPODOCUMENTO}"></td>
+                <td th:text="${row.CORREO}"></td>
+                <td th:text="${row.DESCRIPCION}"></td>
+                <td th:text="${row.COSTO}"></td>
+                <td th:text="${row.FECHA}"></td>
+                <td th:text="${row.IDHABITACION}"></td>
+                <td th:text="${row.IDPRODUCTO}"></td>
+                
+
+            </tr>
+        </tbody>
+    </table>
+    <a th:href="@{/usuarios}">Volver atrás</a>
+</body>
+</html>
