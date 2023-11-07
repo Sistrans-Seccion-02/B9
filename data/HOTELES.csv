@@ -1,0 +1,1001 @@
+id,NOMBRE,TIPO,ESTRELLAS,CATEGORIA,CIUDAD
+1,Grand Hotel,Campestre,2,Dos estrellas,Narimanov
+2,Sunrise Inn,Coworking,5,Dos estrellas,Grubišno Polje
+3,Palm Paradise,Socia,4,Dos estrellas,Xuefeng
+4,Mountain Majesty,Campestre,2,Tres estrellas,Khorinsk
+5,Tropical Breeze Resort,Lujo,2,Dos estrellas,Ayrihuanca
+6,Sunset Resort,Bonito,4,Tres estrellas,Yelizavetinskaya
+7,City Lights Hotel,Bonito,4,Cinco estrellas,Bắc Kạn
+8,Meadow Retreat,Barato,2,Dos estrellas,Migues
+9,Seaside Villa,Lujo,2,Cinco estrellas,Zárkos
+10,City Lights Hotel,Campestre,4,Cinco estrellas,Pontevedra
+11,Harbor View Hotel,Lujo,5,Tres estrellas,Lille
+12,Country Manor,Urbano,1,Una estrella,Staten Island
+13,The Palm Resort,Campestre,2,Dos estrellas,Sadovo
+14,Harbor View Hotel,Bonito,5,Cuatro estrellas,Guanshan
+15,Palm Paradise,Lujo,4,Una estrella,Kolo
+16,Island Oasis,Barato,5,Una estrella,Wuqiao
+17,Harbor View Hotel,Hostal,3,Cinco estrellas,Prroshyan
+18,Seaview Resort,Socia,2,Cuatro estrellas,Gambarjati
+19,Riverside Lodge,Familiar,1,Tres estrellas,Gujiang
+20,Country Manor,Bonito,2,Una estrella,Guaitarilla
+21,Meadow Retreat,Socia,2,Cuatro estrellas,Rongcheng
+22,Lakeside Manor,Socia,4,Una estrella,Ostrožac
+23,Tropical Breeze Resort,Campestre,2,Cinco estrellas,Kesabpur
+24,Coastal Escape,Campestre,4,Cinco estrellas,Taquaritinga
+25,The Chateau,Campestre,3,Dos estrellas,Colendra
+26,The Cliffside Hotel,Campestre,3,Cuatro estrellas,San Rafael Petzal
+27,Mountain Lodge,Lujo,5,Una estrella,Старо Нагоричане
+28,Whispering Pines Inn,Familiar,3,Cuatro estrellas,Pinglumiao
+29,Mountain View Inn,Lujo,2,Una estrella,Gornyy
+30,Seaside Escape,Socia,5,Dos estrellas,Kumla
+31,The Meadow Inn,Urbano,1,Tres estrellas,Bonebone
+32,The Pines Lodge,Coworking,1,Una estrella,São Paio de Gramaços
+33,Mountain Majesty,Urbano,3,Dos estrellas,Yun’an
+34,Palm Paradise,Familiar,1,Una estrella,Nonohonis
+35,City Lights Hotel,Barato,3,Tres estrellas,Baiyang
+36,The Village Hotel,Urbano,4,Cinco estrellas,Huangyang
+37,Golden Sands Resort,Barato,5,Tres estrellas,Xiangshun
+38,Lakefront Resort,Urbano,1,Tres estrellas,Zel’va
+39,Golden Sands Resort,Urbano,2,Una estrella,Santiago Nonualco
+40,Whispering Pines Inn,Campestre,2,Cuatro estrellas,Longsheng
+41,Mountain Lodge,Barato,3,Cinco estrellas,Kireyevsk
+42,The Chateau,Bonito,3,Una estrella,Ili
+43,Riverfront Retreat,Coworking,1,Una estrella,Podsineye
+44,Sunset Resort,Hostal,3,Cuatro estrellas,Ust’-Uda
+45,The Golden Gate Inn,Coworking,5,Una estrella,Kukoboy
+46,The Lakeside Retreat,Socia,3,Cinco estrellas,Stockholm
+47,The Lakeside Retreat,Barato,3,Una estrella,Jingu
+48,The Village Hotel,Urbano,5,Cinco estrellas,Phonphisai
+49,Palm Paradise,Hostal,4,Cuatro estrellas,Dongqianhu
+50,Urban Oasis Hotel,Socia,4,Cuatro estrellas,Huohua
+51,Seaside Escape,Familiar,4,Cinco estrellas,Dongning
+52,The Meadow Inn,Urbano,3,Cuatro estrellas,Taiping
+53,The Palm Resort,Socia,4,Cinco estrellas,Shuangmiao
+54,Silver Star Hotel,Bonito,4,Cinco estrellas,Gustavsberg
+55,The Golden Gate Inn,Coworking,3,Cuatro estrellas,Huangling
+56,The Grove Resort,Urbano,2,Cinco estrellas,Svalöv
+57,Mountain View Inn,Hostal,5,Una estrella,Saatlı
+58,The Village Hotel,Coworking,2,Tres estrellas,Humen
+59,Ocean View Inn,Urbano,3,Una estrella,Ocuviri
+60,Lakefront Resort,Bonito,1,Dos estrellas,Feni
+61,Beachfront Retreat,Barato,5,Una estrella,Riobamba
+62,Royal Palace Hotel,Urbano,4,Dos estrellas,Guayaybi
+63,Tranquil Retreat,Coworking,5,Una estrella,Yashio-shi
+64,Sunrise Inn,Socia,5,Cinco estrellas,Lanjaghbyur
+65,Mountain Lodge,Bonito,4,Cinco estrellas,Novobeysugskaya
+66,Alpine Chalet,Socia,4,Cinco estrellas,Romanovo
+67,The Beach House,Barato,4,Tres estrellas,Rizal
+68,Lakeside Manor,Familiar,2,Dos estrellas,Armação de Búzios
+69,Sunset Resort,Campestre,1,Cinco estrellas,Seremban
+70,The Beach House,Coworking,3,Cinco estrellas,Gunungkendeng
+71,Lakefront Resort,Coworking,4,Tres estrellas,Phu Khiao
+72,Riverfront Retreat,Lujo,5,Cuatro estrellas,Krajan Pocangan
+73,Meadow Retreat,Coworking,1,Dos estrellas,Barlinek
+74,Sunset Resort,Coworking,4,Cuatro estrellas,Arruda dos Vinhos
+75,The Oasis Hotel,Socia,4,Tres estrellas,Lagoa da Prata
+76,Golden Sands Resort,Socia,5,Una estrella,Yangon
+77,Country Manor,Hostal,1,Cinco estrellas,Panamá
+78,Serenity Resort,Lujo,3,Una estrella,5 de Mayo
+79,Coastal Escape,Lujo,3,Cuatro estrellas,Luozhou
+80,Seaside Villa,Bonito,2,Una estrella,Thayetmyo
+81,Grand Hotel,Bonito,2,Cuatro estrellas,Puwa
+82,Mountain Lodge,Campestre,2,Una estrella,Bizana
+83,Sunset Resort,Socia,5,Tres estrellas,Mianhu
+84,Alpine Chalet,Hostal,2,Cuatro estrellas,Cakungsari
+85,Rose Garden Inn,Barato,3,Dos estrellas,Yalukou
+86,The Meadow Inn,Lujo,4,Cuatro estrellas,Fílla
+87,Riverside Lodge,Coworking,4,Cinco estrellas,Tauranga
+88,Country Manor,Coworking,5,Una estrella,San Jose
+89,Harbor View Hotel,Hostal,2,Dos estrellas,Okaya
+90,The Harbor Hotel,Familiar,2,Tres estrellas,Itamaraju
+91,Ocean View Inn,Hostal,3,Dos estrellas,Horqueta
+92,The Grove Resort,Lujo,3,Cinco estrellas,Nangahale
+93,The Beach House,Hostal,4,Cuatro estrellas,San Rafael
+94,The Lakeside Retreat,Bonito,3,Tres estrellas,Jaba‘
+95,Seaside Escape,Socia,5,Una estrella,Puqi
+96,Beachfront Retreat,Lujo,5,Una estrella,Sam Phran
+97,Grand Hotel,Bonito,5,Una estrella,Shuitianzhuang
+98,Seaside Escape,Hostal,5,Cuatro estrellas,Mātli
+99,Sunrise Inn,Coworking,4,Cinco estrellas,Tepusteca
+100,The Oasis Hotel,Socia,2,Cuatro estrellas,Nazca
+101,Sunrise Inn,Barato,5,Dos estrellas,Syrostan
+102,The Chateau,Socia,1,Dos estrellas,Krzyżanowice
+103,Harbor View Hotel,Hostal,5,Dos estrellas,Valtimo
+104,Country Manor,Urbano,1,Cuatro estrellas,Krajan Tambakrejo
+105,The Chateau,Bonito,5,Tres estrellas,Tauranga
+106,Forest Haven,Hostal,2,Cinco estrellas,Kirawsk
+107,Sunset Resort,Campestre,4,Cuatro estrellas,Makati City
+108,The Beach House,Hostal,1,Dos estrellas,Al Fayyūm
+109,Meadow Retreat,Coworking,5,Cinco estrellas,Usogorsk
+110,Palm Paradise,Urbano,2,Dos estrellas,Plaza Huincul
+111,Mountain View Inn,Socia,1,Cinco estrellas,Jeponkrajan
+112,Royal Palace Hotel,Urbano,1,Dos estrellas,Halmstad
+113,The Grove Resort,Urbano,2,Cinco estrellas,Maracanã
+114,Lakeside Manor,Coworking,4,Cuatro estrellas,Sindangjati
+115,Seaside Villa,Urbano,3,Cuatro estrellas,Szlachta
+116,The Lakeside Retreat,Socia,5,Cinco estrellas,Popovo
+117,The Harbor Hotel,Coworking,2,Cuatro estrellas,Hengxianhe
+118,Urban Oasis Hotel,Barato,5,Cinco estrellas,Cherkasskoye
+119,Royal Palace Hotel,Familiar,2,Dos estrellas,Pitangui
+120,Forest Haven,Barato,1,Cinco estrellas,Shatoja
+121,The Meadow Inn,Familiar,1,Una estrella,Cakungsari
+122,The Village Hotel,Coworking,4,Dos estrellas,Itapuí
+123,Forest Haven,Hostal,3,Una estrella,Miętne
+124,Lakeside Manor,Socia,4,Cinco estrellas,Marseille
+125,Sunset Resort,Barato,1,Cuatro estrellas,Göteborg
+126,The Golden Gate Inn,Coworking,4,Cuatro estrellas,Huddinge
+127,Beachfront Retreat,Barato,3,Cuatro estrellas,Otradnoye
+128,The Palm Resort,Coworking,4,Dos estrellas,San Patricio
+129,Mountain Majesty,Urbano,3,Dos estrellas,Guanting
+130,The Chateau,Coworking,4,Dos estrellas,Río Colorado
+131,Palm Paradise,Coworking,5,Tres estrellas,Praia da Vagueira
+132,Island Oasis,Barato,5,Una estrella,Ciemas
+133,The Grove Resort,Socia,5,Cuatro estrellas,Tsarychanka
+134,Seaside Villa,Bonito,5,Dos estrellas,Ifakara
+135,Paradise Cove,Urbano,1,Cuatro estrellas,Ngenden
+136,Forest Haven,Coworking,2,Una estrella,Feira de Santana
+137,Majestic Manor,Campestre,5,Dos estrellas,Pleszew
+138,The Meadow Inn,Barato,3,Una estrella,Azul
+139,Rose Garden Inn,Barato,1,Cinco estrellas,Tanuma
+140,Serenity Resort,Hostal,1,Cinco estrellas,Jalupang Dua
+141,Sunrise Inn,Hostal,2,Tres estrellas,Pahonjean
+142,Rose Garden Inn,Lujo,3,Tres estrellas,Bentar
+143,Mountain View Inn,Urbano,2,Cinco estrellas,Dongxi
+144,Urban Oasis Hotel,Urbano,5,Dos estrellas,Randusari
+145,Golden Sands Resort,Socia,1,Dos estrellas,Gainesville
+146,Grand Hotel,Barato,2,Cuatro estrellas,Dunmanway
+147,Mountain Majesty,Familiar,5,Cuatro estrellas,Rabāţ-e Sangī-ye Pā’īn
+148,City Lights Hotel,Campestre,5,Cuatro estrellas,Xingfu
+149,Golden Sands Resort,Lujo,5,Una estrella,Novopokrovskaya
+150,Harbor View Hotel,Campestre,4,Una estrella,Itapetinga
+151,Ocean View Inn,Lujo,3,Una estrella,Artemisa
+152,Tropical Breeze Resort,Hostal,5,Una estrella,Balucawi
+153,Sunset Resort,Urbano,5,Tres estrellas,Outeiro de Polima
+154,Grand Hotel,Lujo,1,Cinco estrellas,Lupak
+155,Seaview Resort,Familiar,2,Una estrella,Florence
+156,Mountain Majesty,Coworking,4,Cuatro estrellas,Solna
+157,Urban Oasis Hotel,Bonito,5,Dos estrellas,Buensuseso
+158,Mountain Lodge,Lujo,4,Dos estrellas,Parada de Todeia
+159,The Meadow Inn,Socia,1,Una estrella,Vanadzor
+160,The Meadow Inn,Campestre,3,Cuatro estrellas,Nueva Loja
+161,Country Manor,Familiar,3,Dos estrellas,Media Luna
+162,The Palm Resort,Lujo,2,Cuatro estrellas,Hayan Hudong
+163,Rose Garden Inn,Urbano,4,Cuatro estrellas,Sergach
+164,Rose Garden Inn,Campestre,4,Cuatro estrellas,Kiangan
+165,Silver Star Hotel,Bonito,4,Tres estrellas,Bei
+166,Ocean View Inn,Familiar,3,Cuatro estrellas,Jorochito
+167,Forest Haven,Barato,2,Cuatro estrellas,Oqtosh
+168,Riverside Lodge,Lujo,4,Una estrella,Baleber
+169,The Oasis Hotel,Urbano,3,Cinco estrellas,Ichnya
+170,Whispering Pines Inn,Coworking,3,Una estrella,Nangewer
+171,Seaside Villa,Urbano,4,Dos estrellas,Hanlin
+172,The Oasis Hotel,Hostal,1,Una estrella,Blangpulo
+173,Seaview Resort,Coworking,1,Dos estrellas,Watergrasshill
+174,Paradise Cove,Familiar,3,Tres estrellas,Ceranów
+175,Mountain View Inn,Familiar,4,Dos estrellas,Gogosuket
+176,Rose Garden Inn,Campestre,1,Cinco estrellas,Marsh Harbour
+177,Country Manor,Barato,2,Tres estrellas,Futtsu
+178,Lakeside Manor,Campestre,5,Una estrella,Kota Kinabalu
+179,Alpine Chalet,Barato,2,Una estrella,Ceará Mirim
+180,Tranquil Retreat,Coworking,1,Dos estrellas,Abangay
+181,The Golden Gate Inn,Bonito,2,Cuatro estrellas,Yuannan
+182,The Palm Resort,Coworking,4,Dos estrellas,Kirkland Lake
+183,Grand Hotel,Campestre,1,Tres estrellas,Lišov
+184,Golden Sands Resort,Coworking,3,Tres estrellas,Qal‘at Bīshah
+185,The Lakeside Retreat,Campestre,3,Tres estrellas,Caen
+186,Paradise Cove,Campestre,3,Cinco estrellas,Ustupo
+187,Silver Star Hotel,Urbano,5,Cinco estrellas,Jambulang
+188,Golden Sands Resort,Campestre,2,Cuatro estrellas,Sidon
+189,Rose Garden Inn,Socia,2,Cinco estrellas,Shiniujiang
+190,Lakeside Manor,Socia,1,Cinco estrellas,Tadotsu
+191,Ocean View Inn,Lujo,4,Cinco estrellas,Conduaga
+192,Seaview Resort,Familiar,4,Una estrella,Vashkivtsi
+193,Skyline Hotel,Barato,1,Cuatro estrellas,Vrakháti
+194,Lakeside Manor,Bonito,2,Dos estrellas,Paris 16
+195,The Enchanted Inn,Campestre,1,Tres estrellas,Nanjie
+196,Alpine Chalet,Lujo,4,Dos estrellas,Tampere
+197,Seaside Escape,Barato,4,Una estrella,Guamal
+198,Palm Paradise,Urbano,4,Una estrella,Cesson
+199,Skyline Hotel,Coworking,3,Dos estrellas,Kiel
+200,The Hideaway,Campestre,1,Cinco estrellas,Imrīsh
+201,Seaside Escape,Socia,3,Una estrella,Baran
+202,Royal Palace Hotel,Lujo,5,Tres estrellas,Venta
+203,Sunrise Inn,Familiar,2,Tres estrellas,Xinxing
+204,Forest Haven,Socia,3,Tres estrellas,Būr Safājah
+205,The Lakeside Retreat,Coworking,3,Cuatro estrellas,Huaguoshan
+206,The Hideaway,Lujo,5,Dos estrellas,Jabinyānah
+207,Seaside Villa,Coworking,4,Una estrella,Ocongate
+208,Paradise Cove,Socia,2,Tres estrellas,Paccha
+209,The Hideaway,Socia,2,Una estrella,Néa Ankhíalos
+210,Sunrise Inn,Familiar,4,Cuatro estrellas,Luso
+211,Island Oasis,Socia,1,Dos estrellas,Oesain
+212,Alpine Chalet,Bonito,4,Cinco estrellas,Huaping
+213,Coastal Escape,Hostal,5,Cuatro estrellas,Kardzhin
+214,The Beach House,Lujo,3,Una estrella,Kishk-e Nakhūd
+215,The Chateau,Barato,1,Tres estrellas,Willemstad
+216,Serenity Resort,Urbano,1,Dos estrellas,Strasbourg
+217,Grand Hotel,Coworking,3,Tres estrellas,Cruzeiro do Oeste
+218,The Chateau,Socia,5,Tres estrellas,Iowa City
+219,City Lights Hotel,Urbano,3,Dos estrellas,Changning
+220,The Village Hotel,Barato,2,Cuatro estrellas,Verkhneye Kazanishche
+221,Silver Star Hotel,Hostal,4,Cinco estrellas,Dubravica
+222,Lakeside Manor,Socia,3,Tres estrellas,Khārān
+223,Country Manor,Barato,1,Cinco estrellas,Cocorná
+224,Seaside Escape,Hostal,2,Dos estrellas,Kalinovskaya
+225,The Pines Lodge,Socia,2,Dos estrellas,Ruoqiang
+226,Lakefront Resort,Bonito,2,Una estrella,Huochang
+227,Island Oasis,Urbano,5,Cinco estrellas,Quatá
+228,Mountain Lodge,Campestre,4,Cinco estrellas,Söderköping
+229,Tropical Breeze Resort,Urbano,3,Una estrella,Wiesbaden
+230,Royal Palace Hotel,Bonito,3,Una estrella,Guararapes
+231,Seaside Escape,Socia,3,Dos estrellas,Benghazi
+232,The Enchanted Inn,Hostal,1,Cinco estrellas,Linxi
+233,Mountain Lodge,Urbano,2,Tres estrellas,Douniani
+234,Island Oasis,Socia,5,Cuatro estrellas,Ludvika
+235,Whispering Pines Inn,Campestre,3,Cuatro estrellas,Yulin
+236,Tranquil Retreat,Socia,4,Cuatro estrellas,Loga
+237,Tropical Breeze Resort,Socia,3,Tres estrellas,Cabuyao
+238,City Lights Hotel,Hostal,2,Cuatro estrellas,Kozloduy
+239,The Cliffside Hotel,Bonito,1,Tres estrellas,Santos Evos
+240,The Lakeside Retreat,Bonito,3,Una estrella,Karangtengah
+241,The Harbor Hotel,Barato,3,Cuatro estrellas,Kansas City
+242,Golden Sands Resort,Lujo,5,Dos estrellas,Yunshan
+243,The Golden Gate Inn,Bonito,4,Una estrella,Taoxi
+244,Alpine Chalet,Urbano,2,Tres estrellas,Rāipur
+245,Sunset Resort,Socia,2,Dos estrellas,Keleleng
+246,Beachfront Retreat,Urbano,2,Cuatro estrellas,Houston
+247,The Cliffside Hotel,Familiar,5,Dos estrellas,Liping
+248,The Grove Resort,Coworking,2,Una estrella,Buyuan
+249,Majestic Manor,Familiar,5,Cuatro estrellas,Oslo
+250,Royal Palace Hotel,Bonito,2,Cuatro estrellas,Hongmei
+251,The Chateau,Hostal,2,Tres estrellas,Mampong
+252,City Lights Hotel,Campestre,5,Cinco estrellas,Gary
+253,The Enchanted Inn,Barato,5,Dos estrellas,Naifaru
+254,The Lakeside Retreat,Hostal,4,Cinco estrellas,Thị Trấn Quán Lào
+255,Coastal Escape,Urbano,1,Tres estrellas,Tuwa
+256,Grand Hotel,Urbano,5,Tres estrellas,Heshi
+257,Island Oasis,Hostal,5,Cuatro estrellas,Tsu-shi
+258,The Pines Lodge,Lujo,3,Dos estrellas,Kebon
+259,Paradise Cove,Socia,5,Cinco estrellas,Радолишта
+260,Mountain Majesty,Urbano,5,Cuatro estrellas,Vysoké Mýto
+261,The Village Hotel,Urbano,4,Cuatro estrellas,Bayan Hot
+262,Seaview Resort,Hostal,5,Cuatro estrellas,Ouanaminthe
+263,Tropical Breeze Resort,Urbano,1,Tres estrellas,Meilin
+264,Harbor View Hotel,Barato,1,Una estrella,Havtsal
+265,Golden Sands Resort,Familiar,3,Cuatro estrellas,Vanimo
+266,The Lakeside Retreat,Barato,4,Dos estrellas,Skokovi
+267,Meadow Retreat,Coworking,2,Cuatro estrellas,Liuzhi
+268,The Meadow Inn,Hostal,4,Cuatro estrellas,Nis’oni
+269,Rose Garden Inn,Lujo,2,Dos estrellas,Xishan
+270,City Lights Hotel,Barato,4,Cuatro estrellas,Madan
+271,Whispering Pines Inn,Barato,1,Cuatro estrellas,Neftekamsk
+272,Seaside Escape,Urbano,2,Tres estrellas,Toroy
+273,Paradise Cove,Socia,1,Cuatro estrellas,Sarrebourg
+274,The Harbor Hotel,Urbano,1,Tres estrellas,Jajce
+275,Silver Star Hotel,Barato,5,Tres estrellas,Toktogul
+276,City Lights Hotel,Bonito,1,Una estrella,Buri
+277,The Hideaway,Urbano,1,Dos estrellas,Lyantonde
+278,The Oasis Hotel,Hostal,3,Dos estrellas,Tomepampa
+279,Silver Star Hotel,Urbano,1,Tres estrellas,Wageningen
+280,The Village Hotel,Bonito,5,Tres estrellas,Xiaodukou
+281,Meadow Retreat,Hostal,2,Tres estrellas,San José de Miranda
+282,Alpine Chalet,Campestre,5,Cuatro estrellas,Cambuga
+283,Meadow Retreat,Lujo,1,Cuatro estrellas,Seongnam-si
+284,The Harbor Hotel,Coworking,4,Cinco estrellas,Josefina
+285,Serenity Resort,Familiar,4,Una estrella,Pau
+286,Harbor View Hotel,Hostal,3,Cinco estrellas,Parachinar
+287,The Village Hotel,Hostal,5,Dos estrellas,Várzea Paulista
+288,Meadow Retreat,Barato,4,Cinco estrellas,Lulindi
+289,Island Oasis,Coworking,3,Dos estrellas,Boca Suno
+290,The Hideaway,Bonito,5,Tres estrellas,Vuka
+291,Urban Oasis Hotel,Socia,4,Una estrella,Tambaú
+292,Seaside Escape,Lujo,3,Cinco estrellas,Shazhou
+293,Alpine Chalet,Barato,4,Dos estrellas,Rejoyoso
+294,Harbor View Hotel,Familiar,2,Tres estrellas,Shajing
+295,The Village Hotel,Coworking,2,Dos estrellas,Laholm
+296,Riverside Lodge,Lujo,4,Tres estrellas,Chernyshevsk
+297,Seaside Villa,Barato,4,Cuatro estrellas,Santa Lucía
+298,Ocean View Inn,Familiar,4,Cinco estrellas,Meixian
+299,The Chateau,Coworking,2,Cinco estrellas,Ar Riqqah
+300,Ocean View Inn,Coworking,2,Cinco estrellas,Muesanaik
+301,Paradise Cove,Coworking,5,Cuatro estrellas,Lübeck
+302,Skyline Hotel,Familiar,5,Dos estrellas,Spandaryan
+303,Silver Star Hotel,Bonito,5,Tres estrellas,Pombal
+304,The Pines Lodge,Familiar,3,Una estrella,Arneiro
+305,The Palm Resort,Socia,2,Cinco estrellas,Plavsk
+306,Harbor View Hotel,Familiar,5,Dos estrellas,Admiralteisky
+307,The Cliffside Hotel,Barato,4,Dos estrellas,Hualfín
+308,Majestic Manor,Barato,4,Cuatro estrellas,Ciawi
+309,Palm Paradise,Campestre,2,Una estrella,Karinë
+310,Seaside Escape,Coworking,3,Tres estrellas,Punaauia
+311,City Lights Hotel,Lujo,1,Una estrella,Gryaznovskoye
+312,Skyline Hotel,Barato,5,Una estrella,Thị Trấn Yên Thịnh
+313,Lakefront Resort,Familiar,1,Cuatro estrellas,Astghadzor
+314,The Pines Lodge,Lujo,5,Una estrella,Bhāndāria
+315,City Lights Hotel,Barato,2,Dos estrellas,Chekhov
+316,The Beach House,Coworking,1,Dos estrellas,Nakhon Luang
+317,Rose Garden Inn,Familiar,2,Tres estrellas,Cabiao
+318,Coastal Escape,Campestre,4,Tres estrellas,Xiaojiang
+319,Sunset Resort,Bonito,2,Cuatro estrellas,Montargis
+320,Golden Sands Resort,Bonito,5,Una estrella,Banpu
+321,Palm Paradise,Urbano,5,Una estrella,Kedungsinggil
+322,Urban Oasis Hotel,Hostal,5,Una estrella,Pouzauges
+323,Whispering Pines Inn,Campestre,2,Cinco estrellas,Lluchubamba
+324,Royal Palace Hotel,Campestre,3,Una estrella,Melaka
+325,Riverfront Retreat,Coworking,3,Una estrella,Cacoal
+326,The Meadow Inn,Campestre,3,Cuatro estrellas,Cidadap
+327,The Chateau,Lujo,5,Cinco estrellas,Itapetinga
+328,The Hideaway,Barato,2,Tres estrellas,Mingshui
+329,Paradise Cove,Socia,2,Cinco estrellas,Västervik
+330,Mountain Lodge,Bonito,3,Una estrella,El Paso
+331,Whispering Pines Inn,Campestre,2,Cuatro estrellas,Xingcheng
+332,Ocean View Inn,Lujo,3,Cuatro estrellas,Warri
+333,The Grove Resort,Bonito,1,Cuatro estrellas,Rancabelut
+334,Urban Oasis Hotel,Hostal,3,Dos estrellas,Omaha
+335,The Lakeside Retreat,Lujo,4,Una estrella,Rawannawi Village
+336,Riverfront Retreat,Socia,4,Cuatro estrellas,Svetlyy
+337,The Chateau,Campestre,4,Cinco estrellas,Batangan
+338,The Village Hotel,Lujo,3,Cinco estrellas,Shiqian
+339,Mountain View Inn,Bonito,2,Cinco estrellas,Cool űrhajó
+340,The Meadow Inn,Hostal,1,Cuatro estrellas,Zhoujiang
+341,Alpine Chalet,Lujo,3,Cuatro estrellas,Matagbak
+342,Paradise Cove,Barato,1,Dos estrellas,Taiping
+343,The Meadow Inn,Coworking,4,Cinco estrellas,Pršovce
+344,The Oasis Hotel,Hostal,5,Dos estrellas,Ciparay
+345,The Beach House,Coworking,2,Una estrella,Szprotawa
+346,The Chateau,Hostal,3,Cinco estrellas,Giawang
+347,Urban Oasis Hotel,Bonito,2,Una estrella,Daiyue
+348,City Lights Hotel,Familiar,3,Una estrella,Ngondokandawu
+349,Country Manor,Coworking,4,Cuatro estrellas,Issa
+350,Mountain View Inn,Barato,1,Una estrella,Barra do Bugres
+351,Alpine Chalet,Hostal,4,Cinco estrellas,Ganxi
+352,The Harbor Hotel,Socia,3,Dos estrellas,Djohong
+353,City Lights Hotel,Familiar,3,Una estrella,Energetik
+354,The Harbor Hotel,Familiar,3,Dos estrellas,Palatine
+355,Whispering Pines Inn,Urbano,2,Tres estrellas,Darungan Lor
+356,The Pines Lodge,Bonito,2,Dos estrellas,Albergaria
+357,The Palm Resort,Familiar,1,Una estrella,Eloúnda
+358,Skyline Hotel,Familiar,2,Dos estrellas,Shōbara
+359,Riverfront Retreat,Hostal,4,Dos estrellas,Zoumaling
+360,Urban Oasis Hotel,Bonito,2,Cuatro estrellas,Ford
+361,The Meadow Inn,Urbano,5,Una estrella,Chitose
+362,The Enchanted Inn,Coworking,4,Cuatro estrellas,Tukan
+363,Alpine Chalet,Campestre,1,Cinco estrellas,Santander
+364,Sunset Resort,Campestre,4,Tres estrellas,Al Qarmadah
+365,Island Oasis,Campestre,1,Cuatro estrellas,Oetuke
+366,Seaview Resort,Barato,4,Cinco estrellas,Hengliang
+367,Coastal Escape,Hostal,3,Cinco estrellas,Estela
+368,Seaside Escape,Lujo,3,Una estrella,Piedecuesta
+369,The Oasis Hotel,Lujo,3,Cinco estrellas,Shanglian
+370,Mountain Lodge,Coworking,5,Dos estrellas,Tantou
+371,Island Oasis,Hostal,4,Tres estrellas,Artemivs’k
+372,The Cliffside Hotel,Barato,1,Cuatro estrellas,El Paso
+373,Riverside Lodge,Urbano,4,Tres estrellas,Braunschweig
+374,The Chateau,Urbano,1,Cuatro estrellas,Am Djarass
+375,Sunset Resort,Campestre,2,Cinco estrellas,Melita
+376,The Lakeside Retreat,Barato,3,Una estrella,Pregradnoye
+377,Palm Paradise,Lujo,1,Cuatro estrellas,Taungoo
+378,Harbor View Hotel,Barato,5,Dos estrellas,Maruoka
+379,Beachfront Retreat,Coworking,3,Cinco estrellas,San Juan
+380,Majestic Manor,Bonito,1,Cuatro estrellas,New York City
+381,Forest Haven,Familiar,3,Tres estrellas,Zarzis
+382,Urban Oasis Hotel,Coworking,3,Tres estrellas,Kribi
+383,Mountain Majesty,Campestre,4,Cuatro estrellas,Tambakmerak
+384,Skyline Hotel,Bonito,3,Tres estrellas,Jiuxian
+385,Alpine Chalet,Campestre,5,Tres estrellas,Baojia
+386,Majestic Manor,Bonito,4,Dos estrellas,Seixo da Beira
+387,Alpine Chalet,Socia,2,Cinco estrellas,Matsutō
+388,Tropical Breeze Resort,Bonito,2,Cuatro estrellas,Silab
+389,Seaside Villa,Hostal,2,Dos estrellas,Koch'ang
+390,Urban Oasis Hotel,Familiar,4,Una estrella,Oehala
+391,The Palm Resort,Campestre,1,Cinco estrellas,Trat
+392,Sunset Resort,Socia,4,Una estrella,Krasnopillya
+393,Rose Garden Inn,Socia,3,Cuatro estrellas,Xinghua
+394,Harbor View Hotel,Familiar,3,Tres estrellas,Nangabere
+395,Island Oasis,Familiar,1,Cinco estrellas,Okiot
+396,The Cliffside Hotel,Hostal,1,Una estrella,Salaya
+397,Beachfront Retreat,Coworking,4,Cuatro estrellas,Andou
+398,The Golden Gate Inn,Bonito,2,Cuatro estrellas,Aipe
+399,Lakeside Manor,Coworking,2,Dos estrellas,Mercedes
+400,Grand Hotel,Hostal,3,Cinco estrellas,Shamanka
+401,The Meadow Inn,Familiar,5,Dos estrellas,Mezinovskiy
+402,Whispering Pines Inn,Lujo,5,Cinco estrellas,Azovo
+403,Skyline Hotel,Barato,5,Cinco estrellas,Pitalito
+404,Lakefront Resort,Socia,5,Cuatro estrellas,New Yekepa
+405,Golden Sands Resort,Urbano,3,Una estrella,Quípama
+406,The Oasis Hotel,Urbano,5,Una estrella,Xiaogang
+407,Urban Oasis Hotel,Socia,2,Dos estrellas,Makiv
+408,The Harbor Hotel,Urbano,1,Dos estrellas,Frederiksberg
+409,The Pines Lodge,Bonito,2,Cuatro estrellas,Odiongan
+410,Majestic Manor,Barato,5,Cuatro estrellas,Boto
+411,Mountain Lodge,Bonito,5,Tres estrellas,Divnomorskoye
+412,The Harbor Hotel,Bonito,2,Cinco estrellas,Xinchenglu
+413,The Village Hotel,Hostal,2,Tres estrellas,Barajevo
+414,Country Manor,Familiar,3,Tres estrellas,Gunungbatu
+415,The Oasis Hotel,Lujo,4,Cuatro estrellas,Dongping
+416,Ocean View Inn,Bonito,5,Cuatro estrellas,Pālang
+417,Riverside Lodge,Lujo,4,Tres estrellas,Tamansari
+418,Lakeside Manor,Bonito,1,Cinco estrellas,Niederwaldkirchen
+419,Coastal Escape,Lujo,1,Cuatro estrellas,Sundsvall
+420,The Golden Gate Inn,Hostal,2,Una estrella,Ketovo
+421,Golden Sands Resort,Barato,4,Dos estrellas,Alexandria
+422,The Palm Resort,Bonito,2,Cinco estrellas,Mātli
+423,Skyline Hotel,Campestre,1,Una estrella,Tomigusuku
+424,Mountain View Inn,Urbano,2,Tres estrellas,Ihuari
+425,The Enchanted Inn,Hostal,5,Una estrella,Lopatinskiy
+426,Tropical Breeze Resort,Coworking,3,Cinco estrellas,Changuillo
+427,The Lakeside Retreat,Bonito,4,Cinco estrellas,Ocoyo
+428,The Cliffside Hotel,Barato,2,Una estrella,Brooklyn
+429,Lakefront Resort,Lujo,1,Tres estrellas,Bagé
+430,Seaview Resort,Urbano,1,Cinco estrellas,Bitica
+431,Island Oasis,Bonito,4,Tres estrellas,Chumen
+432,Whispering Pines Inn,Coworking,3,Cinco estrellas,Cigagade
+433,The Pines Lodge,Familiar,3,Una estrella,Machakos
+434,Island Oasis,Socia,2,Cinco estrellas,Al Hadā
+435,Mountain Lodge,Hostal,3,Cinco estrellas,Malabar
+436,The Cliffside Hotel,Bonito,4,Cuatro estrellas,Agen
+437,Palm Paradise,Familiar,3,Tres estrellas,Skópelos
+438,Beachfront Retreat,Urbano,5,Cuatro estrellas,Dan Sadau
+439,Silver Star Hotel,Urbano,5,Una estrella,Jingxi
+440,Alpine Chalet,Socia,1,Cuatro estrellas,Iłowa
+441,Seaview Resort,Bonito,1,Una estrella,Jistebník
+442,Skyline Hotel,Bonito,1,Tres estrellas,Temblador
+443,Tropical Breeze Resort,Familiar,5,Tres estrellas,Goúvai
+444,City Lights Hotel,Familiar,4,Cuatro estrellas,Shalkar
+445,Mountain View Inn,Lujo,4,Una estrella,Sovetskaya
+446,Tropical Breeze Resort,Familiar,2,Tres estrellas,Kapasan
+447,Mountain Lodge,Lujo,1,Cinco estrellas,Wuping
+448,Mountain Majesty,Lujo,4,Tres estrellas,Santa Cruz Muluá
+449,Tranquil Retreat,Urbano,3,Cuatro estrellas,Kukuluk
+450,The Golden Gate Inn,Hostal,2,Cuatro estrellas,Sabangan
+451,Mountain Lodge,Coworking,4,Tres estrellas,Xilin
+452,Alpine Chalet,Coworking,2,Una estrella,Pravda
+453,Paradise Cove,Coworking,4,Cuatro estrellas,Göteborg
+454,The Meadow Inn,Lujo,5,Tres estrellas,Montenegro
+455,The Meadow Inn,Lujo,3,Tres estrellas,Kokotów
+456,The Meadow Inn,Barato,3,Cuatro estrellas,Goubangzi
+457,Meadow Retreat,Barato,1,Tres estrellas,Staroyur’yevo
+458,Harbor View Hotel,Hostal,1,Una estrella,Novo Hamburgo
+459,Majestic Manor,Hostal,5,Cuatro estrellas,Concord
+460,Whispering Pines Inn,Campestre,1,Cuatro estrellas,Pantian
+461,Lakeside Manor,Coworking,2,Una estrella,Guandi
+462,Forest Haven,Barato,1,Dos estrellas,Piranshahr
+463,Mountain Lodge,Campestre,5,Dos estrellas,Sundbyberg
+464,Golden Sands Resort,Familiar,5,Cinco estrellas,Agrínio
+465,City Lights Hotel,Campestre,1,Cuatro estrellas,Chandmanĭ
+466,Sunrise Inn,Bonito,2,Una estrella,Mirotice
+467,The Lakeside Retreat,Barato,5,Cuatro estrellas,Porsgrunn
+468,Tranquil Retreat,Coworking,1,Cuatro estrellas,Charleston
+469,Riverside Lodge,Campestre,4,Tres estrellas,Bulakgebang
+470,City Lights Hotel,Socia,5,Una estrella,Thị Trấn Than Uyên
+471,The Enchanted Inn,Bonito,4,Cuatro estrellas,Del Campillo
+472,Silver Star Hotel,Hostal,1,Una estrella,Balut
+473,Seaside Escape,Bonito,3,Cinco estrellas,Teeli
+474,Country Manor,Urbano,3,Cinco estrellas,Kaédi
+475,Harbor View Hotel,Urbano,2,Una estrella,San Borja
+476,Island Oasis,Barato,5,Tres estrellas,Bodiosa a Velha
+477,Golden Sands Resort,Urbano,3,Dos estrellas,Osias
+478,Alpine Chalet,Coworking,4,Tres estrellas,Gaptsakh
+479,The Harbor Hotel,Barato,1,Tres estrellas,Lahad Datu
+480,Majestic Manor,Barato,3,Cuatro estrellas,Waerana
+481,Country Manor,Barato,2,Cuatro estrellas,Kigoma
+482,Silver Star Hotel,Campestre,2,Cuatro estrellas,Skoczów
+483,The Enchanted Inn,Urbano,1,Tres estrellas,Hecun
+484,The Golden Gate Inn,Coworking,3,Una estrella,Otlja
+485,The Cliffside Hotel,Barato,2,Tres estrellas,Hualian
+486,The Cliffside Hotel,Barato,4,Cinco estrellas,Medina
+487,Serenity Resort,Campestre,3,Dos estrellas,Griboyedov
+488,The Cliffside Hotel,Familiar,1,Una estrella,Matamey
+489,Mountain Majesty,Coworking,5,Dos estrellas,East End
+490,Tranquil Retreat,Campestre,5,Cinco estrellas,Tha Mai
+491,The Oasis Hotel,Bonito,3,Cinco estrellas,Oro Timur
+492,Mountain View Inn,Socia,4,Cuatro estrellas,Tlogowungu
+493,Riverfront Retreat,Coworking,3,Tres estrellas,Kamenka
+494,Country Manor,Barato,5,Cuatro estrellas,Mustvee
+495,Seaview Resort,Hostal,5,Cuatro estrellas,Rublëvo
+496,Grand Hotel,Urbano,1,Tres estrellas,Uherské Hradiště
+497,Lakefront Resort,Familiar,2,Cuatro estrellas,Sale
+498,The Lakeside Retreat,Campestre,2,Dos estrellas,Naḥf
+499,Mountain Lodge,Campestre,1,Una estrella,Kafarati
+500,Rose Garden Inn,Barato,2,Una estrella,Jiazhuang
+501,Paradise Cove,Hostal,3,Cuatro estrellas,Roriz
+502,Paradise Cove,Familiar,2,Cinco estrellas,Xekar
+503,Coastal Escape,Campestre,1,Una estrella,Šabac
+504,Meadow Retreat,Familiar,1,Una estrella,Dziadkowice
+505,Alpine Chalet,Familiar,3,Cuatro estrellas,Maticmatic
+506,Rose Garden Inn,Campestre,3,Dos estrellas,Jeżów Sudecki
+507,Riverfront Retreat,Campestre,4,Dos estrellas,Longfeng
+508,The Beach House,Urbano,4,Cuatro estrellas,Yidu
+509,Mountain View Inn,Bonito,1,Dos estrellas,Gandapura
+510,Mountain View Inn,Urbano,1,Dos estrellas,Jinjiahe
+511,Country Manor,Urbano,4,Cuatro estrellas,Kangding
+512,Meadow Retreat,Lujo,2,Tres estrellas,Ōtake
+513,The Village Hotel,Campestre,5,Cuatro estrellas,Zákynthos
+514,Ocean View Inn,Coworking,1,Dos estrellas,Tabivere
+515,The Cliffside Hotel,Socia,3,Cinco estrellas,Yinjiacheng
+516,The Lakeside Retreat,Campestre,5,Cinco estrellas,Zinat
+517,The Pines Lodge,Urbano,4,Dos estrellas,Paraćin
+518,Meadow Retreat,Bonito,5,Dos estrellas,Gllogjan
+519,The Harbor Hotel,Campestre,3,Dos estrellas,Stavropol’
+520,Island Oasis,Coworking,3,Una estrella,Zheleznogorsk
+521,Tranquil Retreat,Bonito,4,Una estrella,Nanchangshan
+522,The Village Hotel,Hostal,2,Dos estrellas,Pervomayskoye
+523,The Chateau,Campestre,3,Dos estrellas,Beibei
+524,Tropical Breeze Resort,Coworking,5,Tres estrellas,Bom Despacho
+525,Silver Star Hotel,Lujo,3,Una estrella,Kenyau
+526,The Oasis Hotel,Urbano,2,Tres estrellas,Pereval'noe
+527,Riverside Lodge,Campestre,5,Cinco estrellas,Osiedle-Nowiny
+528,Seaside Escape,Campestre,1,Cinco estrellas,Santa Cruz das Palmeiras
+529,Seaview Resort,Socia,1,Tres estrellas,Ḩalḩūl
+530,Beachfront Retreat,Urbano,1,Dos estrellas,Donji Dobrić
+531,Riverfront Retreat,Lujo,3,Una estrella,Tohautu
+532,The Pines Lodge,Barato,3,Dos estrellas,Xiaolin
+533,Lakefront Resort,Urbano,5,Una estrella,Al Mazra‘ah
+534,Silver Star Hotel,Hostal,2,Una estrella,Bimbo
+535,The Palm Resort,Hostal,5,Cuatro estrellas,Ganchazi
+536,Mountain View Inn,Lujo,5,Cuatro estrellas,Donggou
+537,Harbor View Hotel,Lujo,5,Cinco estrellas,Göteborg
+538,Urban Oasis Hotel,Barato,3,Cuatro estrellas,Gamagōri
+539,Ocean View Inn,Socia,3,Una estrella,Nanqiu
+540,Seaview Resort,Lujo,2,Tres estrellas,Wafang
+541,Majestic Manor,Urbano,4,Cuatro estrellas,Saint-Péray
+542,Seaview Resort,Hostal,1,Tres estrellas,Dengmu
+543,Royal Palace Hotel,Familiar,3,Tres estrellas,Ciburial
+544,The Harbor Hotel,Campestre,3,Una estrella,Yuankeng
+545,Island Oasis,Hostal,1,Dos estrellas,Xiaoruo
+546,Sunrise Inn,Campestre,1,Una estrella,Karagandy
+547,Seaside Villa,Familiar,4,Cuatro estrellas,Linxi
+548,Riverfront Retreat,Coworking,2,Tres estrellas,Balazar
+549,Country Manor,Barato,5,Cinco estrellas,Yara
+550,Sunset Resort,Coworking,3,Tres estrellas,Lupak
+551,Grand Hotel,Hostal,1,Cuatro estrellas,Melaka
+552,Mountain Lodge,Barato,3,Una estrella,Hutang
+553,Coastal Escape,Coworking,4,Tres estrellas,Dongtou
+554,Lakeside Manor,Lujo,5,Cinco estrellas,Strasbourg
+555,Rose Garden Inn,Bonito,3,Cuatro estrellas,Jinzipai
+556,Tropical Breeze Resort,Hostal,1,Tres estrellas,São João dos Montes
+557,Lakeside Manor,Bonito,2,Cuatro estrellas,Głowno
+558,Harbor View Hotel,Campestre,1,Tres estrellas,Karangsari
+559,Serenity Resort,Coworking,4,Cinco estrellas,Savannah
+560,Ocean View Inn,Bonito,5,Cuatro estrellas,Kasama
+561,The Meadow Inn,Hostal,3,Cuatro estrellas,São Caetano do Sul
+562,Royal Palace Hotel,Urbano,4,Dos estrellas,Naha-shi
+563,Lakefront Resort,Coworking,2,Dos estrellas,Clonskeagh
+564,Serenity Resort,Barato,2,Cinco estrellas,Alibunan
+565,Harbor View Hotel,Socia,4,Cinco estrellas,Heshan
+566,Skyline Hotel,Socia,2,Cuatro estrellas,Buyant
+567,The Grove Resort,Hostal,4,Tres estrellas,Emmaboda
+568,Lakefront Resort,Campestre,2,Cinco estrellas,Talanga
+569,Skyline Hotel,Campestre,5,Tres estrellas,Heting
+570,Seaview Resort,Hostal,3,Una estrella,Wang Muang
+571,Palm Paradise,Socia,5,Tres estrellas,Akarakar
+572,Riverfront Retreat,Bonito,4,Dos estrellas,A-da-Gorda
+573,Alpine Chalet,Barato,3,Cuatro estrellas,Xinzhai
+574,The Cliffside Hotel,Campestre,3,Dos estrellas,Kašperské Hory
+575,Country Manor,Socia,3,Cinco estrellas,Gordon Town
+576,The Beach House,Barato,2,Una estrella,Potelych
+577,Silver Star Hotel,Lujo,4,Una estrella,Birr
+578,Skyline Hotel,Barato,5,Una estrella,Purwa
+579,The Oasis Hotel,Hostal,3,Dos estrellas,Qiling
+580,Sunrise Inn,Socia,2,Dos estrellas,Skhodnya
+581,Riverfront Retreat,Campestre,3,Dos estrellas,Reims
+582,The Cliffside Hotel,Campestre,2,Una estrella,Santa Iria de Azóia
+583,Paradise Cove,Familiar,5,Cinco estrellas,Xiangshan
+584,Sunrise Inn,Socia,4,Cinco estrellas,Norrköping
+585,Harbor View Hotel,Urbano,2,Cuatro estrellas,Gennevilliers
+586,Coastal Escape,Lujo,1,Dos estrellas,Colesberg
+587,Royal Palace Hotel,Hostal,3,Cinco estrellas,Qinshi
+588,The Palm Resort,Coworking,3,Cinco estrellas,Dongpu
+589,Riverfront Retreat,Familiar,4,Tres estrellas,Bacuyangan
+590,Golden Sands Resort,Hostal,3,Una estrella,Mirões
+591,Riverside Lodge,Familiar,2,Una estrella,Moriya
+592,The Enchanted Inn,Bonito,4,Dos estrellas,Krajan
+593,Silver Star Hotel,Hostal,3,Cinco estrellas,Huangtian
+594,Coastal Escape,Lujo,1,Dos estrellas,Borzęta
+595,Grand Hotel,Coworking,4,Tres estrellas,Catanauan
+596,Palm Paradise,Socia,1,Una estrella,Río Cuarto
+597,Skyline Hotel,Bonito,5,Tres estrellas,Orzesze
+598,Grand Hotel,Campestre,3,Cuatro estrellas,San Guillermo
+599,Seaview Resort,Barato,3,Cinco estrellas,Kodra
+600,Royal Palace Hotel,Lujo,4,Una estrella,Ghāt
+601,Lakeside Manor,Hostal,2,Una estrella,Cañada de Gómez
+602,The Hideaway,Familiar,3,Cuatro estrellas,Banjarmasin
+603,Beachfront Retreat,Lujo,4,Dos estrellas,Ob’
+604,Meadow Retreat,Campestre,2,Una estrella,San Miguel de Cauri
+605,Country Manor,Campestre,1,Cuatro estrellas,Lucaya
+606,Lakeside Manor,Barato,5,Cuatro estrellas,Dukuh Kaler
+607,The Meadow Inn,Bonito,1,Cuatro estrellas,Borzęta
+608,Royal Palace Hotel,Socia,3,Una estrella,Yangon
+609,The Meadow Inn,Coworking,4,Cinco estrellas,São Cristóvão
+610,The Harbor Hotel,Socia,1,Una estrella,Los Mangos
+611,Skyline Hotel,Familiar,5,Cinco estrellas,Wintzenheim
+612,Beachfront Retreat,Campestre,3,Dos estrellas,Chencai
+613,The Oasis Hotel,Coworking,2,Cuatro estrellas,Cernay
+614,Rose Garden Inn,Hostal,3,Tres estrellas,Chrysoúpolis
+615,The Lakeside Retreat,Familiar,4,Cinco estrellas,Zaña
+616,Majestic Manor,Coworking,1,Cuatro estrellas,El Limon
+617,Seaside Villa,Bonito,5,Cinco estrellas,Yishi
+618,The Village Hotel,Lujo,5,Tres estrellas,Fristad
+619,Riverfront Retreat,Bonito,2,Dos estrellas,Capanema
+620,Sunrise Inn,Lujo,4,Una estrella,Bom Conselho
+621,The Village Hotel,Barato,4,Cuatro estrellas,Devin
+622,The Palm Resort,Socia,1,Cuatro estrellas,Nakano
+623,Mountain Lodge,Barato,5,Una estrella,Handegate
+624,Alpine Chalet,Familiar,1,Dos estrellas,Dahuaishu
+625,Meadow Retreat,Barato,3,Una estrella,Charlotte
+626,City Lights Hotel,Lujo,5,Tres estrellas,Totok
+627,Country Manor,Coworking,5,Dos estrellas,Świecie
+628,The Pines Lodge,Bonito,1,Cinco estrellas,Foz Sousa
+629,City Lights Hotel,Bonito,4,Dos estrellas,Rudnogorsk
+630,Paradise Cove,Hostal,1,Cinco estrellas,Milanówek
+631,Lakefront Resort,Urbano,3,Dos estrellas,Yuanquan
+632,Riverside Lodge,Bonito,5,Dos estrellas,Tanggulangin
+633,The Lakeside Retreat,Socia,4,Cinco estrellas,Fresno
+634,Paradise Cove,Coworking,1,Una estrella,Pag
+635,Sunrise Inn,Familiar,3,Tres estrellas,Padangbai
+636,The Golden Gate Inn,Familiar,5,Tres estrellas,Stockholm
+637,Skyline Hotel,Socia,3,Cuatro estrellas,Lorient
+638,Beachfront Retreat,Hostal,2,Tres estrellas,Guanlu
+639,The Grove Resort,Coworking,5,Dos estrellas,Kävlinge
+640,Beachfront Retreat,Socia,5,Cuatro estrellas,Helsingborg
+641,Forest Haven,Bonito,4,Cinco estrellas,Matalam
+642,The Palm Resort,Familiar,5,Una estrella,Zhatay
+643,Majestic Manor,Socia,3,Tres estrellas,Yenagoa
+644,Palm Paradise,Hostal,3,Cinco estrellas,Herrljunga
+645,Skyline Hotel,Bonito,2,Tres estrellas,Yuen Long Kau Hui
+646,Urban Oasis Hotel,Barato,4,Cinco estrellas,Xingou
+647,Riverfront Retreat,Barato,1,Tres estrellas,Sosnovka
+648,Palm Paradise,Bonito,1,Cuatro estrellas,Brooklyn
+649,Mountain Majesty,Lujo,2,Una estrella,Taifu
+650,The Cliffside Hotel,Familiar,5,Tres estrellas,Vimmerby
+651,Rose Garden Inn,Hostal,1,Cuatro estrellas,Sainte-Agathe-des-Monts
+652,The Meadow Inn,Urbano,2,Cuatro estrellas,Lianozovo
+653,Forest Haven,Bonito,4,Una estrella,Sabang
+654,The Chateau,Campestre,2,Cuatro estrellas,Tigpalay
+655,Sunset Resort,Socia,4,Cinco estrellas,Ipu
+656,Riverfront Retreat,Campestre,5,Dos estrellas,Kyoto
+657,Seaside Villa,Coworking,4,Una estrella,Capioví
+658,Mountain View Inn,Urbano,3,Tres estrellas,Tiling
+659,Seaside Villa,Lujo,1,Una estrella,Utabi
+660,Serenity Resort,Bonito,1,Dos estrellas,Bavorov
+661,Silver Star Hotel,Bonito,1,Una estrella,Leonidovo
+662,Ocean View Inn,Familiar,1,Cinco estrellas,Fuhai
+663,Mountain View Inn,Familiar,4,Cuatro estrellas,Wilwerwiltz
+664,Tropical Breeze Resort,Lujo,4,Una estrella,Ural
+665,Urban Oasis Hotel,Barato,1,Cinco estrellas,Kumagunnam
+666,Coastal Escape,Campestre,1,Una estrella,Shalushka
+667,The Village Hotel,Coworking,2,Cuatro estrellas,Bergen
+668,The Village Hotel,Familiar,1,Tres estrellas,Brakas
+669,The Pines Lodge,Socia,2,Cuatro estrellas,Heshang
+670,The Pines Lodge,Coworking,5,Dos estrellas,General San Martín
+671,The Village Hotel,Urbano,1,Cuatro estrellas,Tuanlin
+672,Ocean View Inn,Bonito,2,Una estrella,Kamiiso
+673,Country Manor,Campestre,1,Cinco estrellas,Ar Rumaythīyah
+674,Mountain Majesty,Hostal,2,Una estrella,Patquía
+675,Sunrise Inn,Hostal,5,Tres estrellas,Pilchowice
+676,Serenity Resort,Barato,3,Cinco estrellas,Piotrków Kujawski
+677,The Oasis Hotel,Lujo,5,Tres estrellas,Parobé
+678,The Hideaway,Lujo,4,Dos estrellas,Majengo
+679,Mountain Majesty,Barato,1,Dos estrellas,Rawa Mazowiecka
+680,Golden Sands Resort,Familiar,2,Dos estrellas,Toyooka
+681,The Chateau,Hostal,4,Cinco estrellas,Non Suwan
+682,Mountain View Inn,Hostal,2,Tres estrellas,Vol’nyy Aul
+683,Tranquil Retreat,Socia,3,Dos estrellas,Tsaghkahovit
+684,Mountain Lodge,Familiar,3,Tres estrellas,Hengshan
+685,Harbor View Hotel,Familiar,2,Tres estrellas,Itapevi
+686,Beachfront Retreat,Hostal,4,Tres estrellas,Qianwei
+687,The Chateau,Campestre,4,Cinco estrellas,Thívai
+688,The Golden Gate Inn,Campestre,4,Dos estrellas,Kalimeneng
+689,The Grove Resort,Coworking,3,Cinco estrellas,Wenquan
+690,Grand Hotel,Lujo,1,Cuatro estrellas,Vista Hermosa
+691,Country Manor,Urbano,5,Cinco estrellas,Jianli
+692,Serenity Resort,Lujo,5,Cuatro estrellas,Dąbie
+693,The Meadow Inn,Urbano,1,Una estrella,Krajan Gajahmati
+694,Seaview Resort,Urbano,4,Una estrella,Hyrynsalmi
+695,The Lakeside Retreat,Campestre,2,Dos estrellas,Ueno
+696,Harbor View Hotel,Bonito,5,Dos estrellas,Lubuagan
+697,Serenity Resort,Bonito,1,Dos estrellas,Butterworth
+698,The Enchanted Inn,Familiar,3,Cuatro estrellas,Podkamennaya Tunguska
+699,Ocean View Inn,Barato,1,Cinco estrellas,Naas
+700,Mountain Majesty,Lujo,1,Cuatro estrellas,Zangzhai
+701,The Oasis Hotel,Bonito,2,Una estrella,Pyšely
+702,Tranquil Retreat,Lujo,3,Cuatro estrellas,Kargowa
+703,The Enchanted Inn,Barato,5,Dos estrellas,Pedra Azul
+704,Seaside Villa,Campestre,2,Dos estrellas,Aurillac
+705,The Grove Resort,Campestre,5,Tres estrellas,Cicheng
+706,Grand Hotel,Socia,5,Tres estrellas,Smiřice
+707,The Lakeside Retreat,Familiar,4,Dos estrellas,Koper
+708,The Cliffside Hotel,Coworking,2,Dos estrellas,Norrahammar
+709,The Village Hotel,Socia,2,Dos estrellas,Vangaži
+710,Seaside Escape,Socia,3,Dos estrellas,München
+711,The Beach House,Barato,5,Una estrella,Hedaru
+712,Royal Palace Hotel,Hostal,2,Una estrella,Huangli
+713,Country Manor,Coworking,1,Cuatro estrellas,Kuala Terengganu
+714,Sunset Resort,Lujo,2,Tres estrellas,Pedreira
+715,Mountain Majesty,Socia,4,Cinco estrellas,Rafael Hernandez Ochoa
+716,The Village Hotel,Hostal,2,Cinco estrellas,Tegallega
+717,Serenity Resort,Socia,1,Cuatro estrellas,Ban Khlong Bang Sao Thong
+718,Silver Star Hotel,Socia,4,Cinco estrellas,Weiqi
+719,Riverside Lodge,Lujo,4,Tres estrellas,Klisura
+720,The Chateau,Bonito,4,Dos estrellas,Shache
+721,Riverfront Retreat,Familiar,3,Dos estrellas,Pignon
+722,Harbor View Hotel,Urbano,4,Cinco estrellas,Visaginas
+723,The Pines Lodge,Barato,5,Dos estrellas,Maria
+724,The Village Hotel,Bonito,3,Cinco estrellas,Piritiba
+725,Lakefront Resort,Coworking,5,Cinco estrellas,Shuanggang
+726,Silver Star Hotel,Bonito,3,Tres estrellas,Al Başrah
+727,Lakeside Manor,Urbano,3,Cinco estrellas,Pandansari
+728,The Harbor Hotel,Lujo,2,Tres estrellas,Habartov
+729,The Meadow Inn,Coworking,2,Cuatro estrellas,Mata
+730,Riverside Lodge,Lujo,2,Tres estrellas,Sosnovka
+731,The Oasis Hotel,Coworking,2,Una estrella,Jāwā
+732,Lakefront Resort,Lujo,4,Una estrella,Khafizan
+733,The Beach House,Familiar,4,Cuatro estrellas,Dongpu
+734,Silver Star Hotel,Bonito,3,Cuatro estrellas,Kurye
+735,Riverfront Retreat,Hostal,5,Una estrella,Alannay
+736,Palm Paradise,Urbano,3,Tres estrellas,Alaminos
+737,Harbor View Hotel,Bonito,3,Cuatro estrellas,Lillehammer
+738,Riverside Lodge,Lujo,5,Cuatro estrellas,Rząśnik
+739,The Golden Gate Inn,Bonito,2,Cinco estrellas,Kogon
+740,Mountain Lodge,Lujo,2,Una estrella,Santa Cruz de Yojoa
+741,Mountain Majesty,Socia,4,Tres estrellas,Ma'an
+742,Ocean View Inn,Urbano,2,Una estrella,Sang-e Chārak
+743,Mountain Lodge,Socia,1,Dos estrellas,Kozje
+744,The Harbor Hotel,Coworking,4,Dos estrellas,Binawara
+745,Palm Paradise,Coworking,4,Una estrella,Liuhe
+746,Royal Palace Hotel,Lujo,3,Dos estrellas,Monze
+747,Alpine Chalet,Hostal,2,Cinco estrellas,Huaxijie
+748,Sunrise Inn,Coworking,5,Cinco estrellas,Ferkessédougou
+749,Royal Palace Hotel,Socia,4,Una estrella,Hinvi
+750,Tropical Breeze Resort,Familiar,5,Una estrella,Yanagawamachi-saiwaichō
+751,Coastal Escape,Barato,5,Una estrella,San Teodoro
+752,Forest Haven,Coworking,1,Dos estrellas,Penza
+753,Rose Garden Inn,Familiar,2,Cuatro estrellas,Huajlaya
+754,Riverfront Retreat,Coworking,3,Dos estrellas,Amuntai
+755,Mountain Lodge,Hostal,3,Cinco estrellas,Sri Jayewardenepura Kotte
+756,Mountain View Inn,Socia,4,Cinco estrellas,Itupiranga
+757,Coastal Escape,Familiar,5,Tres estrellas,Muara Sabak
+758,Serenity Resort,Campestre,4,Cuatro estrellas,Zhinvali
+759,The Oasis Hotel,Urbano,2,Dos estrellas,El Almendro
+760,Alpine Chalet,Barato,5,Una estrella,Tojeira
+761,Country Manor,Familiar,5,Una estrella,Kurye
+762,Sunset Resort,Campestre,4,Tres estrellas,Lintaca
+763,Paradise Cove,Bonito,3,Tres estrellas,Lyon
+764,Silver Star Hotel,Lujo,4,Una estrella,Pāshmūl
+765,Mountain Majesty,Coworking,4,Tres estrellas,Pawa
+766,Skyline Hotel,Urbano,5,Cuatro estrellas,Sławoborze
+767,The Village Hotel,Socia,3,Dos estrellas,Little Rock
+768,Coastal Escape,Bonito,2,Cinco estrellas,Głogów Małopolski
+769,Rose Garden Inn,Socia,3,Dos estrellas,Podkamennaya Tunguska
+770,The Chateau,Campestre,4,Cinco estrellas,Ülken
+771,Lakeside Manor,Familiar,4,Cuatro estrellas,Mitaka-shi
+772,Riverside Lodge,Urbano,5,Cinco estrellas,Malishka
+773,Riverside Lodge,Urbano,5,Dos estrellas,Śródmieście
+774,Royal Palace Hotel,Campestre,4,Una estrella,Vitória da Conquista
+775,The Enchanted Inn,Coworking,2,Tres estrellas,União dos Palmares
+776,Mountain View Inn,Campestre,4,Dos estrellas,Kitui
+777,Riverside Lodge,Barato,5,Dos estrellas,Metz
+778,Mountain Majesty,Bonito,5,Dos estrellas,Kotatengah
+779,Mountain View Inn,Bonito,4,Cuatro estrellas,Leticia
+780,Tranquil Retreat,Barato,1,Cuatro estrellas,Terra Chã
+781,The Oasis Hotel,Barato,3,Una estrella,Mtsensk
+782,The Palm Resort,Socia,4,Tres estrellas,Foxton
+783,The Pines Lodge,Bonito,4,Cuatro estrellas,Jabłonka
+784,Country Manor,Socia,5,Cinco estrellas,Lorient
+785,Royal Palace Hotel,Socia,2,Tres estrellas,Sambilawang
+786,Harbor View Hotel,Lujo,2,Cinco estrellas,Monte da Pedra
+787,Majestic Manor,Barato,4,Dos estrellas,Gushikawa
+788,The Harbor Hotel,Urbano,4,Cuatro estrellas,Ubaté
+789,The Lakeside Retreat,Urbano,4,Cuatro estrellas,Gununglajang
+790,The Grove Resort,Hostal,3,Dos estrellas,Margamukti
+791,Tropical Breeze Resort,Socia,5,Tres estrellas,Concepción de La Vega
+792,The Village Hotel,Campestre,2,Dos estrellas,Molde
+793,Urban Oasis Hotel,Bonito,2,Tres estrellas,Aībak
+794,The Chateau,Campestre,5,Cuatro estrellas,Frösön
+795,Rose Garden Inn,Urbano,4,Dos estrellas,Ulaan Khat
+796,The Hideaway,Bonito,4,Una estrella,Lubaczów
+797,Sunset Resort,Hostal,4,Tres estrellas,Jandaia do Sul
+798,The Enchanted Inn,Urbano,5,Una estrella,Donghuang
+799,Tranquil Retreat,Bonito,4,Tres estrellas,Metz
+800,Alpine Chalet,Campestre,5,Dos estrellas,Andop
+801,Seaside Villa,Urbano,5,Cuatro estrellas,Bator
+802,The Lakeside Retreat,Hostal,5,Tres estrellas,Vellinge
+803,Whispering Pines Inn,Familiar,4,Cinco estrellas,Bernal
+804,Paradise Cove,Bonito,3,Cinco estrellas,Brejieira
+805,Silver Star Hotel,Bonito,4,Cuatro estrellas,Waco
+806,City Lights Hotel,Urbano,1,Cuatro estrellas,Brumado
+807,Palm Paradise,Lujo,1,Dos estrellas,Atiquizaya
+808,Urban Oasis Hotel,Familiar,2,Una estrella,Osby
+809,Country Manor,Campestre,3,Dos estrellas,Nong Bua Lamphu
+810,Rose Garden Inn,Lujo,2,Dos estrellas,Koror Town
+811,Sunrise Inn,Familiar,4,Una estrella,Lameiras
+812,Whispering Pines Inn,Hostal,5,Dos estrellas,Tantamayo
+813,The Oasis Hotel,Barato,2,Una estrella,Rancho Viejo
+814,The Meadow Inn,Hostal,2,Dos estrellas,Anjirserapat
+815,Seaview Resort,Bonito,3,Dos estrellas,Vikhorevka
+816,The Enchanted Inn,Bonito,5,Cuatro estrellas,Paris 07
+817,Mountain Majesty,Urbano,4,Cuatro estrellas,Agboville
+818,The Grove Resort,Coworking,4,Tres estrellas,Pigí
+819,The Palm Resort,Hostal,4,Dos estrellas,Pancoran
+820,Grand Hotel,Socia,2,Cuatro estrellas,Matos da Ranha
+821,Serenity Resort,Familiar,1,Una estrella,Kakan
+822,Meadow Retreat,Lujo,4,Dos estrellas,Maao
+823,Lakeside Manor,Urbano,5,Cuatro estrellas,Paraíso
+824,Serenity Resort,Bonito,5,Dos estrellas,Dubá
+825,The Chateau,Familiar,1,Una estrella,Upernavik
+826,Serenity Resort,Socia,1,Cinco estrellas,Seropédica
+827,Riverfront Retreat,Urbano,3,Una estrella,Zhujiaqiao
+828,Whispering Pines Inn,Familiar,1,Cinco estrellas,Huilelot
+829,Seaside Escape,Familiar,3,Una estrella,Caoping
+830,Royal Palace Hotel,Barato,1,Cinco estrellas,Mników
+831,Mountain Lodge,Hostal,5,Cinco estrellas,Erhe
+832,Riverside Lodge,Hostal,5,Cinco estrellas,Ust’-Dzheguta
+833,Seaside Villa,Familiar,5,Cuatro estrellas,Turiys’k
+834,City Lights Hotel,Coworking,4,Cuatro estrellas,Doruchów
+835,City Lights Hotel,Hostal,5,Una estrella,Kazinka
+836,Paradise Cove,Familiar,2,Cinco estrellas,Houston
+837,The Lakeside Retreat,Urbano,3,Dos estrellas,Kimry
+838,Mountain View Inn,Campestre,1,Cinco estrellas,Horní Štěpánov
+839,The Pines Lodge,Familiar,3,Cuatro estrellas,Tailing
+840,Paradise Cove,Coworking,3,Cuatro estrellas,Thanh Nê
+841,Whispering Pines Inn,Bonito,1,Cinco estrellas,Yonghe
+842,Riverside Lodge,Barato,4,Una estrella,Areia Branca
+843,Ocean View Inn,Campestre,1,Tres estrellas,Titao
+844,Majestic Manor,Hostal,5,Cuatro estrellas,Ilām
+845,Serenity Resort,Coworking,2,Cuatro estrellas,Lubenec
+846,The Palm Resort,Urbano,4,Tres estrellas,Barong
+847,Seaview Resort,Socia,3,Tres estrellas,Centre de Flacq
+848,Harbor View Hotel,Coworking,3,Cinco estrellas,Bongor
+849,Majestic Manor,Socia,1,Cinco estrellas,Fort Myers
+850,Grand Hotel,Lujo,3,Cuatro estrellas,Rongxiang
+851,Golden Sands Resort,Socia,4,Tres estrellas,Czerniewice
+852,The Pines Lodge,Lujo,2,Cinco estrellas,Bitola
+853,Palm Paradise,Lujo,2,Tres estrellas,Donostia-San Sebastian
+854,Golden Sands Resort,Hostal,1,Cuatro estrellas,Heshan
+855,The Chateau,Coworking,4,Tres estrellas,‘Afula ‘Illit
+856,Sunrise Inn,Barato,3,Tres estrellas,Soito
+857,Seaside Villa,Coworking,2,Tres estrellas,Kalāt
+858,Lakeside Manor,Barato,2,Cinco estrellas,Mahébourg
+859,Country Manor,Coworking,5,Cinco estrellas,Xinbei
+860,Rose Garden Inn,Barato,3,Tres estrellas,Lumbac
+861,Tranquil Retreat,Coworking,1,Dos estrellas,Namayingo
+862,Grand Hotel,Socia,4,Dos estrellas,Gaoping
+863,Lakeside Manor,Lujo,2,Dos estrellas,Feliciano
+864,Majestic Manor,Barato,5,Cuatro estrellas,Nueva Guadalupe
+865,Mountain Majesty,Campestre,2,Cinco estrellas,Al Jafr
+866,Majestic Manor,Familiar,1,Cinco estrellas,Chenjiahe
+867,The Palm Resort,Campestre,3,Cinco estrellas,Xiangyun
+868,Silver Star Hotel,Hostal,3,Cinco estrellas,Baoshan
+869,Sunset Resort,Barato,2,Dos estrellas,Ghouazi
+870,Urban Oasis Hotel,Socia,4,Cuatro estrellas,Viçosa
+871,The Oasis Hotel,Urbano,3,Cinco estrellas,Buta
+872,The Enchanted Inn,Bonito,1,Cinco estrellas,Bezhta
+873,Forest Haven,Coworking,3,Tres estrellas,Shufeng
+874,Sunset Resort,Coworking,2,Dos estrellas,Rio Novo do Sul
+875,Seaview Resort,Urbano,1,Una estrella,Lidoríki
+876,Seaview Resort,Socia,5,Tres estrellas,Vân Đình
+877,Tranquil Retreat,Hostal,2,Una estrella,Hisings Kärra
+878,Seaside Villa,Coworking,4,Cuatro estrellas,Krajan
+879,Alpine Chalet,Familiar,4,Tres estrellas,Ten’gushevo
+880,Mountain View Inn,Lujo,2,Una estrella,Savonlinna
+881,Sunrise Inn,Campestre,5,Dos estrellas,Proboštov
+882,Alpine Chalet,Socia,5,Cinco estrellas,Tawali
+883,Mountain View Inn,Bonito,4,Dos estrellas,Fajã de Cima
+884,Sunset Resort,Lujo,1,Una estrella,Al ‘Anān
+885,Beachfront Retreat,Urbano,2,Cuatro estrellas,Moriyama
+886,Riverfront Retreat,Urbano,4,Dos estrellas,Gulariyā
+887,Royal Palace Hotel,Bonito,3,Cinco estrellas,Las Vegas
+888,The Cliffside Hotel,Socia,4,Cuatro estrellas,Lady Grey
+889,The Lakeside Retreat,Urbano,2,Tres estrellas,Malaga
+890,Sunrise Inn,Campestre,5,Una estrella,Darovskoy
+891,Mountain Lodge,Bonito,3,Dos estrellas,Punta Cana
+892,Rose Garden Inn,Urbano,5,Tres estrellas,Nangaroro
+893,Riverside Lodge,Barato,4,Cinco estrellas,Detroit
+894,Forest Haven,Lujo,2,Tres estrellas,Stockholm
+895,Whispering Pines Inn,Hostal,5,Dos estrellas,Balayan
+896,The Meadow Inn,Barato,2,Tres estrellas,Yangxiang
+897,Royal Palace Hotel,Barato,4,Tres estrellas,Strasbourg
+898,Seaview Resort,Lujo,4,Tres estrellas,Barra Cheia
+899,Whispering Pines Inn,Hostal,5,Dos estrellas,Alikalia
+900,Alpine Chalet,Urbano,5,Cuatro estrellas,Broto
+901,The Enchanted Inn,Coworking,2,Cinco estrellas,Buena Esperanza
+902,The Chateau,Barato,5,Cuatro estrellas,Homeyo
+903,Lakefront Resort,Bonito,5,Dos estrellas,Cemplang
+904,Seaview Resort,Campestre,5,Cuatro estrellas,Rousínov
+905,Sunset Resort,Lujo,5,Dos estrellas,Machalí
+906,The Meadow Inn,Campestre,5,Dos estrellas,Xiangjiazhai
+907,Seaside Villa,Barato,2,Cuatro estrellas,Banjar Pangkungtibah Selatan
+908,The Harbor Hotel,Urbano,4,Una estrella,Zblewo
+909,The Enchanted Inn,Coworking,4,Una estrella,Tsalgar
+910,Meadow Retreat,Coworking,3,Dos estrellas,Honolulu
+911,Beachfront Retreat,Socia,1,Cuatro estrellas,Shanglian
+912,Island Oasis,Hostal,1,Tres estrellas,Baibu
+913,Seaside Villa,Socia,5,Dos estrellas,Puerto Asís
+914,Beachfront Retreat,Campestre,5,Cinco estrellas,Las Lomas
+915,Lakefront Resort,Coworking,4,Dos estrellas,Xiaoshan
+916,The Lakeside Retreat,Familiar,4,Una estrella,Vitry-sur-Seine
+917,Coastal Escape,Hostal,3,Cuatro estrellas,Cikondang
+918,Grand Hotel,Socia,2,Tres estrellas,Xinba
+919,The Enchanted Inn,Bonito,1,Tres estrellas,Yambio
+920,Alpine Chalet,Campestre,5,Cinco estrellas,Raša
+921,The Village Hotel,Hostal,4,Tres estrellas,Bahui
+922,The Meadow Inn,Barato,4,Cuatro estrellas,Braunschweig
+923,Meadow Retreat,Socia,2,Dos estrellas,Deshan
+924,The Lakeside Retreat,Urbano,1,Tres estrellas,Carleton Place
+925,Island Oasis,Socia,1,Cuatro estrellas,Nemuro
+926,Grand Hotel,Lujo,4,Cuatro estrellas,Ban Phan Don
+927,Beachfront Retreat,Campestre,2,Cinco estrellas,Upi
+928,Sunrise Inn,Campestre,2,Tres estrellas,Sinargalih
+929,Golden Sands Resort,Hostal,4,Cinco estrellas,Lillooet
+930,Sunset Resort,Barato,3,Cinco estrellas,Moulins
+931,Tropical Breeze Resort,Hostal,5,Tres estrellas,Radomin
+932,Mountain View Inn,Socia,2,Dos estrellas,Zamora
+933,Mountain View Inn,Lujo,2,Una estrella,Jin’e
+934,Forest Haven,Campestre,3,Cuatro estrellas,Cavadas
+935,Serenity Resort,Familiar,5,Dos estrellas,Patsi
+936,Silver Star Hotel,Urbano,1,Tres estrellas,Veisiejai
+937,Silver Star Hotel,Urbano,2,Cuatro estrellas,Tarhuna
+938,Royal Palace Hotel,Coworking,4,Cuatro estrellas,Leloboko
+939,Mountain Lodge,Barato,5,Dos estrellas,Buenos Aires
+940,Tropical Breeze Resort,Campestre,4,Tres estrellas,San Martín de los Andes
+941,Beachfront Retreat,Barato,1,Cinco estrellas,Buinsk
+942,Mountain Lodge,Barato,2,Cuatro estrellas,Horad Krychaw
+943,The Chateau,Bonito,5,Tres estrellas,Azilal
+944,The Grove Resort,Hostal,1,Cuatro estrellas,Dengjia
+945,The Golden Gate Inn,Socia,3,Cuatro estrellas,Sölvesborg
+946,The Lakeside Retreat,Familiar,4,Dos estrellas,Tetyushi
+947,The Beach House,Coworking,1,Una estrella,Cibitungmasjid
+948,Mountain Lodge,Hostal,4,Dos estrellas,Yangpu
+949,The Lakeside Retreat,Barato,3,Cuatro estrellas,Ljubno ob Savinji
+950,Riverside Lodge,Barato,5,Cuatro estrellas,Dikwa
+951,The Grove Resort,Hostal,5,Cuatro estrellas,Daba
+952,The Oasis Hotel,Campestre,1,Cuatro estrellas,Creil
+953,Tropical Breeze Resort,Lujo,3,Tres estrellas,Juan L. Lacaze
+954,The Lakeside Retreat,Familiar,5,Tres estrellas,Shun’ga
+955,Serenity Resort,Familiar,5,Cuatro estrellas,Sinilian First
+956,The Oasis Hotel,Familiar,5,Una estrella,Sumberjo
+957,Mountain Majesty,Familiar,2,Cuatro estrellas,Lidingö
+958,The Beach House,Barato,3,Una estrella,Saint-Ambroise
+959,Seaside Escape,Lujo,5,Una estrella,Tayang
+960,The Harbor Hotel,Urbano,1,Cinco estrellas,Luče
+961,The Beach House,Campestre,5,Tres estrellas,Watulumbung
+962,The Hideaway,Familiar,4,Tres estrellas,Nyeri
+963,The Golden Gate Inn,Socia,1,Tres estrellas,Charlotte Amalie
+964,Golden Sands Resort,Urbano,3,Dos estrellas,Pécs
+965,Mountain Lodge,Socia,2,Una estrella,Maswarah
+966,City Lights Hotel,Familiar,2,Cinco estrellas,Tucson
+967,Whispering Pines Inn,Campestre,2,Cuatro estrellas,Huanghu
+968,Beachfront Retreat,Hostal,4,Tres estrellas,Anyar
+969,Ocean View Inn,Campestre,5,Tres estrellas,Partizan
+970,Beachfront Retreat,Coworking,4,Una estrella,Seupakat
+971,Riverfront Retreat,Campestre,3,Dos estrellas,L'Aigle
+972,Harbor View Hotel,Campestre,4,Una estrella,Konibodom
+973,Palm Paradise,Coworking,4,Cinco estrellas,Standerton
+974,Paradise Cove,Socia,3,Cuatro estrellas,Stara Pazova
+975,Grand Hotel,Urbano,3,Cuatro estrellas,Talibura
+976,Beachfront Retreat,Socia,4,Una estrella,Behbahān
+977,The Chateau,Coworking,2,Tres estrellas,Kihniö
+978,Majestic Manor,Hostal,2,Una estrella,Tuburan
+979,Forest Haven,Urbano,2,Cuatro estrellas,Jõgeva
+980,Seaview Resort,Barato,1,Tres estrellas,Chamouny
+981,The Village Hotel,Bonito,1,Cuatro estrellas,Ipoh
+982,Riverfront Retreat,Familiar,1,Tres estrellas,Lysá nad Labem
+983,The Grove Resort,Coworking,1,Una estrella,Pohang
+984,Forest Haven,Coworking,2,Una estrella,Bancroft
+985,Seaside Escape,Bonito,3,Una estrella,Mafra
+986,Tropical Breeze Resort,Hostal,2,Dos estrellas,Jincun
+987,The Harbor Hotel,Bonito,5,Dos estrellas,Bang Phlat
+988,Forest Haven,Bonito,5,Cinco estrellas,Conde
+989,The Beach House,Familiar,5,Dos estrellas,Cukanguncal
+990,Beachfront Retreat,Coworking,4,Cinco estrellas,Tambilil
+991,Palm Paradise,Coworking,1,Cinco estrellas,Khān Yūnis
+992,Harbor View Hotel,Hostal,1,Una estrella,Dundee
+993,Beachfront Retreat,Barato,2,Una estrella,Barakī Barak
+994,Mountain Majesty,Socia,1,Cuatro estrellas,Niaojin
+995,The Palm Resort,Campestre,3,Cinco estrellas,Baomin
+996,Sunrise Inn,Urbano,1,Cuatro estrellas,Sidon
+997,Ocean View Inn,Campestre,5,Una estrella,Dungloe
+998,Lakefront Resort,Socia,5,Cuatro estrellas,Luts’k
+999,The Grove Resort,Familiar,4,Dos estrellas,Forshaga
+1000,Silver Star Hotel,Coworking,1,Cinco estrellas,Otavi

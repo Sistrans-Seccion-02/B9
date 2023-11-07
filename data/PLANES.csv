@@ -1,0 +1,1001 @@
+ID;TIPO;HORARIO;DESCRIPCION
+1;Paquetes de vacaciones;08/06/2023;Programas de fidelización
+2;Tarifas de fin de semana;26/11/2022;Descuentos para grupos
+3;Descuento por estadía prolongada;10/01/2023;Descuentos para residentes locales
+4;Ofertas de temporada;20/10/2023;Descuentos por reserva anticipada
+5;Descuento por estadía prolongada;06/03/2023;Descuentos para empleados de empresas
+6;Paquetes de vacaciones;24/06/2023;Programas de fidelización
+7;Descuentos para empleados de empresas;29/12/2022;Tarifas de fin de semana
+8;Descuentos para residentes locales;05/01/2023;Ofertas de temporada
+9;Descuentos para personas mayores;29/09/2023;Descuentos para grupos
+10;Ofertas de temporada;30/12/2022;Tarifas de fin de semana
+11;Tarifas de fin de semana;27/09/2023;Descuentos para residentes locales
+12;Descuentos por reserva anticipada;23/02/2023;Descuentos para empleados de empresas
+13;Programas de fidelización;16/02/2023;Descuentos por reserva anticipada
+14;Ofertas de temporada;18/02/2023;Descuentos militares
+15;Tarifas de fin de semana;30/03/2023;Descuentos para grupos
+16;Descuentos para grupos;27/12/2022;Descuentos para estudiantes o profesores
+17;Programas de fidelización;31/07/2023;Descuentos para personas mayores
+18;Descuentos para grupos;06/08/2023;Programas de fidelización
+19;Ofertas de último minuto;09/12/2022;Programas de fidelización
+20;Descuentos para niños.;01/10/2023;Descuentos para personas mayores
+21;Descuentos para estudiantes o profesores;09/03/2023;Descuentos para grupos
+22;Paquetes de vacaciones;20/11/2022;Descuentos para residentes locales
+23;Descuentos para empleados de empresas;10/03/2023;Ofertas de último minuto
+24;Paquetes de vacaciones;10/02/2023;Descuentos por reserva anticipada
+25;Descuentos para empleados de empresas;06/10/2023;Programas de fidelización
+26;Tarifas de fin de semana;11/10/2023;Descuentos militares
+27;Descuentos para empleados de empresas;23/05/2023;Programas de fidelización
+28;Descuentos para grupos;29/10/2023;Descuento por estadía prolongada
+29;Descuentos para residentes locales;23/01/2023;Descuentos militares
+30;Descuentos para personas mayores;18/06/2023;Ofertas de temporada
+31;Descuento por estadía prolongada;03/10/2023;Descuentos militares
+32;Descuentos para personas mayores;21/07/2023;Descuentos para estudiantes o profesores
+33;Descuento por estadía prolongada;14/11/2022;Descuentos para personas mayores
+34;Descuentos para residentes locales;28/06/2023;Descuentos para empleados de empresas
+35;Ofertas de último minuto;25/09/2023;Tarifas de fin de semana
+36;Descuentos para estudiantes o profesores;02/07/2023;Descuentos militares
+37;Descuentos para residentes locales;02/03/2023;Descuentos para grupos
+38;Descuentos para empleados de empresas;29/11/2022;Descuentos para personas mayores
+39;Descuentos para grupos;26/12/2022;Descuentos para grupos
+40;Descuentos para personas mayores;29/11/2022;Ofertas de último minuto
+41;Ofertas de último minuto;11/03/2023;Descuentos por reserva anticipada
+42;Descuentos para residentes locales;07/05/2023;Descuentos para estudiantes o profesores
+43;Descuentos por reserva anticipada;01/11/2023;Descuentos para empleados de empresas
+44;Descuentos para personas mayores;13/11/2022;Descuentos para grupos
+45;Descuentos para estudiantes o profesores;06/11/2022;Tarifas de fin de semana
+46;Descuentos por reserva anticipada;15/01/2023;Descuentos para empleados de empresas
+47;Descuentos para personas mayores;02/08/2023;Descuentos para personas mayores
+48;Paquetes de vacaciones;31/03/2023;Descuentos por reserva anticipada
+49;Descuento por estadía prolongada;10/06/2023;Programas de fidelización
+50;Descuentos para residentes locales;06/11/2022;Descuento por estadía prolongada
+51;Descuentos para residentes locales;27/09/2023;Descuentos por reserva anticipada
+52;Descuentos para niños.;10/02/2023;Programas de fidelización
+53;Tarifas de fin de semana;23/06/2023;Descuento por estadía prolongada
+54;Descuento por estadía prolongada;13/07/2023;Ofertas de último minuto
+55;Descuentos para empleados de empresas;11/04/2023;Tarifas de fin de semana
+56;Descuentos para empleados de empresas;13/10/2023;Programas de fidelización
+57;Descuentos para niños.;03/03/2023;Descuentos para grupos
+58;Descuentos para grupos;06/06/2023;Paquetes de vacaciones
+59;Paquetes de vacaciones;30/03/2023;Descuentos militares
+60;Ofertas de último minuto;24/11/2022;Descuentos para residentes locales
+61;Ofertas de último minuto;20/09/2023;Descuento por estadía prolongada
+62;Descuentos para personas mayores;14/01/2023;Ofertas de último minuto
+63;Descuentos para niños.;16/09/2023;Descuentos para empleados de empresas
+64;Ofertas de último minuto;24/02/2023;Descuentos para empleados de empresas
+65;Tarifas de fin de semana;12/01/2023;Ofertas de último minuto
+66;Ofertas de temporada;07/01/2023;Descuentos militares
+67;Descuentos para grupos;11/02/2023;Programas de fidelización
+68;Descuento por estadía prolongada;21/07/2023;Descuentos militares
+69;Descuentos para grupos;26/10/2023;Paquetes de vacaciones
+70;Descuentos para empleados de empresas;14/01/2023;Paquetes de vacaciones
+71;Ofertas de último minuto;28/04/2023;Descuentos por reserva anticipada
+72;Descuentos para estudiantes o profesores;12/04/2023;Descuento por estadía prolongada
+73;Descuentos para empleados de empresas;11/04/2023;Descuentos militares
+74;Descuentos para empleados de empresas;08/02/2023;Ofertas de último minuto
+75;Tarifas de fin de semana;27/03/2023;Ofertas de temporada
+76;Programas de fidelización;11/10/2023;Ofertas de temporada
+77;Ofertas de temporada;29/12/2022;Descuentos por reserva anticipada
+78;Descuentos para niños.;22/05/2023;Descuentos para residentes locales
+79;Tarifas de fin de semana;02/06/2023;Descuentos para empleados de empresas
+80;Descuentos para estudiantes o profesores;21/07/2023;Descuentos para grupos
+81;Programas de fidelización;11/03/2023;Descuentos para personas mayores
+82;Descuentos para personas mayores;15/11/2022;Descuentos por reserva anticipada
+83;Descuentos para empleados de empresas;07/02/2023;Descuento por estadía prolongada
+84;Descuentos militares;22/08/2023;Ofertas de temporada
+85;Descuentos para estudiantes o profesores;17/04/2023;Descuentos para niños.
+86;Ofertas de último minuto;27/05/2023;Paquetes de vacaciones
+87;Descuentos para personas mayores;06/06/2023;Paquetes de vacaciones
+88;Descuentos para niños.;01/03/2023;Descuentos para estudiantes o profesores
+89;Descuento por estadía prolongada;15/01/2023;Descuentos militares
+90;Descuentos para empleados de empresas;25/07/2023;Ofertas de temporada
+91;Descuentos para niños.;26/06/2023;Programas de fidelización
+92;Ofertas de temporada;19/10/2023;Descuentos para estudiantes o profesores
+93;Ofertas de último minuto;08/11/2022;Descuentos por reserva anticipada
+94;Ofertas de último minuto;19/03/2023;Descuentos para estudiantes o profesores
+95;Descuentos para personas mayores;20/04/2023;Descuento por estadía prolongada
+96;Descuentos para residentes locales;20/12/2022;Descuento por estadía prolongada
+97;Ofertas de último minuto;12/08/2023;Descuentos para niños.
+98;Descuentos militares;25/11/2022;Descuentos para residentes locales
+99;Descuentos para empleados de empresas;14/01/2023;Descuentos para personas mayores
+100;Descuentos para empleados de empresas;21/06/2023;Descuentos para residentes locales
+101;Descuentos para empleados de empresas;30/04/2023;Descuentos para personas mayores
+102;Descuentos para residentes locales;17/08/2023;Descuentos para residentes locales
+103;Ofertas de último minuto;09/12/2022;Descuentos para estudiantes o profesores
+104;Descuentos militares;16/07/2023;Descuentos para empleados de empresas
+105;Descuentos para residentes locales;11/11/2022;Ofertas de último minuto
+106;Descuentos para empleados de empresas;31/07/2023;Descuentos para empleados de empresas
+107;Tarifas de fin de semana;14/03/2023;Descuentos para estudiantes o profesores
+108;Descuentos para niños.;20/09/2023;Paquetes de vacaciones
+109;Ofertas de temporada;03/07/2023;Descuentos para empleados de empresas
+110;Descuentos para grupos;09/06/2023;Ofertas de último minuto
+111;Descuentos para residentes locales;20/10/2023;Paquetes de vacaciones
+112;Descuentos para personas mayores;16/11/2022;Paquetes de vacaciones
+113;Descuentos por reserva anticipada;16/03/2023;Descuentos militares
+114;Paquetes de vacaciones;10/12/2022;Paquetes de vacaciones
+115;Tarifas de fin de semana;27/07/2023;Descuentos militares
+116;Descuentos para personas mayores;15/03/2023;Descuentos militares
+117;Ofertas de último minuto;24/01/2023;Descuentos para niños.
+118;Tarifas de fin de semana;20/06/2023;Descuentos para grupos
+119;Descuento por estadía prolongada;28/05/2023;Paquetes de vacaciones
+120;Descuentos para niños.;26/08/2023;Descuentos para personas mayores
+121;Paquetes de vacaciones;05/08/2023;Descuentos militares
+122;Descuentos para personas mayores;04/04/2023;Descuento por estadía prolongada
+123;Ofertas de temporada;24/12/2022;Tarifas de fin de semana
+124;Descuentos militares;24/03/2023;Programas de fidelización
+125;Descuentos para estudiantes o profesores;26/10/2023;Descuentos para empleados de empresas
+126;Descuentos para niños.;12/07/2023;Ofertas de temporada
+127;Descuentos por reserva anticipada;06/05/2023;Descuentos para empleados de empresas
+128;Descuento por estadía prolongada;23/03/2023;Descuentos para empleados de empresas
+129;Descuentos para grupos;07/04/2023;Descuentos por reserva anticipada
+130;Descuentos para grupos;03/09/2023;Descuentos para grupos
+131;Programas de fidelización;02/10/2023;Descuentos para personas mayores
+132;Descuento por estadía prolongada;27/11/2022;Ofertas de temporada
+133;Paquetes de vacaciones;27/09/2023;Descuento por estadía prolongada
+134;Descuentos militares;26/09/2023;Descuentos para grupos
+135;Tarifas de fin de semana;22/07/2023;Descuentos para niños.
+136;Descuentos para personas mayores;24/08/2023;Descuentos para empleados de empresas
+137;Descuentos para estudiantes o profesores;24/01/2023;Programas de fidelización
+138;Descuentos para grupos;16/09/2023;Descuentos para personas mayores
+139;Ofertas de último minuto;05/10/2023;Ofertas de temporada
+140;Descuento por estadía prolongada;28/09/2023;Descuentos para grupos
+141;Descuento por estadía prolongada;08/10/2023;Descuentos por reserva anticipada
+142;Descuentos por reserva anticipada;16/02/2023;Descuentos para grupos
+143;Tarifas de fin de semana;03/09/2023;Ofertas de último minuto
+144;Ofertas de último minuto;16/11/2022;Tarifas de fin de semana
+145;Descuentos por reserva anticipada;04/02/2023;Descuentos para empleados de empresas
+146;Descuentos para niños.;02/08/2023;Paquetes de vacaciones
+147;Descuentos para estudiantes o profesores;13/04/2023;Programas de fidelización
+148;Descuentos por reserva anticipada;04/12/2022;Descuentos para estudiantes o profesores
+149;Tarifas de fin de semana;22/08/2023;Descuento por estadía prolongada
+150;Descuentos para niños.;05/02/2023;Descuentos para niños.
+151;Descuentos para residentes locales;05/09/2023;Tarifas de fin de semana
+152;Descuentos para residentes locales;24/06/2023;Descuentos para empleados de empresas
+153;Descuentos militares;10/03/2023;Descuento por estadía prolongada
+154;Ofertas de temporada;22/09/2023;Descuentos para empleados de empresas
+155;Descuentos para niños.;05/09/2023;Descuentos militares
+156;Ofertas de último minuto;18/05/2023;Ofertas de temporada
+157;Descuentos para residentes locales;10/09/2023;Descuentos para empleados de empresas
+158;Descuentos militares;04/11/2023;Programas de fidelización
+159;Tarifas de fin de semana;01/07/2023;Descuento por estadía prolongada
+160;Descuentos para empleados de empresas;21/01/2023;Descuentos militares
+161;Descuentos militares;08/08/2023;Tarifas de fin de semana
+162;Descuentos para personas mayores;01/10/2023;Programas de fidelización
+163;Descuentos para niños.;05/01/2023;Descuentos para niños.
+164;Descuentos para residentes locales;13/10/2023;Descuento por estadía prolongada
+165;Descuentos para niños.;28/03/2023;Descuentos militares
+166;Descuentos para grupos;13/06/2023;Descuentos para niños.
+167;Descuentos para residentes locales;18/12/2022;Tarifas de fin de semana
+168;Descuentos para empleados de empresas;12/05/2023;Descuentos para personas mayores
+169;Descuentos para empleados de empresas;18/03/2023;Descuentos para residentes locales
+170;Ofertas de último minuto;03/09/2023;Descuentos para grupos
+171;Descuentos para residentes locales;22/03/2023;Descuentos para niños.
+172;Descuentos para grupos;16/02/2023;Descuentos por reserva anticipada
+173;Paquetes de vacaciones;22/09/2023;Descuentos para empleados de empresas
+174;Descuentos para estudiantes o profesores;26/01/2023;Descuentos por reserva anticipada
+175;Tarifas de fin de semana;29/06/2023;Programas de fidelización
+176;Descuentos militares;27/07/2023;Descuentos para residentes locales
+177;Programas de fidelización;13/03/2023;Paquetes de vacaciones
+178;Descuentos para niños.;07/09/2023;Descuentos para residentes locales
+179;Descuentos para personas mayores;13/11/2022;Descuentos para residentes locales
+180;Descuento por estadía prolongada;02/11/2023;Ofertas de último minuto
+181;Descuentos para personas mayores;29/12/2022;Descuentos para grupos
+182;Descuentos para empleados de empresas;10/03/2023;Ofertas de último minuto
+183;Tarifas de fin de semana;24/01/2023;Descuentos para grupos
+184;Ofertas de temporada;14/03/2023;Descuentos para estudiantes o profesores
+185;Descuentos para residentes locales;19/12/2022;Descuentos para grupos
+186;Descuentos para personas mayores;23/09/2023;Paquetes de vacaciones
+187;Ofertas de temporada;12/02/2023;Descuentos para residentes locales
+188;Ofertas de último minuto;26/09/2023;Descuentos militares
+189;Descuentos para niños.;04/02/2023;Descuentos para empleados de empresas
+190;Ofertas de último minuto;08/11/2022;Paquetes de vacaciones
+191;Programas de fidelización;01/10/2023;Descuentos para estudiantes o profesores
+192;Programas de fidelización;06/09/2023;Descuentos para grupos
+193;Ofertas de temporada;17/04/2023;Ofertas de temporada
+194;Descuento por estadía prolongada;20/10/2023;Programas de fidelización
+195;Descuentos para grupos;23/03/2023;Tarifas de fin de semana
+196;Paquetes de vacaciones;22/05/2023;Descuentos militares
+197;Descuentos para estudiantes o profesores;20/09/2023;Ofertas de temporada
+198;Paquetes de vacaciones;12/01/2023;Ofertas de último minuto
+199;Descuentos para niños.;02/10/2023;Ofertas de temporada
+200;Paquetes de vacaciones;11/07/2023;Descuentos por reserva anticipada
+201;Ofertas de último minuto;15/09/2023;Descuentos para personas mayores
+202;Ofertas de último minuto;19/02/2023;Descuentos para niños.
+203;Descuentos para estudiantes o profesores;03/03/2023;Descuentos para estudiantes o profesores
+204;Descuentos para grupos;29/03/2023;Paquetes de vacaciones
+205;Ofertas de último minuto;15/08/2023;Descuentos para personas mayores
+206;Descuento por estadía prolongada;22/12/2022;Descuentos para grupos
+207;Descuentos para estudiantes o profesores;17/03/2023;Descuentos para estudiantes o profesores
+208;Descuento por estadía prolongada;25/12/2022;Descuentos por reserva anticipada
+209;Ofertas de temporada;25/06/2023;Descuentos por reserva anticipada
+210;Descuentos militares;11/06/2023;Tarifas de fin de semana
+211;Descuentos militares;13/06/2023;Descuentos para residentes locales
+212;Descuentos para grupos;18/10/2023;Tarifas de fin de semana
+213;Descuentos para estudiantes o profesores;13/04/2023;Paquetes de vacaciones
+214;Descuentos para estudiantes o profesores;24/10/2023;Descuentos por reserva anticipada
+215;Descuento por estadía prolongada;17/11/2022;Programas de fidelización
+216;Descuentos militares;28/11/2022;Programas de fidelización
+217;Ofertas de temporada;20/02/2023;Ofertas de último minuto
+218;Descuentos para personas mayores;15/02/2023;Descuentos para grupos
+219;Programas de fidelización;09/07/2023;Descuentos militares
+220;Descuentos por reserva anticipada;02/01/2023;Descuentos militares
+221;Ofertas de temporada;06/03/2023;Tarifas de fin de semana
+222;Ofertas de temporada;30/09/2023;Descuentos para residentes locales
+223;Programas de fidelización;10/03/2023;Descuentos militares
+224;Descuentos militares;06/01/2023;Descuentos para niños.
+225;Paquetes de vacaciones;09/02/2023;Descuentos para residentes locales
+226;Descuentos para residentes locales;21/02/2023;Tarifas de fin de semana
+227;Descuentos para estudiantes o profesores;23/07/2023;Descuentos para estudiantes o profesores
+228;Programas de fidelización;14/05/2023;Paquetes de vacaciones
+229;Paquetes de vacaciones;05/02/2023;Ofertas de último minuto
+230;Descuentos para residentes locales;30/01/2023;Paquetes de vacaciones
+231;Ofertas de temporada;28/01/2023;Descuentos militares
+232;Ofertas de temporada;27/08/2023;Descuentos para niños.
+233;Descuentos para grupos;15/09/2023;Ofertas de último minuto
+234;Programas de fidelización;08/03/2023;Descuentos por reserva anticipada
+235;Paquetes de vacaciones;14/02/2023;Descuentos para personas mayores
+236;Tarifas de fin de semana;04/11/2023;Descuentos para grupos
+237;Paquetes de vacaciones;15/01/2023;Descuentos para empleados de empresas
+238;Descuentos por reserva anticipada;03/05/2023;Ofertas de último minuto
+239;Descuentos para residentes locales;01/08/2023;Tarifas de fin de semana
+240;Descuentos para niños.;22/06/2023;Descuentos por reserva anticipada
+241;Descuentos militares;27/05/2023;Descuentos por reserva anticipada
+242;Descuento por estadía prolongada;05/11/2023;Descuentos militares
+243;Descuentos para grupos;30/07/2023;Tarifas de fin de semana
+244;Paquetes de vacaciones;18/07/2023;Ofertas de último minuto
+245;Tarifas de fin de semana;07/09/2023;Ofertas de último minuto
+246;Descuento por estadía prolongada;14/09/2023;Descuento por estadía prolongada
+247;Descuentos para personas mayores;22/02/2023;Descuentos para estudiantes o profesores
+248;Descuentos para residentes locales;25/08/2023;Descuento por estadía prolongada
+249;Descuentos para residentes locales;09/08/2023;Descuento por estadía prolongada
+250;Descuentos para residentes locales;13/03/2023;Descuentos para estudiantes o profesores
+251;Descuentos para empleados de empresas;06/05/2023;Descuentos militares
+252;Descuentos para estudiantes o profesores;10/12/2022;Descuentos para estudiantes o profesores
+253;Descuentos para personas mayores;26/02/2023;Paquetes de vacaciones
+254;Descuentos por reserva anticipada;15/03/2023;Programas de fidelización
+255;Ofertas de último minuto;06/05/2023;Descuentos para residentes locales
+256;Descuentos para grupos;02/06/2023;Descuentos para estudiantes o profesores
+257;Descuentos para grupos;16/05/2023;Descuentos para niños.
+258;Descuentos para personas mayores;23/03/2023;Tarifas de fin de semana
+259;Descuentos para grupos;29/12/2022;Descuentos para niños.
+260;Descuentos para residentes locales;31/10/2023;Ofertas de último minuto
+261;Paquetes de vacaciones;06/11/2022;Descuentos para empleados de empresas
+262;Descuentos por reserva anticipada;13/06/2023;Ofertas de temporada
+263;Descuentos militares;06/05/2023;Ofertas de último minuto
+264;Paquetes de vacaciones;22/06/2023;Descuentos para personas mayores
+265;Descuentos para niños.;19/11/2022;Descuentos para residentes locales
+266;Descuentos para residentes locales;08/03/2023;Ofertas de último minuto
+267;Descuentos para empleados de empresas;17/06/2023;Descuento por estadía prolongada
+268;Descuentos para residentes locales;01/09/2023;Tarifas de fin de semana
+269;Ofertas de temporada;23/05/2023;Descuentos para grupos
+270;Descuentos para empleados de empresas;26/12/2022;Descuentos para residentes locales
+271;Tarifas de fin de semana;04/06/2023;Descuentos militares
+272;Descuentos militares;05/05/2023;Programas de fidelización
+273;Descuentos para personas mayores;14/10/2023;Tarifas de fin de semana
+274;Descuentos por reserva anticipada;04/12/2022;Ofertas de temporada
+275;Descuentos por reserva anticipada;30/10/2023;Descuentos para personas mayores
+276;Programas de fidelización;11/10/2023;Descuentos para niños.
+277;Ofertas de último minuto;01/03/2023;Descuentos militares
+278;Ofertas de último minuto;04/07/2023;Descuentos para niños.
+279;Descuentos para estudiantes o profesores;01/09/2023;Descuentos para empleados de empresas
+280;Descuento por estadía prolongada;06/03/2023;Paquetes de vacaciones
+281;Descuentos para grupos;09/11/2022;Descuentos para grupos
+282;Ofertas de último minuto;22/05/2023;Descuentos para empleados de empresas
+283;Descuentos por reserva anticipada;12/10/2023;Paquetes de vacaciones
+284;Descuentos para grupos;12/11/2022;Paquetes de vacaciones
+285;Tarifas de fin de semana;11/02/2023;Descuentos por reserva anticipada
+286;Descuentos para empleados de empresas;14/08/2023;Descuentos para personas mayores
+287;Descuentos militares;27/05/2023;Descuentos para empleados de empresas
+288;Descuentos por reserva anticipada;11/04/2023;Descuentos militares
+289;Descuentos para niños.;22/10/2023;Descuentos para grupos
+290;Descuentos militares;24/09/2023;Descuentos para residentes locales
+291;Descuentos para empleados de empresas;14/05/2023;Descuentos para grupos
+292;Descuentos para niños.;22/09/2023;Descuentos para personas mayores
+293;Descuentos militares;23/11/2022;Descuentos para personas mayores
+294;Descuentos para empleados de empresas;15/10/2023;Descuentos para personas mayores
+295;Tarifas de fin de semana;06/04/2023;Descuentos para personas mayores
+296;Tarifas de fin de semana;14/02/2023;Descuento por estadía prolongada
+297;Descuentos para personas mayores;06/10/2023;Descuentos militares
+298;Descuentos para grupos;24/06/2023;Tarifas de fin de semana
+299;Descuento por estadía prolongada;02/03/2023;Descuentos militares
+300;Descuentos para personas mayores;08/11/2022;Paquetes de vacaciones
+301;Descuentos para grupos;08/10/2023;Descuentos para estudiantes o profesores
+302;Programas de fidelización;15/06/2023;Descuentos para grupos
+303;Ofertas de temporada;15/06/2023;Descuentos para personas mayores
+304;Descuentos para estudiantes o profesores;21/03/2023;Tarifas de fin de semana
+305;Descuentos para grupos;17/04/2023;Paquetes de vacaciones
+306;Descuentos para estudiantes o profesores;23/05/2023;Programas de fidelización
+307;Descuentos para grupos;11/08/2023;Tarifas de fin de semana
+308;Descuentos por reserva anticipada;11/10/2023;Paquetes de vacaciones
+309;Descuentos para residentes locales;02/05/2023;Descuentos para personas mayores
+310;Descuentos para empleados de empresas;29/06/2023;Descuentos para empleados de empresas
+311;Descuentos para estudiantes o profesores;29/10/2023;Paquetes de vacaciones
+312;Descuentos para personas mayores;08/08/2023;Descuentos por reserva anticipada
+313;Descuento por estadía prolongada;03/03/2023;Descuentos para niños.
+314;Ofertas de último minuto;29/09/2023;Descuentos para residentes locales
+315;Descuentos para residentes locales;17/05/2023;Paquetes de vacaciones
+316;Descuentos militares;12/01/2023;Descuentos para niños.
+317;Descuentos para estudiantes o profesores;01/09/2023;Descuentos para grupos
+318;Ofertas de temporada;24/06/2023;Descuentos militares
+319;Descuentos para estudiantes o profesores;28/04/2023;Tarifas de fin de semana
+320;Descuentos para personas mayores;11/07/2023;Descuentos para empleados de empresas
+321;Descuentos para niños.;06/02/2023;Descuentos para estudiantes o profesores
+322;Descuentos para niños.;18/10/2023;Programas de fidelización
+323;Descuentos para empleados de empresas;17/04/2023;Descuentos militares
+324;Descuentos para niños.;09/05/2023;Programas de fidelización
+325;Ofertas de temporada;24/08/2023;Ofertas de último minuto
+326;Descuentos por reserva anticipada;25/05/2023;Ofertas de temporada
+327;Descuentos para niños.;19/06/2023;Descuentos para estudiantes o profesores
+328;Descuentos para residentes locales;21/09/2023;Descuentos para niños.
+329;Descuentos militares;01/01/2023;Descuentos para estudiantes o profesores
+330;Ofertas de último minuto;27/02/2023;Descuentos para estudiantes o profesores
+331;Descuentos para grupos;19/08/2023;Descuentos para empleados de empresas
+332;Ofertas de temporada;19/09/2023;Tarifas de fin de semana
+333;Descuentos para residentes locales;14/02/2023;Descuentos para empleados de empresas
+334;Programas de fidelización;27/07/2023;Descuentos para empleados de empresas
+335;Descuentos para niños.;12/08/2023;Descuentos por reserva anticipada
+336;Descuento por estadía prolongada;20/10/2023;Descuentos para residentes locales
+337;Descuentos para personas mayores;03/04/2023;Paquetes de vacaciones
+338;Descuentos por reserva anticipada;02/03/2023;Paquetes de vacaciones
+339;Descuentos para grupos;04/05/2023;Descuentos para empleados de empresas
+340;Descuentos para niños.;09/11/2022;Ofertas de temporada
+341;Paquetes de vacaciones;04/09/2023;Descuentos por reserva anticipada
+342;Tarifas de fin de semana;21/01/2023;Descuentos para niños.
+343;Descuentos por reserva anticipada;13/06/2023;Ofertas de temporada
+344;Paquetes de vacaciones;28/03/2023;Ofertas de último minuto
+345;Programas de fidelización;11/03/2023;Descuentos para residentes locales
+346;Descuentos por reserva anticipada;19/01/2023;Descuentos para niños.
+347;Descuentos para empleados de empresas;06/06/2023;Descuentos por reserva anticipada
+348;Ofertas de temporada;11/08/2023;Descuentos para estudiantes o profesores
+349;Ofertas de temporada;13/02/2023;Descuentos para residentes locales
+350;Descuentos para empleados de empresas;12/08/2023;Descuentos por reserva anticipada
+351;Descuentos militares;21/09/2023;Descuentos para empleados de empresas
+352;Ofertas de último minuto;22/09/2023;Descuentos para estudiantes o profesores
+353;Descuentos para empleados de empresas;01/06/2023;Ofertas de último minuto
+354;Descuentos para residentes locales;11/09/2023;Descuentos militares
+355;Tarifas de fin de semana;31/01/2023;Descuentos para estudiantes o profesores
+356;Descuentos para niños.;24/01/2023;Descuento por estadía prolongada
+357;Programas de fidelización;06/03/2023;Programas de fidelización
+358;Descuentos para estudiantes o profesores;17/06/2023;Descuentos para grupos
+359;Descuentos por reserva anticipada;24/09/2023;Descuento por estadía prolongada
+360;Tarifas de fin de semana;23/11/2022;Descuentos para estudiantes o profesores
+361;Descuentos para estudiantes o profesores;15/08/2023;Ofertas de último minuto
+362;Descuentos para estudiantes o profesores;02/11/2023;Descuentos por reserva anticipada
+363;Descuentos para personas mayores;29/11/2022;Descuentos para empleados de empresas
+364;Descuentos para niños.;16/12/2022;Descuentos para estudiantes o profesores
+365;Paquetes de vacaciones;26/11/2022;Programas de fidelización
+366;Ofertas de último minuto;03/08/2023;Tarifas de fin de semana
+367;Ofertas de último minuto;02/09/2023;Descuentos militares
+368;Tarifas de fin de semana;03/04/2023;Ofertas de último minuto
+369;Descuento por estadía prolongada;05/04/2023;Descuentos para personas mayores
+370;Descuentos militares;07/03/2023;Descuentos para estudiantes o profesores
+371;Ofertas de último minuto;30/07/2023;Descuentos por reserva anticipada
+372;Descuento por estadía prolongada;24/10/2023;Tarifas de fin de semana
+373;Descuentos para estudiantes o profesores;19/01/2023;Descuentos para niños.
+374;Descuentos militares;10/08/2023;Tarifas de fin de semana
+375;Ofertas de temporada;16/03/2023;Programas de fidelización
+376;Tarifas de fin de semana;25/12/2022;Descuentos para personas mayores
+377;Tarifas de fin de semana;23/08/2023;Descuentos para niños.
+378;Descuentos para empleados de empresas;05/11/2023;Ofertas de temporada
+379;Descuentos por reserva anticipada;04/04/2023;Descuentos para personas mayores
+380;Descuentos por reserva anticipada;05/03/2023;Descuentos para estudiantes o profesores
+381;Paquetes de vacaciones;15/10/2023;Descuentos para empleados de empresas
+382;Ofertas de temporada;24/11/2022;Programas de fidelización
+383;Descuentos para personas mayores;20/05/2023;Descuentos para personas mayores
+384;Programas de fidelización;19/09/2023;Ofertas de último minuto
+385;Descuentos por reserva anticipada;30/10/2023;Descuentos para residentes locales
+386;Descuentos militares;25/08/2023;Descuentos para residentes locales
+387;Descuentos para residentes locales;25/07/2023;Descuento por estadía prolongada
+388;Paquetes de vacaciones;06/01/2023;Descuentos para niños.
+389;Ofertas de último minuto;30/07/2023;Descuentos para personas mayores
+390;Descuentos para niños.;16/05/2023;Descuentos para niños.
+391;Descuentos para empleados de empresas;12/06/2023;Descuento por estadía prolongada
+392;Descuentos para grupos;04/04/2023;Descuentos para grupos
+393;Descuentos militares;01/03/2023;Paquetes de vacaciones
+394;Descuentos para residentes locales;03/02/2023;Descuentos militares
+395;Descuentos para grupos;06/01/2023;Tarifas de fin de semana
+396;Descuentos para residentes locales;21/07/2023;Tarifas de fin de semana
+397;Descuentos para grupos;21/10/2023;Programas de fidelización
+398;Descuentos para empleados de empresas;09/01/2023;Descuentos para empleados de empresas
+399;Descuentos para residentes locales;04/09/2023;Programas de fidelización
+400;Paquetes de vacaciones;23/01/2023;Paquetes de vacaciones
+401;Programas de fidelización;25/08/2023;Tarifas de fin de semana
+402;Descuento por estadía prolongada;23/03/2023;Descuentos para niños.
+403;Descuento por estadía prolongada;23/09/2023;Ofertas de último minuto
+404;Descuentos por reserva anticipada;13/10/2023;Descuentos por reserva anticipada
+405;Descuentos para personas mayores;18/10/2023;Descuentos para grupos
+406;Ofertas de temporada;07/06/2023;Descuentos militares
+407;Descuento por estadía prolongada;11/07/2023;Descuentos por reserva anticipada
+408;Descuentos militares;29/07/2023;Descuentos para niños.
+409;Tarifas de fin de semana;10/09/2023;Descuentos para personas mayores
+410;Descuentos para estudiantes o profesores;25/03/2023;Tarifas de fin de semana
+411;Ofertas de último minuto;05/03/2023;Descuentos para empleados de empresas
+412;Ofertas de temporada;21/10/2023;Descuentos para grupos
+413;Ofertas de temporada;28/02/2023;Paquetes de vacaciones
+414;Descuentos para personas mayores;31/07/2023;Descuentos para residentes locales
+415;Descuentos por reserva anticipada;20/03/2023;Descuentos para grupos
+416;Descuentos por reserva anticipada;17/10/2023;Descuentos para niños.
+417;Programas de fidelización;30/08/2023;Tarifas de fin de semana
+418;Descuentos para personas mayores;20/08/2023;Ofertas de último minuto
+419;Descuento por estadía prolongada;05/03/2023;Tarifas de fin de semana
+420;Descuento por estadía prolongada;11/12/2022;Descuentos para residentes locales
+421;Descuento por estadía prolongada;15/03/2023;Programas de fidelización
+422;Descuentos por reserva anticipada;08/02/2023;Descuentos para residentes locales
+423;Tarifas de fin de semana;02/09/2023;Descuentos para niños.
+424;Paquetes de vacaciones;28/02/2023;Descuentos para personas mayores
+425;Descuentos para personas mayores;13/10/2023;Descuentos para grupos
+426;Descuentos para niños.;21/12/2022;Descuentos para empleados de empresas
+427;Descuentos para residentes locales;23/01/2023;Descuentos para grupos
+428;Descuentos para empleados de empresas;06/06/2023;Descuentos militares
+429;Descuentos para estudiantes o profesores;13/03/2023;Descuentos militares
+430;Descuentos por reserva anticipada;06/09/2023;Tarifas de fin de semana
+431;Programas de fidelización;14/01/2023;Descuentos para personas mayores
+432;Descuento por estadía prolongada;23/05/2023;Descuento por estadía prolongada
+433;Descuento por estadía prolongada;11/04/2023;Ofertas de último minuto
+434;Programas de fidelización;28/01/2023;Descuentos para estudiantes o profesores
+435;Descuentos para personas mayores;18/11/2022;Descuentos para personas mayores
+436;Descuentos para residentes locales;31/08/2023;Descuentos para niños.
+437;Descuentos militares;26/04/2023;Descuentos para residentes locales
+438;Descuentos para estudiantes o profesores;21/05/2023;Descuentos militares
+439;Descuentos para grupos;17/03/2023;Descuentos para estudiantes o profesores
+440;Descuentos para grupos;05/02/2023;Descuento por estadía prolongada
+441;Descuentos para empleados de empresas;22/11/2022;Descuento por estadía prolongada
+442;Paquetes de vacaciones;13/09/2023;Tarifas de fin de semana
+443;Programas de fidelización;11/05/2023;Ofertas de temporada
+444;Programas de fidelización;26/01/2023;Descuentos para personas mayores
+445;Descuentos para grupos;19/11/2022;Descuentos para grupos
+446;Descuentos para residentes locales;26/08/2023;Descuento por estadía prolongada
+447;Ofertas de último minuto;18/04/2023;Descuentos para estudiantes o profesores
+448;Paquetes de vacaciones;17/12/2022;Descuentos para grupos
+449;Programas de fidelización;17/05/2023;Descuentos para niños.
+450;Paquetes de vacaciones;03/09/2023;Descuento por estadía prolongada
+451;Descuentos para personas mayores;04/01/2023;Descuentos para estudiantes o profesores
+452;Descuentos militares;30/07/2023;Descuentos para personas mayores
+453;Descuentos para niños.;19/04/2023;Ofertas de temporada
+454;Descuentos para grupos;12/05/2023;Descuentos para personas mayores
+455;Tarifas de fin de semana;12/03/2023;Tarifas de fin de semana
+456;Descuentos militares;21/12/2022;Descuentos para personas mayores
+457;Descuentos para estudiantes o profesores;23/03/2023;Paquetes de vacaciones
+458;Descuentos para estudiantes o profesores;11/10/2023;Ofertas de temporada
+459;Ofertas de temporada;13/05/2023;Descuentos para grupos
+460;Ofertas de temporada;20/11/2022;Descuentos por reserva anticipada
+461;Descuentos por reserva anticipada;27/08/2023;Descuentos por reserva anticipada
+462;Descuentos para grupos;10/07/2023;Descuentos por reserva anticipada
+463;Ofertas de último minuto;25/04/2023;Descuentos para niños.
+464;Descuentos militares;07/12/2022;Descuentos militares
+465;Paquetes de vacaciones;07/10/2023;Ofertas de temporada
+466;Descuento por estadía prolongada;20/10/2023;Ofertas de temporada
+467;Tarifas de fin de semana;17/04/2023;Descuentos para niños.
+468;Descuentos para grupos;22/05/2023;Descuentos por reserva anticipada
+469;Descuentos para estudiantes o profesores;10/10/2023;Descuentos para niños.
+470;Descuento por estadía prolongada;06/12/2022;Descuento por estadía prolongada
+471;Ofertas de último minuto;27/10/2023;Descuentos para grupos
+472;Descuentos para residentes locales;08/09/2023;Descuentos por reserva anticipada
+473;Descuentos para empleados de empresas;06/01/2023;Descuentos para estudiantes o profesores
+474;Descuentos para niños.;22/04/2023;Ofertas de temporada
+475;Descuentos para estudiantes o profesores;26/02/2023;Descuentos para grupos
+476;Programas de fidelización;24/06/2023;Ofertas de último minuto
+477;Descuentos por reserva anticipada;17/08/2023;Descuentos por reserva anticipada
+478;Descuentos por reserva anticipada;05/09/2023;Descuentos para empleados de empresas
+479;Descuentos para grupos;27/09/2023;Descuentos para empleados de empresas
+480;Descuentos para niños.;29/05/2023;Descuentos para niños.
+481;Descuentos para estudiantes o profesores;19/05/2023;Tarifas de fin de semana
+482;Descuentos para residentes locales;31/07/2023;Descuentos para residentes locales
+483;Ofertas de temporada;18/05/2023;Ofertas de último minuto
+484;Programas de fidelización;25/05/2023;Descuentos para personas mayores
+485;Descuentos para residentes locales;07/04/2023;Descuentos por reserva anticipada
+486;Descuentos para grupos;01/01/2023;Ofertas de último minuto
+487;Descuentos para grupos;13/10/2023;Descuentos militares
+488;Paquetes de vacaciones;22/04/2023;Ofertas de temporada
+489;Descuentos militares;17/11/2022;Ofertas de último minuto
+490;Descuentos para grupos;30/01/2023;Descuentos para niños.
+491;Paquetes de vacaciones;17/07/2023;Descuentos para empleados de empresas
+492;Descuentos para grupos;05/06/2023;Descuentos para personas mayores
+493;Paquetes de vacaciones;26/12/2022;Descuentos para personas mayores
+494;Paquetes de vacaciones;05/04/2023;Descuentos para empleados de empresas
+495;Descuentos para estudiantes o profesores;09/06/2023;Descuentos para empleados de empresas
+496;Descuentos para residentes locales;30/06/2023;Tarifas de fin de semana
+497;Ofertas de temporada;15/11/2022;Descuentos militares
+498;Descuento por estadía prolongada;01/06/2023;Descuentos para residentes locales
+499;Descuentos para estudiantes o profesores;15/02/2023;Descuentos para residentes locales
+500;Descuentos para residentes locales;21/10/2023;Descuentos para estudiantes o profesores
+501;Descuentos para empleados de empresas;24/07/2023;Descuentos para niños.
+502;Descuento por estadía prolongada;03/12/2022;Ofertas de último minuto
+503;Descuentos para personas mayores;07/12/2022;Descuentos para estudiantes o profesores
+504;Ofertas de último minuto;02/06/2023;Descuentos para grupos
+505;Descuentos militares;12/10/2023;Descuentos para residentes locales
+506;Descuentos para empleados de empresas;14/06/2023;Descuentos para personas mayores
+507;Descuentos para personas mayores;23/04/2023;Ofertas de último minuto
+508;Ofertas de temporada;04/02/2023;Descuento por estadía prolongada
+509;Descuentos por reserva anticipada;01/04/2023;Descuentos por reserva anticipada
+510;Programas de fidelización;06/10/2023;Ofertas de último minuto
+511;Descuentos para residentes locales;20/10/2023;Descuentos para niños.
+512;Ofertas de temporada;08/08/2023;Descuentos para residentes locales
+513;Descuentos para grupos;26/07/2023;Descuentos militares
+514;Descuentos para grupos;11/05/2023;Descuentos por reserva anticipada
+515;Descuento por estadía prolongada;16/08/2023;Descuentos para empleados de empresas
+516;Descuentos militares;09/11/2022;Descuento por estadía prolongada
+517;Descuentos para grupos;09/02/2023;Descuentos para niños.
+518;Descuento por estadía prolongada;25/10/2023;Descuentos para grupos
+519;Descuento por estadía prolongada;13/05/2023;Descuentos para personas mayores
+520;Ofertas de último minuto;01/10/2023;Descuento por estadía prolongada
+521;Descuentos para grupos;09/08/2023;Descuentos para residentes locales
+522;Ofertas de temporada;11/11/2022;Descuentos para residentes locales
+523;Descuentos para niños.;25/10/2023;Programas de fidelización
+524;Descuentos para grupos;08/03/2023;Descuentos para empleados de empresas
+525;Ofertas de temporada;30/10/2023;Descuentos para niños.
+526;Descuentos militares;29/09/2023;Descuentos para empleados de empresas
+527;Ofertas de último minuto;25/12/2022;Paquetes de vacaciones
+528;Paquetes de vacaciones;13/01/2023;Paquetes de vacaciones
+529;Ofertas de último minuto;10/05/2023;Ofertas de último minuto
+530;Ofertas de temporada;10/01/2023;Tarifas de fin de semana
+531;Paquetes de vacaciones;28/11/2022;Descuento por estadía prolongada
+532;Paquetes de vacaciones;07/06/2023;Descuentos para residentes locales
+533;Descuentos militares;08/02/2023;Paquetes de vacaciones
+534;Descuentos para grupos;08/09/2023;Ofertas de temporada
+535;Descuentos para empleados de empresas;08/11/2022;Ofertas de último minuto
+536;Descuentos para residentes locales;02/03/2023;Descuentos militares
+537;Descuentos militares;02/09/2023;Programas de fidelización
+538;Descuentos para residentes locales;20/02/2023;Descuentos por reserva anticipada
+539;Programas de fidelización;18/10/2023;Descuentos para residentes locales
+540;Descuentos militares;29/09/2023;Descuentos para residentes locales
+541;Descuentos para niños.;10/03/2023;Descuentos para estudiantes o profesores
+542;Descuentos para estudiantes o profesores;24/05/2023;Tarifas de fin de semana
+543;Descuentos para estudiantes o profesores;01/03/2023;Descuentos militares
+544;Descuentos para empleados de empresas;26/12/2022;Descuento por estadía prolongada
+545;Ofertas de último minuto;31/12/2022;Programas de fidelización
+546;Descuentos para residentes locales;24/12/2022;Paquetes de vacaciones
+547;Descuentos para residentes locales;01/05/2023;Descuentos para residentes locales
+548;Descuentos militares;04/10/2023;Paquetes de vacaciones
+549;Programas de fidelización;04/03/2023;Programas de fidelización
+550;Descuento por estadía prolongada;24/06/2023;Descuento por estadía prolongada
+551;Descuentos para personas mayores;05/05/2023;Ofertas de temporada
+552;Descuentos por reserva anticipada;17/05/2023;Descuentos para residentes locales
+553;Descuentos para niños.;03/06/2023;Tarifas de fin de semana
+554;Descuento por estadía prolongada;03/03/2023;Descuentos para personas mayores
+555;Paquetes de vacaciones;18/08/2023;Programas de fidelización
+556;Ofertas de temporada;25/11/2022;Descuentos para residentes locales
+557;Descuento por estadía prolongada;15/07/2023;Ofertas de último minuto
+558;Ofertas de temporada;29/10/2023;Descuentos militares
+559;Descuentos para residentes locales;29/11/2022;Descuentos militares
+560;Descuentos por reserva anticipada;12/11/2022;Ofertas de último minuto
+561;Ofertas de último minuto;30/07/2023;Tarifas de fin de semana
+562;Ofertas de último minuto;09/02/2023;Descuentos militares
+563;Descuentos por reserva anticipada;04/05/2023;Descuentos para personas mayores
+564;Ofertas de último minuto;25/05/2023;Programas de fidelización
+565;Programas de fidelización;21/12/2022;Descuentos para grupos
+566;Descuentos para niños.;29/11/2022;Descuentos para residentes locales
+567;Tarifas de fin de semana;02/03/2023;Descuentos por reserva anticipada
+568;Descuentos por reserva anticipada;25/05/2023;Descuentos para estudiantes o profesores
+569;Descuentos para grupos;07/04/2023;Descuentos militares
+570;Descuentos por reserva anticipada;11/01/2023;Descuentos para empleados de empresas
+571;Descuentos para residentes locales;02/08/2023;Descuentos para niños.
+572;Descuentos por reserva anticipada;13/11/2022;Descuentos para estudiantes o profesores
+573;Descuentos militares;18/11/2022;Descuento por estadía prolongada
+574;Descuentos para empleados de empresas;07/10/2023;Programas de fidelización
+575;Descuentos para estudiantes o profesores;02/08/2023;Descuentos para niños.
+576;Descuentos para estudiantes o profesores;12/03/2023;Descuento por estadía prolongada
+577;Tarifas de fin de semana;08/03/2023;Descuentos por reserva anticipada
+578;Descuentos para niños.;17/01/2023;Programas de fidelización
+579;Descuentos militares;20/10/2023;Descuentos para grupos
+580;Descuentos para residentes locales;16/06/2023;Ofertas de último minuto
+581;Tarifas de fin de semana;23/06/2023;Paquetes de vacaciones
+582;Tarifas de fin de semana;15/10/2023;Descuentos para residentes locales
+583;Paquetes de vacaciones;10/02/2023;Descuento por estadía prolongada
+584;Programas de fidelización;19/09/2023;Descuentos para personas mayores
+585;Descuentos para grupos;18/07/2023;Tarifas de fin de semana
+586;Paquetes de vacaciones;27/04/2023;Descuentos para niños.
+587;Descuentos para grupos;26/10/2023;Descuentos para estudiantes o profesores
+588;Ofertas de temporada;02/08/2023;Descuentos para residentes locales
+589;Descuento por estadía prolongada;14/10/2023;Descuentos por reserva anticipada
+590;Descuentos para personas mayores;22/01/2023;Paquetes de vacaciones
+591;Descuento por estadía prolongada;19/05/2023;Ofertas de último minuto
+592;Descuentos para grupos;05/01/2023;Descuentos para empleados de empresas
+593;Descuentos para niños.;09/05/2023;Descuentos para residentes locales
+594;Tarifas de fin de semana;15/04/2023;Tarifas de fin de semana
+595;Descuentos para residentes locales;02/08/2023;Paquetes de vacaciones
+596;Descuentos para empleados de empresas;14/06/2023;Descuentos para residentes locales
+597;Descuentos para estudiantes o profesores;17/10/2023;Descuentos para estudiantes o profesores
+598;Descuentos por reserva anticipada;25/11/2022;Paquetes de vacaciones
+599;Descuentos por reserva anticipada;04/03/2023;Ofertas de temporada
+600;Descuentos para grupos;01/04/2023;Descuentos para residentes locales
+601;Descuentos para empleados de empresas;21/11/2022;Descuentos para grupos
+602;Tarifas de fin de semana;27/10/2023;Descuentos para estudiantes o profesores
+603;Descuentos para empleados de empresas;03/02/2023;Descuento por estadía prolongada
+604;Descuentos militares;24/03/2023;Descuentos para grupos
+605;Descuentos para niños.;29/11/2022;Tarifas de fin de semana
+606;Ofertas de último minuto;16/04/2023;Descuentos para residentes locales
+607;Ofertas de último minuto;12/06/2023;Ofertas de último minuto
+608;Descuentos para personas mayores;20/05/2023;Ofertas de último minuto
+609;Programas de fidelización;03/02/2023;Ofertas de temporada
+610;Descuentos para residentes locales;04/04/2023;Descuentos por reserva anticipada
+611;Descuentos militares;23/12/2022;Descuentos para empleados de empresas
+612;Tarifas de fin de semana;15/09/2023;Tarifas de fin de semana
+613;Descuentos para residentes locales;19/07/2023;Descuentos militares
+614;Ofertas de temporada;29/09/2023;Programas de fidelización
+615;Tarifas de fin de semana;05/12/2022;Descuentos para niños.
+616;Ofertas de temporada;04/01/2023;Descuentos para grupos
+617;Descuento por estadía prolongada;25/09/2023;Ofertas de temporada
+618;Programas de fidelización;09/10/2023;Ofertas de temporada
+619;Ofertas de temporada;26/09/2023;Descuentos para empleados de empresas
+620;Descuentos para grupos;01/06/2023;Tarifas de fin de semana
+621;Descuentos militares;30/10/2023;Ofertas de temporada
+622;Descuentos militares;12/10/2023;Descuentos para grupos
+623;Ofertas de último minuto;22/05/2023;Ofertas de último minuto
+624;Descuentos militares;05/04/2023;Descuentos para grupos
+625;Descuentos para residentes locales;13/04/2023;Descuentos para estudiantes o profesores
+626;Ofertas de último minuto;11/07/2023;Descuentos por reserva anticipada
+627;Descuento por estadía prolongada;25/03/2023;Descuentos por reserva anticipada
+628;Descuentos para empleados de empresas;11/11/2022;Programas de fidelización
+629;Descuentos para estudiantes o profesores;11/01/2023;Descuentos para residentes locales
+630;Tarifas de fin de semana;24/02/2023;Descuentos para personas mayores
+631;Descuentos para grupos;22/02/2023;Tarifas de fin de semana
+632;Programas de fidelización;08/10/2023;Descuentos para residentes locales
+633;Tarifas de fin de semana;08/06/2023;Descuentos para grupos
+634;Descuento por estadía prolongada;07/05/2023;Descuentos para residentes locales
+635;Tarifas de fin de semana;04/07/2023;Tarifas de fin de semana
+636;Descuentos para residentes locales;16/04/2023;Descuentos para personas mayores
+637;Descuentos por reserva anticipada;14/03/2023;Descuentos para personas mayores
+638;Descuentos para grupos;03/10/2023;Descuento por estadía prolongada
+639;Descuentos para grupos;06/09/2023;Descuentos para estudiantes o profesores
+640;Descuentos para empleados de empresas;31/05/2023;Descuento por estadía prolongada
+641;Descuentos para niños.;22/09/2023;Descuento por estadía prolongada
+642;Descuentos para personas mayores;20/10/2023;Descuentos militares
+643;Descuentos para niños.;26/07/2023;Paquetes de vacaciones
+644;Descuentos para personas mayores;10/05/2023;Descuentos por reserva anticipada
+645;Descuentos militares;30/04/2023;Descuento por estadía prolongada
+646;Descuentos militares;09/09/2023;Descuentos para empleados de empresas
+647;Descuentos para niños.;21/04/2023;Descuentos para personas mayores
+648;Descuento por estadía prolongada;27/03/2023;Descuentos para grupos
+649;Ofertas de temporada;09/08/2023;Descuentos para personas mayores
+650;Tarifas de fin de semana;21/04/2023;Programas de fidelización
+651;Descuentos para estudiantes o profesores;17/11/2022;Ofertas de temporada
+652;Programas de fidelización;21/02/2023;Descuentos para empleados de empresas
+653;Descuentos para estudiantes o profesores;07/01/2023;Descuentos para personas mayores
+654;Ofertas de último minuto;20/09/2023;Descuentos para niños.
+655;Ofertas de temporada;28/01/2023;Ofertas de temporada
+656;Descuentos por reserva anticipada;17/04/2023;Descuentos para niños.
+657;Descuentos por reserva anticipada;06/01/2023;Programas de fidelización
+658;Programas de fidelización;10/09/2023;Tarifas de fin de semana
+659;Descuentos para residentes locales;07/12/2022;Descuentos para empleados de empresas
+660;Descuentos militares;06/05/2023;Descuentos para niños.
+661;Descuentos para niños.;28/04/2023;Descuentos para niños.
+662;Descuentos para empleados de empresas;21/04/2023;Descuentos para personas mayores
+663;Tarifas de fin de semana;14/08/2023;Paquetes de vacaciones
+664;Descuentos para empleados de empresas;04/03/2023;Ofertas de último minuto
+665;Ofertas de temporada;16/04/2023;Ofertas de último minuto
+666;Descuentos militares;13/08/2023;Descuentos para estudiantes o profesores
+667;Descuentos para estudiantes o profesores;14/10/2023;Paquetes de vacaciones
+668;Descuentos militares;22/05/2023;Descuentos militares
+669;Programas de fidelización;12/04/2023;Descuentos para grupos
+670;Ofertas de último minuto;20/04/2023;Descuentos para personas mayores
+671;Descuentos por reserva anticipada;23/03/2023;Paquetes de vacaciones
+672;Descuentos por reserva anticipada;17/03/2023;Descuentos militares
+673;Descuentos militares;19/06/2023;Descuentos para personas mayores
+674;Tarifas de fin de semana;02/11/2023;Descuentos para grupos
+675;Paquetes de vacaciones;22/02/2023;Descuentos militares
+676;Ofertas de último minuto;05/08/2023;Programas de fidelización
+677;Programas de fidelización;08/11/2022;Paquetes de vacaciones
+678;Descuentos para residentes locales;13/08/2023;Paquetes de vacaciones
+679;Paquetes de vacaciones;07/08/2023;Programas de fidelización
+680;Ofertas de temporada;25/03/2023;Descuentos para personas mayores
+681;Programas de fidelización;21/09/2023;Descuentos militares
+682;Descuento por estadía prolongada;30/06/2023;Paquetes de vacaciones
+683;Descuentos para niños.;21/09/2023;Descuentos para empleados de empresas
+684;Descuentos para niños.;06/02/2023;Ofertas de último minuto
+685;Descuentos para grupos;11/08/2023;Ofertas de último minuto
+686;Programas de fidelización;14/05/2023;Descuentos para niños.
+687;Ofertas de último minuto;13/03/2023;Descuento por estadía prolongada
+688;Descuentos por reserva anticipada;21/07/2023;Descuentos para residentes locales
+689;Descuentos por reserva anticipada;09/09/2023;Descuentos para residentes locales
+690;Ofertas de último minuto;27/08/2023;Descuentos para empleados de empresas
+691;Ofertas de temporada;23/10/2023;Descuentos para grupos
+692;Descuento por estadía prolongada;22/10/2023;Descuentos para empleados de empresas
+693;Descuentos para empleados de empresas;04/01/2023;Programas de fidelización
+694;Descuentos para grupos;07/06/2023;Descuentos por reserva anticipada
+695;Descuento por estadía prolongada;30/03/2023;Descuentos para niños.
+696;Paquetes de vacaciones;07/01/2023;Programas de fidelización
+697;Descuentos para residentes locales;01/08/2023;Descuentos para niños.
+698;Programas de fidelización;23/04/2023;Ofertas de temporada
+699;Descuentos por reserva anticipada;24/10/2023;Paquetes de vacaciones
+700;Programas de fidelización;12/12/2022;Descuentos para grupos
+701;Paquetes de vacaciones;06/01/2023;Descuentos para estudiantes o profesores
+702;Ofertas de último minuto;13/05/2023;Descuentos para grupos
+703;Descuentos por reserva anticipada;22/03/2023;Descuentos para residentes locales
+704;Descuentos para residentes locales;04/02/2023;Programas de fidelización
+705;Descuentos para personas mayores;05/09/2023;Ofertas de temporada
+706;Descuentos para grupos;04/08/2023;Ofertas de último minuto
+707;Programas de fidelización;03/06/2023;Paquetes de vacaciones
+708;Descuentos militares;23/07/2023;Descuentos para estudiantes o profesores
+709;Descuentos para grupos;26/01/2023;Paquetes de vacaciones
+710;Tarifas de fin de semana;25/11/2022;Descuentos para grupos
+711;Tarifas de fin de semana;08/09/2023;Descuentos para grupos
+712;Descuentos para empleados de empresas;06/06/2023;Descuentos para personas mayores
+713;Paquetes de vacaciones;03/07/2023;Descuentos para estudiantes o profesores
+714;Descuentos para estudiantes o profesores;20/03/2023;Descuento por estadía prolongada
+715;Ofertas de último minuto;16/09/2023;Descuento por estadía prolongada
+716;Descuentos para empleados de empresas;10/08/2023;Descuentos para empleados de empresas
+717;Descuentos para estudiantes o profesores;22/09/2023;Ofertas de último minuto
+718;Descuentos por reserva anticipada;18/08/2023;Descuentos por reserva anticipada
+719;Ofertas de último minuto;04/12/2022;Descuentos para residentes locales
+720;Descuentos para personas mayores;03/08/2023;Descuentos para empleados de empresas
+721;Descuentos para estudiantes o profesores;20/02/2023;Descuentos para residentes locales
+722;Ofertas de temporada;25/10/2023;Descuento por estadía prolongada
+723;Tarifas de fin de semana;12/05/2023;Descuentos por reserva anticipada
+724;Descuentos militares;18/05/2023;Ofertas de último minuto
+725;Programas de fidelización;21/12/2022;Descuentos para residentes locales
+726;Ofertas de último minuto;10/02/2023;Tarifas de fin de semana
+727;Descuentos militares;11/02/2023;Tarifas de fin de semana
+728;Descuentos para niños.;30/10/2023;Tarifas de fin de semana
+729;Ofertas de temporada;24/04/2023;Descuentos para residentes locales
+730;Programas de fidelización;23/05/2023;Tarifas de fin de semana
+731;Descuentos para estudiantes o profesores;04/04/2023;Tarifas de fin de semana
+732;Descuentos para residentes locales;15/01/2023;Descuentos para niños.
+733;Descuentos para empleados de empresas;10/01/2023;Descuentos para estudiantes o profesores
+734;Programas de fidelización;29/10/2023;Ofertas de temporada
+735;Paquetes de vacaciones;06/01/2023;Tarifas de fin de semana
+736;Tarifas de fin de semana;08/10/2023;Ofertas de temporada
+737;Tarifas de fin de semana;19/10/2023;Paquetes de vacaciones
+738;Ofertas de temporada;11/04/2023;Descuentos para grupos
+739;Paquetes de vacaciones;02/05/2023;Ofertas de temporada
+740;Descuentos para grupos;07/01/2023;Ofertas de último minuto
+741;Descuentos para personas mayores;09/04/2023;Descuentos para residentes locales
+742;Descuentos para grupos;03/11/2023;Descuentos para personas mayores
+743;Descuentos para empleados de empresas;11/07/2023;Descuentos por reserva anticipada
+744;Descuentos por reserva anticipada;29/11/2022;Descuento por estadía prolongada
+745;Paquetes de vacaciones;16/10/2023;Programas de fidelización
+746;Descuentos para personas mayores;14/03/2023;Descuentos militares
+747;Descuentos por reserva anticipada;18/02/2023;Ofertas de último minuto
+748;Descuentos para estudiantes o profesores;09/02/2023;Descuentos para residentes locales
+749;Descuentos militares;19/04/2023;Descuentos por reserva anticipada
+750;Ofertas de temporada;02/07/2023;Descuentos para estudiantes o profesores
+751;Tarifas de fin de semana;14/04/2023;Descuentos para personas mayores
+752;Descuentos para empleados de empresas;23/04/2023;Descuento por estadía prolongada
+753;Descuentos para personas mayores;24/04/2023;Descuentos para residentes locales
+754;Descuentos para empleados de empresas;14/11/2022;Descuento por estadía prolongada
+755;Descuentos para empleados de empresas;06/10/2023;Descuentos para personas mayores
+756;Ofertas de último minuto;13/04/2023;Descuentos para empleados de empresas
+757;Descuento por estadía prolongada;28/07/2023;Descuentos para estudiantes o profesores
+758;Paquetes de vacaciones;03/11/2023;Tarifas de fin de semana
+759;Descuentos militares;23/09/2023;Descuentos para empleados de empresas
+760;Programas de fidelización;09/05/2023;Ofertas de temporada
+761;Ofertas de último minuto;22/10/2023;Ofertas de temporada
+762;Ofertas de último minuto;24/03/2023;Paquetes de vacaciones
+763;Descuentos para grupos;22/05/2023;Descuentos para estudiantes o profesores
+764;Descuentos para niños.;20/10/2023;Descuento por estadía prolongada
+765;Descuentos para empleados de empresas;04/09/2023;Tarifas de fin de semana
+766;Paquetes de vacaciones;16/02/2023;Descuentos por reserva anticipada
+767;Ofertas de temporada;21/10/2023;Ofertas de último minuto
+768;Descuentos para grupos;17/04/2023;Programas de fidelización
+769;Descuentos para niños.;22/07/2023;Descuentos para empleados de empresas
+770;Descuentos para residentes locales;12/08/2023;Ofertas de temporada
+771;Descuento por estadía prolongada;14/09/2023;Ofertas de temporada
+772;Descuentos para estudiantes o profesores;29/09/2023;Descuento por estadía prolongada
+773;Descuentos para estudiantes o profesores;28/08/2023;Paquetes de vacaciones
+774;Ofertas de temporada;12/02/2023;Descuentos por reserva anticipada
+775;Ofertas de último minuto;04/02/2023;Paquetes de vacaciones
+776;Descuentos para personas mayores;04/06/2023;Descuento por estadía prolongada
+777;Descuentos para empleados de empresas;14/09/2023;Ofertas de último minuto
+778;Paquetes de vacaciones;08/03/2023;Descuentos para grupos
+779;Paquetes de vacaciones;09/08/2023;Descuento por estadía prolongada
+780;Descuentos para residentes locales;10/05/2023;Descuentos para estudiantes o profesores
+781;Ofertas de último minuto;12/04/2023;Descuento por estadía prolongada
+782;Ofertas de temporada;12/03/2023;Tarifas de fin de semana
+783;Ofertas de último minuto;02/04/2023;Descuentos para residentes locales
+784;Descuentos para grupos;30/03/2023;Descuentos para estudiantes o profesores
+785;Programas de fidelización;17/01/2023;Ofertas de temporada
+786;Ofertas de temporada;16/01/2023;Programas de fidelización
+787;Descuentos para niños.;02/08/2023;Ofertas de temporada
+788;Descuentos para niños.;10/03/2023;Paquetes de vacaciones
+789;Descuentos para personas mayores;24/02/2023;Descuentos para residentes locales
+790;Descuentos para niños.;15/11/2022;Ofertas de último minuto
+791;Ofertas de último minuto;18/04/2023;Descuentos para personas mayores
+792;Descuentos para estudiantes o profesores;19/10/2023;Descuentos militares
+793;Descuentos militares;19/07/2023;Ofertas de temporada
+794;Programas de fidelización;02/12/2022;Ofertas de temporada
+795;Ofertas de último minuto;12/01/2023;Descuento por estadía prolongada
+796;Descuento por estadía prolongada;09/03/2023;Descuentos para empleados de empresas
+797;Descuentos por reserva anticipada;16/08/2023;Ofertas de temporada
+798;Ofertas de último minuto;18/09/2023;Paquetes de vacaciones
+799;Programas de fidelización;05/10/2023;Ofertas de temporada
+800;Descuento por estadía prolongada;13/04/2023;Descuento por estadía prolongada
+801;Descuentos para niños.;12/03/2023;Programas de fidelización
+802;Tarifas de fin de semana;20/05/2023;Descuentos militares
+803;Descuentos para estudiantes o profesores;10/11/2022;Paquetes de vacaciones
+804;Descuentos para estudiantes o profesores;04/06/2023;Descuentos por reserva anticipada
+805;Descuentos por reserva anticipada;30/08/2023;Descuentos para niños.
+806;Descuentos para niños.;06/06/2023;Tarifas de fin de semana
+807;Paquetes de vacaciones;29/07/2023;Paquetes de vacaciones
+808;Descuentos para personas mayores;16/07/2023;Tarifas de fin de semana
+809;Descuentos para empleados de empresas;14/10/2023;Programas de fidelización
+810;Paquetes de vacaciones;28/12/2022;Descuentos para grupos
+811;Descuentos por reserva anticipada;21/11/2022;Descuento por estadía prolongada
+812;Descuentos militares;21/04/2023;Ofertas de temporada
+813;Descuentos para residentes locales;30/07/2023;Descuentos para estudiantes o profesores
+814;Descuento por estadía prolongada;02/12/2022;Descuentos para residentes locales
+815;Ofertas de último minuto;01/07/2023;Descuento por estadía prolongada
+816;Ofertas de último minuto;17/02/2023;Descuentos por reserva anticipada
+817;Descuentos militares;12/02/2023;Descuentos para personas mayores
+818;Descuentos para niños.;26/02/2023;Descuentos para empleados de empresas
+819;Descuentos para residentes locales;27/03/2023;Descuentos para empleados de empresas
+820;Programas de fidelización;11/09/2023;Ofertas de temporada
+821;Descuentos por reserva anticipada;19/01/2023;Descuentos para personas mayores
+822;Descuento por estadía prolongada;25/11/2022;Descuentos militares
+823;Descuentos para niños.;28/12/2022;Descuento por estadía prolongada
+824;Tarifas de fin de semana;30/12/2022;Descuento por estadía prolongada
+825;Programas de fidelización;03/02/2023;Ofertas de último minuto
+826;Descuentos para grupos;10/11/2022;Descuentos para niños.
+827;Paquetes de vacaciones;05/01/2023;Descuentos por reserva anticipada
+828;Descuentos para residentes locales;03/03/2023;Ofertas de último minuto
+829;Descuentos por reserva anticipada;18/05/2023;Descuentos para empleados de empresas
+830;Descuentos para estudiantes o profesores;21/08/2023;Descuentos para grupos
+831;Descuento por estadía prolongada;30/03/2023;Ofertas de temporada
+832;Descuentos para empleados de empresas;19/04/2023;Descuentos para empleados de empresas
+833;Programas de fidelización;29/09/2023;Descuentos militares
+834;Programas de fidelización;15/01/2023;Tarifas de fin de semana
+835;Descuentos para empleados de empresas;23/07/2023;Descuentos para estudiantes o profesores
+836;Descuento por estadía prolongada;21/04/2023;Programas de fidelización
+837;Descuentos para empleados de empresas;05/05/2023;Programas de fidelización
+838;Ofertas de temporada;26/05/2023;Descuento por estadía prolongada
+839;Paquetes de vacaciones;17/12/2022;Paquetes de vacaciones
+840;Programas de fidelización;02/05/2023;Descuentos por reserva anticipada
+841;Ofertas de último minuto;11/01/2023;Descuentos para personas mayores
+842;Descuentos para niños.;26/06/2023;Paquetes de vacaciones
+843;Programas de fidelización;05/12/2022;Descuentos por reserva anticipada
+844;Descuentos por reserva anticipada;03/02/2023;Descuentos para personas mayores
+845;Descuentos para empleados de empresas;14/02/2023;Programas de fidelización
+846;Programas de fidelización;28/04/2023;Descuento por estadía prolongada
+847;Paquetes de vacaciones;23/02/2023;Descuento por estadía prolongada
+848;Descuentos para grupos;28/07/2023;Descuento por estadía prolongada
+849;Descuentos para estudiantes o profesores;04/01/2023;Programas de fidelización
+850;Programas de fidelización;18/02/2023;Tarifas de fin de semana
+851;Paquetes de vacaciones;19/06/2023;Descuentos para niños.
+852;Descuento por estadía prolongada;14/05/2023;Paquetes de vacaciones
+853;Descuentos para empleados de empresas;13/12/2022;Ofertas de temporada
+854;Descuentos para personas mayores;01/12/2022;Programas de fidelización
+855;Ofertas de temporada;18/04/2023;Descuentos para grupos
+856;Descuentos para niños.;26/10/2023;Descuentos para niños.
+857;Descuento por estadía prolongada;15/06/2023;Descuentos para residentes locales
+858;Descuentos por reserva anticipada;17/10/2023;Tarifas de fin de semana
+859;Paquetes de vacaciones;21/04/2023;Programas de fidelización
+860;Programas de fidelización;21/01/2023;Descuentos para personas mayores
+861;Descuentos para grupos;05/08/2023;Tarifas de fin de semana
+862;Tarifas de fin de semana;29/06/2023;Descuentos para empleados de empresas
+863;Descuentos para grupos;30/11/2022;Descuentos para empleados de empresas
+864;Descuentos para niños.;10/04/2023;Ofertas de temporada
+865;Ofertas de temporada;18/12/2022;Ofertas de último minuto
+866;Descuentos militares;04/05/2023;Descuentos militares
+867;Descuentos para residentes locales;26/06/2023;Tarifas de fin de semana
+868;Descuentos para empleados de empresas;26/03/2023;Tarifas de fin de semana
+869;Programas de fidelización;29/09/2023;Programas de fidelización
+870;Descuentos por reserva anticipada;14/05/2023;Ofertas de temporada
+871;Tarifas de fin de semana;25/05/2023;Descuentos para empleados de empresas
+872;Ofertas de último minuto;29/06/2023;Descuentos para niños.
+873;Descuentos para personas mayores;01/11/2023;Descuentos para estudiantes o profesores
+874;Programas de fidelización;14/03/2023;Programas de fidelización
+875;Descuentos para residentes locales;07/04/2023;Descuentos para niños.
+876;Programas de fidelización;23/06/2023;Ofertas de temporada
+877;Descuentos para personas mayores;24/07/2023;Tarifas de fin de semana
+878;Descuentos para empleados de empresas;26/01/2023;Descuentos para grupos
+879;Descuentos por reserva anticipada;03/08/2023;Descuentos militares
+880;Descuentos para personas mayores;20/03/2023;Ofertas de último minuto
+881;Descuentos para grupos;04/08/2023;Tarifas de fin de semana
+882;Descuentos por reserva anticipada;19/12/2022;Paquetes de vacaciones
+883;Descuentos para grupos;14/07/2023;Descuentos para niños.
+884;Ofertas de último minuto;05/02/2023;Descuentos para grupos
+885;Descuentos para estudiantes o profesores;31/08/2023;Ofertas de temporada
+886;Descuentos para personas mayores;16/05/2023;Descuentos para personas mayores
+887;Descuentos para niños.;01/12/2022;Descuentos por reserva anticipada
+888;Descuentos para empleados de empresas;11/04/2023;Descuentos para grupos
+889;Descuentos para estudiantes o profesores;14/07/2023;Tarifas de fin de semana
+890;Descuentos para estudiantes o profesores;08/07/2023;Ofertas de temporada
+891;Ofertas de último minuto;11/03/2023;Descuentos para grupos
+892;Descuentos para residentes locales;28/10/2023;Descuentos por reserva anticipada
+893;Descuentos para niños.;29/05/2023;Descuentos para empleados de empresas
+894;Descuentos para niños.;23/06/2023;Descuento por estadía prolongada
+895;Descuentos para personas mayores;25/04/2023;Programas de fidelización
+896;Descuentos para estudiantes o profesores;18/09/2023;Tarifas de fin de semana
+897;Tarifas de fin de semana;08/10/2023;Paquetes de vacaciones
+898;Programas de fidelización;29/08/2023;Descuentos para personas mayores
+899;Descuento por estadía prolongada;05/07/2023;Descuentos militares
+900;Descuentos militares;14/08/2023;Descuentos por reserva anticipada
+901;Programas de fidelización;29/04/2023;Descuentos para grupos
+902;Ofertas de temporada;29/01/2023;Ofertas de último minuto
+903;Descuentos para empleados de empresas;22/07/2023;Descuentos por reserva anticipada
+904;Paquetes de vacaciones;29/09/2023;Tarifas de fin de semana
+905;Descuentos para residentes locales;06/01/2023;Tarifas de fin de semana
+906;Descuentos para grupos;31/07/2023;Paquetes de vacaciones
+907;Tarifas de fin de semana;17/03/2023;Descuentos para residentes locales
+908;Descuentos para personas mayores;19/02/2023;Descuentos por reserva anticipada
+909;Descuentos para empleados de empresas;21/12/2022;Descuentos para residentes locales
+910;Programas de fidelización;08/01/2023;Programas de fidelización
+911;Ofertas de temporada;13/05/2023;Programas de fidelización
+912;Paquetes de vacaciones;07/05/2023;Descuentos militares
+913;Descuentos para personas mayores;29/06/2023;Descuentos para niños.
+914;Programas de fidelización;12/08/2023;Descuentos por reserva anticipada
+915;Descuentos para residentes locales;30/05/2023;Descuentos militares
+916;Descuentos para grupos;13/01/2023;Descuentos para estudiantes o profesores
+917;Ofertas de temporada;26/01/2023;Descuentos militares
+918;Ofertas de temporada;28/02/2023;Descuento por estadía prolongada
+919;Programas de fidelización;17/09/2023;Descuentos militares
+920;Descuentos para residentes locales;12/05/2023;Descuentos para grupos
+921;Tarifas de fin de semana;22/11/2022;Programas de fidelización
+922;Descuentos para empleados de empresas;08/08/2023;Descuentos para personas mayores
+923;Descuento por estadía prolongada;27/11/2022;Descuentos para estudiantes o profesores
+924;Ofertas de último minuto;02/06/2023;Descuento por estadía prolongada
+925;Descuentos militares;05/06/2023;Descuentos para personas mayores
+926;Descuentos para empleados de empresas;03/10/2023;Descuentos militares
+927;Tarifas de fin de semana;27/04/2023;Ofertas de último minuto
+928;Descuentos militares;29/09/2023;Descuento por estadía prolongada
+929;Descuentos militares;03/12/2022;Descuentos para residentes locales
+930;Descuentos para grupos;22/08/2023;Descuentos para niños.
+931;Tarifas de fin de semana;19/06/2023;Descuentos para empleados de empresas
+932;Descuentos para personas mayores;27/12/2022;Tarifas de fin de semana
+933;Ofertas de último minuto;27/08/2023;Descuentos por reserva anticipada
+934;Descuentos para niños.;23/11/2022;Ofertas de temporada
+935;Ofertas de temporada;16/05/2023;Descuentos para grupos
+936;Ofertas de último minuto;16/04/2023;Descuentos para niños.
+937;Descuentos para grupos;06/05/2023;Descuentos militares
+938;Paquetes de vacaciones;18/04/2023;Descuentos para empleados de empresas
+939;Paquetes de vacaciones;07/02/2023;Tarifas de fin de semana
+940;Descuento por estadía prolongada;18/10/2023;Descuentos para personas mayores
+941;Paquetes de vacaciones;27/04/2023;Descuentos para personas mayores
+942;Descuentos por reserva anticipada;12/12/2022;Paquetes de vacaciones
+943;Ofertas de temporada;16/01/2023;Descuentos para empleados de empresas
+944;Paquetes de vacaciones;09/06/2023;Descuentos para residentes locales
+945;Descuentos por reserva anticipada;30/11/2022;Descuentos para niños.
+946;Tarifas de fin de semana;16/09/2023;Descuentos para personas mayores
+947;Ofertas de último minuto;27/03/2023;Descuentos para empleados de empresas
+948;Programas de fidelización;22/12/2022;Paquetes de vacaciones
+949;Descuentos por reserva anticipada;25/12/2022;Paquetes de vacaciones
+950;Descuentos para estudiantes o profesores;27/05/2023;Ofertas de último minuto
+951;Programas de fidelización;27/08/2023;Descuentos militares
+952;Descuentos militares;09/11/2022;Programas de fidelización
+953;Ofertas de último minuto;04/11/2023;Ofertas de temporada
+954;Descuentos para niños.;25/01/2023;Descuentos militares
+955;Ofertas de último minuto;24/08/2023;Descuentos para empleados de empresas
+956;Descuentos para estudiantes o profesores;23/08/2023;Descuentos para empleados de empresas
+957;Ofertas de temporada;22/07/2023;Ofertas de último minuto
+958;Tarifas de fin de semana;13/09/2023;Ofertas de temporada
+959;Descuentos para niños.;29/07/2023;Ofertas de temporada
+960;Descuentos para personas mayores;12/02/2023;Descuentos por reserva anticipada
+961;Descuentos por reserva anticipada;12/12/2022;Descuentos para niños.
+962;Descuentos para niños.;08/09/2023;Descuentos militares
+963;Ofertas de temporada;20/12/2022;Descuentos para grupos
+964;Descuentos para residentes locales;22/09/2023;Descuentos para empleados de empresas
+965;Descuentos para grupos;11/09/2023;Descuentos para niños.
+966;Descuentos militares;27/12/2022;Paquetes de vacaciones
+967;Ofertas de último minuto;03/09/2023;Descuentos para personas mayores
+968;Ofertas de temporada;15/01/2023;Descuentos por reserva anticipada
+969;Descuentos para grupos;07/11/2022;Programas de fidelización
+970;Ofertas de temporada;09/08/2023;Ofertas de último minuto
+971;Tarifas de fin de semana;31/05/2023;Descuento por estadía prolongada
+972;Descuentos para grupos;10/12/2022;Descuentos para empleados de empresas
+973;Descuentos por reserva anticipada;09/06/2023;Paquetes de vacaciones
+974;Descuentos para estudiantes o profesores;21/03/2023;Descuentos para empleados de empresas
+975;Descuentos para niños.;09/08/2023;Ofertas de último minuto
+976;Programas de fidelización;05/04/2023;Descuentos para personas mayores
+977;Descuentos militares;12/11/2022;Ofertas de temporada
+978;Ofertas de último minuto;14/01/2023;Ofertas de temporada
+979;Descuentos militares;22/02/2023;Descuentos para personas mayores
+980;Programas de fidelización;25/02/2023;Descuentos para personas mayores
+981;Descuentos para estudiantes o profesores;15/02/2023;Paquetes de vacaciones
+982;Descuento por estadía prolongada;13/07/2023;Descuentos para empleados de empresas
+983;Descuentos para estudiantes o profesores;02/11/2023;Descuentos para estudiantes o profesores
+984;Paquetes de vacaciones;05/05/2023;Descuentos para estudiantes o profesores
+985;Tarifas de fin de semana;13/03/2023;Descuentos para residentes locales
+986;Descuento por estadía prolongada;06/04/2023;Descuentos para residentes locales
+987;Ofertas de temporada;12/11/2022;Descuentos para grupos
+988;Descuentos para personas mayores;19/05/2023;Paquetes de vacaciones
+989;Paquetes de vacaciones;29/06/2023;Descuento por estadía prolongada
+990;Tarifas de fin de semana;28/06/2023;Descuentos para niños.
+991;Tarifas de fin de semana;14/10/2023;Tarifas de fin de semana
+992;Ofertas de último minuto;17/02/2023;Descuentos militares
+993;Paquetes de vacaciones;29/11/2022;Tarifas de fin de semana
+994;Descuentos militares;29/11/2022;Ofertas de último minuto
+995;Descuentos por reserva anticipada;25/01/2023;Paquetes de vacaciones
+996;Programas de fidelización;08/12/2022;Descuentos para estudiantes o profesores
+997;Descuentos para empleados de empresas;18/03/2023;Descuentos para grupos
+998;Ofertas de último minuto;29/08/2023;Descuentos para niños.
+999;Ofertas de último minuto;04/05/2023;Descuentos para estudiantes o profesores
+1000;Descuentos por reserva anticipada;10/06/2023;Descuentos para estudiantes o profesores
